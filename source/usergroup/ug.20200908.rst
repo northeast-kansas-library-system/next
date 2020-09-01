@@ -9,8 +9,8 @@ Zoom Link:
  - Introductions
  - Additions to the agenda
 
-#. 2020 participation agreement
- - Link to document
+#. 2020 participation agreement (draft)
+ - `Link to document <../files\participation.agreement/2019.participation.agreement.pdf>`_
 
 #. 2020 Privacy and confidentiality statement
  - Link to document
