@@ -10,7 +10,7 @@ Welcome to Next Search Catalog!
    :maxdepth: 2
    :caption: Contents:
 
-
+   history
 
 Indices and tables
 ==================
