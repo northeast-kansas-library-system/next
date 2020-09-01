@@ -12,7 +12,7 @@ Zoom Link:
 #. 2020 participation agreement (draft)
  - `Link to document <../files/participation.agreement/2019.participation.agreement.pdf>`_
 
-#. 2020 Privacy and confidentiality statement
+#. 2020 Privacy and confidentiality statementt
  - Link to document
 
 #. Item checkout limits
