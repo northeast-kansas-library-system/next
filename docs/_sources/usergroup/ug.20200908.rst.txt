@@ -13,7 +13,7 @@ Zoom passcode: 8384090
   - I'm starting to work on training for Koha 20.05 upgrade
 
 2. 2020 participation agreement (draft)
- - `Link to document <https://northeast-kansas-library-system.github.io/next/files/participation.agreement/2019.participation.agreement.pdf>`_
+ - `Link to document <https://northeast-kansas-library-system.github.io/next/files/participation.agreement/2020.participation.agreement.draft.pdf>`_
 
 3. 2020 Privacy and confidentiality statement
  - Link to document
