@@ -24,10 +24,8 @@ Zoom passcode: 838-4090
 5. Item checkout limits
  - Background
  - Deadline
- - Supporting documents
 
 6. Item type change plan
- - Link to document
 
 7. Item type change - Add "TV" or something similar
  - Lots of pros and cons
