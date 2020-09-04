@@ -16,7 +16,7 @@ Zoom passcode: 838-4090
  - `Link to draft of 2021 agreement <https://northeast-kansas-library-system.github.io/next/files/participation.agreement/2021.participation.agreement.draft.pdf>`_
 
 3. 2020 Privacy and confidentiality statement
- - Link to 2021 statement
+ - `Link to 2021 statement <https://northeast-kansas-library-system.github.io/next/files/privacy.statement/2021.privacy.statement.draft.pdf>`_
 
 4. Realm Study
  - `Link to most recent press release <https://www.imls.gov/news/scientists-find-virus-still-detectable-after-six-days-four-common-library-materials-when>`_
