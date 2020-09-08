@@ -1,5 +1,5 @@
-2020.09.08 - Agenda
-===================
+2020.09.08 - Agenda and notes
+=============================
 
 |ss| Corning City Library\ |se| |br| Meeting switched to Zoom only
 |br|
