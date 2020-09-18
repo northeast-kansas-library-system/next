@@ -1,0 +1,484 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>COVID-19 closure &mdash; Next Search Catalog 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/override.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Next Search Catalog
+          
+
+          
+            
+            <img src="../_static/next.grey.small.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../history.html">History of Next Search Catalog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Next Search Catalog</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>COVID-19 closure</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/procedures/covid.closure.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="covid-19-closure">
+<h1>COVID-19 closure<a class="headerlink" href="#covid-19-closure" title="Permalink to this headline">¶</a></h1>
+<p>These changes can be made in any order, but it’s better to change the circulation rules and the jQuery first to prevent patrons from placing reqeusts while you’re making the changes.</p>
+<div class="section" id="circulation-rules">
+<h2>Circulation rules<a class="headerlink" href="#circulation-rules" title="Permalink to this headline">¶</a></h2>
+<p><em>Go to Home &gt; Administration &gt; Circulation and fine rules</em> and choose the library that needs to be closed from the “Select a library” dropdown</p>
+<img alt="../_images/covid.close.0010.png" src="../_images/covid.close.0010.png" />
+<p>Go to the section of the page titled <em>“Default checkout, hold and return policy for LIBRARYNAME”</em> and change the variables as follow:</p>
+<ol class="arabic simple">
+<li>Total current checkouts allowed - no change</li>
+<li>Total current on-site checkouts allowed - no change</li>
+<li>Maximum total holds allowed (count) - no change</li>
+<li>Hold policy - CHANGE TO “No holds allowed”</li>
+<li>Hold pickup library match - CHANGE TO “Item’s home library”</li>
+<li>Return policy - CHANGE TO “Item returns home”</li>
+<li>Once the variables are set, click on the <em>“Save”</em> button</li>
+</ol>
+<img alt="../_images/covid.close.0020.png" src="../_images/covid.close.0020.png" />
+</div>
+<div class="section" id="staff-client-js">
+<h2>Staff client JS<a class="headerlink" href="#staff-client-js" title="Permalink to this headline">¶</a></h2>
+<p>Go to <em>Home &gt; Administration &gt; System preferences</em> and click on the “Staff client” tab</p>
+<img alt="../_images/covid.close.0030.png" src="../_images/covid.close.0030.png" />
+<p>Scroll down to the “IntranetUserJS” preference and click on “Edit with Code Mirror”</p>
+<img alt="../_images/covid.close.0040.png" src="../_images/covid.close.0040.png" />
+<p>Do a browser search for “//COVID19 closures”</p>
+<img alt="../_images/covid.close.0050.png" src="../_images/covid.close.0050.png" />
+<p>Immediately after</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">//</span><span class="n">COVID19</span> <span class="n">closures</span>
+</pre></div>
+</div>
+<p>Add a new line and then add these two pieces of jQuery to this system preference in this location</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>//BEGIN XLIBRARYX COVID19 closure
+$(&#39;.XLIBRARYX #breadcrumbs&#39;).prepend(&#39;&lt;h1 class=&quot;closed&quot; style=&quot;text-align: center;&quot;&gt;Your library is currently listed as &lt;span style=&quot;font-style: italic; text-decoration: underline;&quot;&gt;Closed until XDATEX&lt;/span&gt; on the OPAC.&lt;/h1&gt;&#39;);
+$(&quot;#pickup option[value=&#39;XLIBRARYX&#39;]&quot;).attr(&quot;value&quot;,&quot;X&quot;).html(&#39;XLIBNAMEX is currently closed to new requests&#39;);
+//END
+</pre></div>
+</div>
+<p>Change the values in the code above as follows:</p>
+<table border="1" class="docutils align-default">
+<colgroup>
+<col width="33%" />
+<col width="67%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Value</th>
+<th class="head">Replace with</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>XLIBRARYX</td>
+<td>Library code from Koha</td>
+</tr>
+<tr class="row-odd"><td>XLIBNAMEX</td>
+<td>Library name</td>
+</tr>
+<tr class="row-even"><td>XDATEX</td>
+<td>Reopening date</td>
+</tr>
+</tbody>
+</table>
+<p>Click on “Save all Staff Client preferences”</p>
+<img alt="../_images/covid.close.0060.png" src="../_images/covid.close.0060.png" />
+</div>
+<div class="section" id="opac-js">
+<h2>OPAC JS<a class="headerlink" href="#opac-js" title="Permalink to this headline">¶</a></h2>
+<p>Go to <em>Home &gt; Administration &gt; System preferences</em> and click on the “OBAC” tab</p>
+<img alt="../_images/covid.close.0070.png" src="../_images/covid.close.0070.png" />
+<p>Scroll down to the “OPACUserJS” preference and click on “Edit with Code Mirror”</p>
+<img alt="../_images/covid.close.0080.png" src="../_images/covid.close.0080.png" />
+<p>Do a browser search for “//COVID19 closures”</p>
+<img alt="../_images/covid.close.0090.png" src="../_images/covid.close.0090.png" />
+<p>Immediately after</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">//</span><span class="n">COVID19</span> <span class="n">closures</span>
+</pre></div>
+</div>
+<p>Add a new line and then add these two pieces of jQuery to this system preference in this location</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>//BEGIN XLIBRARYX COVID19 closure
+ $(&#39;.branch-XLIBRARYX .btn:contains(Resume)&#39;).remove();
+ $(&#39;.branch-XLIBRARYX #holdst td:nth-child(6)&#39;).text(&#39;XLIBNAMEX is currently closed&#39;);
+ $(&quot;option[value=&#39;XLIBRARYX&#39;]&quot;).attr(&quot;value&quot;,&quot;x&quot;).html(&#39;XLIBNAMEX: currently closed&#39;);
+ $(&#39;.branch-XLIBRARYX input[value=&quot;Confirm hold&quot;]&#39;).remove();
+ $(&#39;.branch-XLIBRARYX #holds #hold-request-form&#39;).parent().prepend(&#39;&lt;h1&gt;Requests cannot be placed at this time.&lt;br /&gt;Your library is closed until XDATEX.&lt;/h1&gt;&#39;);
+//END
+</pre></div>
+</div>
+<p>Change the values in the code above as follows:</p>
+<table border="1" class="docutils align-default">
+<colgroup>
+<col width="33%" />
+<col width="67%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Value</th>
+<th class="head">Replace with</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>XLIBRARYX</td>
+<td>Library code from Koha</td>
+</tr>
+<tr class="row-odd"><td>XLIBNAMEX</td>
+<td>Library name</td>
+</tr>
+<tr class="row-even"><td>XDATEX</td>
+<td>Reopening date</td>
+</tr>
+</tbody>
+</table>
+<p>Click on “Save all OPAC preferences”</p>
+<img alt="../_images/covid.close.0100.png" src="../_images/covid.close.0100.png" />
+</div>
+<div class="section" id="news-block">
+<h2>News block<a class="headerlink" href="#news-block" title="Permalink to this headline">¶</a></h2>
+<p>Go to <em>Home &gt; Tools</em> and open the “News” Tools</p>
+<img alt="../_images/covid.close.0110.png" src="../_images/covid.close.0110.png" />
+<p>Find the news item titled “COVID-19 Closures and information” and click on “Edit”</p>
+<img alt="../_images/covid.close.0120.png" src="../_images/covid.close.0120.png" />
+<p>Click on the <em>&lt;&gt;</em> icon to edit the raw html of the news Item</p>
+<img alt="../_images/covid.close.0130.png" src="../_images/covid.close.0130.png" />
+<p>Find the spot in the existing news items where the library you are closing will fit alphabetically and insert:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="n">XLIBNAMEX</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">td</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;text-align: center;&quot;</span><span class="o">&gt;&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s2">&quot;XLIBURL&quot;</span> <span class="n">target</span><span class="o">=</span><span class="s2">&quot;_blank&quot;</span> <span class="n">rel</span><span class="o">=</span><span class="s2">&quot;noopener&quot;</span><span class="o">&gt;&lt;</span><span class="n">span</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;background-color: pink;&quot;</span><span class="o">&gt;</span><span class="n">Closed</span><span class="o">&lt;/</span><span class="n">span</span><span class="o">&gt;&lt;/</span><span class="n">a</span><span class="o">&gt;&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">td</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;text-align: right;&quot;</span><span class="o">&gt;&lt;</span><span class="n">span</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;background-color: pink;&quot;</span><span class="o">&gt;</span><span class="n">Courier</span> <span class="n">service</span> <span class="n">suspended</span><span class="o">&lt;/</span><span class="n">span</span><span class="o">&gt;&lt;</span><span class="n">br</span> <span class="o">/&gt;&lt;</span><span class="n">span</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;background-color: pink;&quot;</span><span class="o">&gt;</span><span class="n">XLIBRARYX</span> <span class="n">items</span> <span class="n">are</span> <span class="ow">not</span> <span class="n">available</span><span class="o">&lt;/</span><span class="n">span</span><span class="o">&gt;&lt;</span><span class="n">br</span> <span class="o">/&gt;&lt;</span><span class="n">span</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;background-color: pink;&quot;</span><span class="o">&gt;</span><span class="n">Tentative</span> <span class="n">reopening</span> <span class="n">on</span> <span class="n">XDATEX</span><span class="o">&lt;/</span><span class="n">span</span><span class="o">&gt;&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Change the values in the HTML above as follows:</p>
+<table border="1" class="docutils align-default">
+<colgroup>
+<col width="33%" />
+<col width="67%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Value</th>
+<th class="head">Replace with</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>XLIBRARYX</td>
+<td>Library code from Koha</td>
+</tr>
+<tr class="row-odd"><td>XLIBNAMEX</td>
+<td>Library name</td>
+</tr>
+<tr class="row-even"><td>XLIBURL</td>
+<td>URL for the library</td>
+</tr>
+<tr class="row-odd"><td>XDATEX</td>
+<td>Reopening date</td>
+</tr>
+</tbody>
+</table>
+<p>Click on “Save” after necessary changes have been made.</p>
+<img alt="../_images/covid.close.0140.png" src="../_images/covid.close.0140.png" />
+<p>After saving, you should verify that the information is accurate and looks correct and click on “Submit” to finalize the changes</p>
+<img alt="../_images/covid.close.0150.png" src="../_images/covid.close.0150.png" />
+<p>When you return to the home page in the staff client, the updates should appear on the left hand side of the homepage</p>
+<img alt="../_images/covid.close.0160.png" src="../_images/covid.close.0160.png" />
+</div>
+<div class="section" id="suspend-unfilled-requests">
+<h2>Suspend unfilled requests<a class="headerlink" href="#suspend-unfilled-requests" title="Permalink to this headline">¶</a></h2>
+<p>Go to <em>Home &gt; Reports &gt; Guided reports wizard &gt; Saved reports</em> and search for report 3276</p>
+<img alt="../_images/covid.close.0170.png" src="../_images/covid.close.0170.png" />
+<p>Run report 3276 “GHW - Find unfilled/not-suspended requests for a library” choosing the closed library</p>
+<img alt="../_images/covid.close.0180.png" src="../_images/covid.close.0180.png" />
+<p>Click on each link in the “LINK” column to go to the account of each patron with unfilled requests for this pickup Library</p>
+<img alt="../_images/covid.close.0190.png" src="../_images/covid.close.0190.png" />
+<p>Suspend each request until the day before the library is expected to reopen</p>
+<p><em>If the closure is “Until further notice” estimate a date for reopening - leaving the date blank will require that someone manually un-suspends each request, so it’s better to make a bad guess than have to figure out which requests were made by staff as opposed to those made by patrons</em></p>
+<img alt="../_images/covid.close.0200.png" src="../_images/covid.close.0200.png" />
+<p>Repeat this process for each link in the report</p>
+<p>Suspended requests will look like this:</p>
+<img alt="../_images/covid.close.0210.png" src="../_images/covid.close.0210.png" />
+</div>
+<div class="section" id="due-dates">
+<h2>Due dates<a class="headerlink" href="#due-dates" title="Permalink to this headline">¶</a></h2>
+<p>Go to <em>Home › Tools</em> and click on “Batch extend due dates”</p>
+<img alt="../_images/covid.close.0220.png" src="../_images/covid.close.0220.png" />
+<p>Select the following checkout criteria:</p>
+<table border="1" class="docutils align-default">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Patron categories</td>
+<td>Leave blank</td>
+</tr>
+<tr class="row-even"><td>Libraries</td>
+<td>Choose the one that’s
+closing</td>
+</tr>
+<tr class="row-odd"><td>Due date from</td>
+<td>Choose the date the
+closure began</td>
+</tr>
+<tr class="row-even"><td>Due date to</td>
+<td>Choose the date the
+closure will end</td>
+</tr>
+</tbody>
+</table>
+<p>Then choose one of the two “New due date” options</p>
+<table border="1" class="docutils align-default">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Choose one of the
+following</th>
+<th class="head">Options</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Hard due date</td>
+<td>Set a date for all
+items
+(not recommended)</td>
+</tr>
+<tr class="row-odd"><td>Or add number of days</td>
+<td>Adds X number of days
+to an item’s current
+due date
+(recommended)</td>
+</tr>
+</tbody>
+</table>
+<p>Then click “Continue”</p>
+<img alt="../_images/covid.close.0230.png" src="../_images/covid.close.0230.png" />
+<p>This will give you a a list of items that will be modified - if everything looks good, click on “Modify selected checkouts”</p>
+<img alt="../_images/covid.close.0240.png" src="../_images/covid.close.0240.png" />
+<p>Depending on the size of the library, it may take several minutes for this process to run.</p>
+<p>If you get a timeout or proxy error, it is probably because the web page timed out.  The due date update process is probably continuing to work in the database, but the Apache server timed out.  The best way to check to see if the process finished is to wait 15 minutes and re-start the process to see if there are still any items left that did not update.  If there are items that did not update, you can adjust the “Due date from” and “Due date to” varialbes to update the items in smaller batches.</p>
+<p>When the process finishes normaly, you should see a screen like this:</p>
+<img alt="../_images/covid.close.0250.png" src="../_images/covid.close.0250.png" />
+</div>
+<div class="section" id="email">
+<h2>email<a class="headerlink" href="#email" title="Permalink to this headline">¶</a></h2>
+<p>Send an e-mail to <a class="reference external" href="mailto:next&#37;&#52;&#48;lists&#46;nekls&#46;org" target="_blank">next<span>&#64;</span>lists<span>&#46;</span>nekls<span>&#46;</span>org</a> informing all of the Next Search Catalog members about the closure.</p>
+<p>Here’s a template for an e-mail:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Hello</span> <span class="nb">all</span><span class="p">,</span>
+
+<span class="n">We</span> <span class="n">are</span> <span class="n">temporarily</span> <span class="n">pausing</span> <span class="n">courier</span> <span class="n">service</span> <span class="k">for</span> <span class="n">XLIBNAMEX</span> <span class="n">due</span> <span class="n">to</span> <span class="n">COVID</span><span class="o">-</span><span class="mi">19</span> <span class="n">concerns</span><span class="o">.</span>
+
+<span class="n">At</span> <span class="n">this</span> <span class="n">time</span> <span class="n">we</span> <span class="n">are</span> <span class="n">stopping</span> <span class="n">courier</span> <span class="n">deliveries</span> <span class="n">to</span> <span class="n">XLIBNAMEX</span><span class="o">.</span>
+
+<span class="n">Please</span> <span class="n">remember</span> <span class="n">that</span><span class="p">,</span> <span class="k">if</span> <span class="nb">any</span> <span class="n">of</span> <span class="n">your</span> <span class="n">staff</span> <span class="n">tests</span> <span class="n">positive</span> <span class="k">for</span> <span class="n">COVID</span><span class="o">-</span><span class="mi">19</span><span class="p">,</span> <span class="n">you</span> <span class="n">need</span> <span class="n">to</span> <span class="n">contact</span> <span class="n">courier</span><span class="nd">@nekls</span><span class="o">.</span><span class="n">org</span> <span class="k">as</span> <span class="n">soon</span> <span class="k">as</span> <span class="n">possible</span> <span class="n">so</span> <span class="n">we</span> <span class="n">can</span> <span class="n">implement</span> <span class="n">the</span> <span class="n">courier</span><span class="s1">&#39;s COVID-19 procedures.</span>
+
+<span class="n">Any</span> <span class="n">items</span> <span class="n">that</span> <span class="n">are</span> <span class="n">already</span> <span class="ow">in</span><span class="o">-</span><span class="n">transit</span> <span class="n">to</span> <span class="n">XLIBRARYX</span> <span class="n">will</span> <span class="n">be</span> <span class="n">held</span> <span class="n">at</span> <span class="n">the</span> <span class="n">courier</span> <span class="n">distribution</span> <span class="n">hubs</span> <span class="ow">and</span> <span class="o">.</span>  <span class="n">If</span> <span class="n">your</span> <span class="n">library</span> <span class="n">checks</span> <span class="ow">in</span> <span class="nb">any</span> <span class="n">items</span> <span class="n">that</span> <span class="n">are</span> <span class="n">owned</span> <span class="n">by</span> <span class="n">XLIBRARYX</span><span class="p">,</span> <span class="n">please</span> <span class="n">hold</span> <span class="n">them</span> <span class="n">at</span> <span class="n">your</span> <span class="n">library</span> <span class="k">for</span> <span class="n">the</span> <span class="n">present</span><span class="o">.</span>  <span class="n">All</span> <span class="n">unfilled</span> <span class="n">requests</span> <span class="k">for</span> <span class="n">pickup</span> <span class="n">at</span> <span class="n">XLIBRARYX</span> <span class="n">have</span> <span class="n">been</span> <span class="n">suspended</span> <span class="n">until</span> <span class="n">XDATEX</span><span class="o">.</span>
+
+<span class="n">Currently</span> <span class="n">our</span> <span class="n">hope</span> <span class="ow">is</span> <span class="n">that</span> <span class="n">we</span> <span class="n">will</span> <span class="n">resume</span> <span class="n">courier</span> <span class="n">service</span> <span class="n">to</span> <span class="n">XLIBRARYX</span> <span class="n">on</span> <span class="n">XDATEX</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>Change the values in the email above as follows:</p>
+<table border="1" class="docutils align-default">
+<colgroup>
+<col width="33%" />
+<col width="67%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Value</th>
+<th class="head">Replace with</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>XLIBRARYX</td>
+<td>Library code from Koha</td>
+</tr>
+<tr class="row-odd"><td>XLIBNAMEX</td>
+<td>Library name</td>
+</tr>
+<tr class="row-even"><td>XDATEX</td>
+<td>Reopening date</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="optional">
+<h2>Optional<a class="headerlink" href="#optional" title="Permalink to this headline">¶</a></h2>
+<p>If a library is going to be closed for a very long time, it’s best to hide their items from the OPAC.  To do this:</p>
+<p>Go to <em>Home &gt; Administration &gt; System preferences</em> and click on the “OPAC” tab</p>
+<img alt="../_images/covid.close.0070.png" src="../_images/covid.close.0070.png" />
+<p>Scroll down to the “OpacHiddenItems” preference and click on “Edit”</p>
+<img alt="../_images/covid.close.0260.png" src="../_images/covid.close.0260.png" />
+<p>On the line beginning with “homebranch:” add a comma and the branch code of the closed library in the brackets</p>
+<img alt="../_images/covid.close.0260.png" src="../_images/covid.close.0260.png" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Northeast Kansas Library System
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
