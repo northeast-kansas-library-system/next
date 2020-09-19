@@ -78,7 +78,7 @@ Click on "Save all Staff Client preferences"
 OPAC JS
 =======
 
-Go to *Home > Administration > System preferences* and click on the "OBAC" tab
+Go to *Home > Administration > System preferences* and click on the "OPAC" tab
 
 .. image:: ../images/covid.close.0070.png
 
@@ -310,8 +310,8 @@ Change the values in the email above as follows:
 | XDATEX     | Reopening date         |
 +------------+------------------------+
 
-Optional
-========
+OpacHiddenItems (optional)
+==========================
 
 If a library is going to be closed for a very long time, it's best to hide their items from the OPAC.  To do this:
 
