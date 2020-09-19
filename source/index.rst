@@ -11,6 +11,7 @@ Welcome to Next Search Catalog!
    :caption: Contents:
 
    history
+   emergency 
 
 Indices and tables
 ==================
