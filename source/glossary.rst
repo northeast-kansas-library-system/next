@@ -3,6 +3,7 @@
 Glossary
 ========
 
+
 .. glossary::
 
    Koha
