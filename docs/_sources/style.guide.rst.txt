@@ -40,6 +40,38 @@ TEXT
 hyperlink `Google <www.google.com>`_
 
 
+Lists
+=====
+
+- Dashes
+- Start
+- Bulleted
+- Lists
+
+* Asterixes
+* Work
+* Too
+
+#. "Pound
+#. Sign
+#. Period"
+#. Starts
+#. Numbered
+#. Lists
+
+7. -OR-
+
+11. "Numeral
+#. Period"
+#. Starts
+#. Numbered
+#. Lists
+#. At
+#. A
+#. Specific
+#. Point
+
+
 DIRECTIVES
 ==========
 
@@ -47,6 +79,14 @@ DIRECTIVES
     :<option>: <option values>
 
     content
+
+Image directive
+^^^^^^^^^^^^^^^
+
+  .. image:: images/nekls_next_logo.png
+     :width: 50%
+     :alt: Sample image - USE ALT TEXT FOR ALL IMAGES (see accessibility guidelines)
+
 
 
 INTERNAL LINKS
