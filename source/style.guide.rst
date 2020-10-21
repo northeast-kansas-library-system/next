@@ -109,3 +109,18 @@ TODO
 
 ..
    [TODO] To do can be used if surrounded by brackets
+
+
+
+Accessibility
+=============
+
+
+Guidelines:
+-----------
+
+  - Descriptive images
+  - Keyboard-accessible elements
+  - Accessible forms
+  - Sufficient colour contrast
+  - Correct semantics
