@@ -2,6 +2,7 @@
 H1: Titles/Parts
 ################
 
+
 (double space before chapter)
 
 ***********
@@ -73,10 +74,53 @@ TABLE WITH HEADERS
 | body row 4 |            | - blocks. |
 +------------+------------+-----------+
 
+Blank 3 column table template
+
++------------+------------+-----------+
+|            |            |           |
++============+============+===========+
+|            |            |           |
++------------+------------+-----------+
+|            |            |           |
++------------+------------+-----------+
+|            |            |           |
++------------+------------+-----------+
+|            |            |           |
++------------+------------+-----------+
+
+Blank 2 column template
+
++------------+------------+
+|            |            |
++============+============+
+|            |            |
++------------+------------+
+|            |            |
++------------+------------+
+|            |            |
++------------+------------+
+|            |            |
++------------+------------+
+
 
 
 TODO
 ====
 
-.. 
+..
    [TODO] To do can be used if surrounded by brackets
+
+
+
+Accessibility
+=============
+
+
+Guidelines:
+-----------
+
+  - Descriptive images
+  - Keyboard-accessible elements
+  - Accessible forms
+  - Sufficient colour contrast
+  - Correct semantics

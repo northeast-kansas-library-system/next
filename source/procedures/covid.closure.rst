@@ -10,6 +10,7 @@ Circulation rules
 *Go to Home > Administration > Circulation and fine rules* and choose the library that needs to be closed from the "Select a library" dropdown
 
 .. image:: ../images/covid.close.0010.png
+   :alt: Screenshot showing where to find Default checkout, hold and return policy
 
 
 Go to the section of the page titled *"Default checkout, hold and return policy for LIBRARYNAME"* and change the variables as follow:
@@ -23,6 +24,7 @@ Go to the section of the page titled *"Default checkout, hold and return policy 
 #. Once the variables are set, click on the *"Save"* button
 
 .. image:: ../images/covid.close.0020.png
+   :alt: Screenshot of needed settings for Default checkout, hold and return policy
 
 
 Staff client JS
@@ -31,16 +33,19 @@ Staff client JS
 Go to *Home > Administration > System preferences* and click on the "Staff client" tab
 
 .. image:: ../images/covid.close.0030.png
+   :alt: Screenshot of where to find "Staff client" tab
 
 
 Scroll down to the "IntranetUserJS" preference and click on "Edit with Code Mirror"
 
 .. image:: ../images/covid.close.0040.png
+   :alt: Screenshot of where to find IntranetUserJS system preference
 
 
 Do a browser search for "//COVID19 closures"
 
 .. image:: ../images/covid.close.0050.png
+   :alt: Screenshot of where to find //COVID19 closures
 
 
 Immediately after
@@ -73,6 +78,7 @@ Change the values in the code above as follows:
 Click on "Save all Staff Client preferences"
 
 .. image:: ../images/covid.close.0060.png
+   :alt: Screenshot of what it should look like after the code is added
 
 
 OPAC JS
@@ -81,16 +87,19 @@ OPAC JS
 Go to *Home > Administration > System preferences* and click on the "OPAC" tab
 
 .. image:: ../images/covid.close.0070.png
+   :alt: Screenshot of where to find the OPAC tab
 
 
 Scroll down to the "OPACUserJS" preference and click on "Edit with Code Mirror"
 
 .. image:: ../images/covid.close.0080.png
+   :alt: Screenshot of where to find OPACUserJS
 
 
 Do a browser search for "//COVID19 closures"
 
 .. image:: ../images/covid.close.0090.png
+   :alt: Screenshot of where to find //COVID19 Closures
 
 
 Immediately after
@@ -126,6 +135,7 @@ Change the values in the code above as follows:
 Click on "Save all OPAC preferences"
 
 .. image:: ../images/covid.close.0100.png
+   :alt: Screenshot of what it should look like after the changes are made
 
 
 News block
@@ -134,16 +144,19 @@ News block
 Go to *Home > Tools* and open the "News" Tools
 
 .. image:: ../images/covid.close.0110.png
+   :alt: Screenshot of where to find "News" on the tools page
 
 
 Find the news item titled "COVID-19 Closures and information" and click on "Edit"
 
 .. image:: ../images/covid.close.0120.png
+   :alt: Screenshot of where to find the COVID news and the edit button
 
 
 Click on the *<>* icon to edit the raw html of the news Item
 
 .. image:: ../images/covid.close.0130.png
+   :alt: Screenshot of where to find the raw HTML button
 
 
 Find the spot in the existing news items where the library you are closing will fit alphabetically and insert:
@@ -173,16 +186,19 @@ Change the values in the HTML above as follows:
 Click on "Save" after necessary changes have been made.
 
 .. image:: ../images/covid.close.0140.png
+   :alt: Screenshot of where the code should go and where the save button is
 
 
 After saving, you should verify that the information is accurate and looks correct and click on "Submit" to finalize the changes
 
 .. image:: ../images/covid.close.0150.png
+   :alt: Screenshot of what the rendered code should look like and where the Submit button is
 
 
 When you return to the home page in the staff client, the updates should appear on the left hand side of the homepage
 
 .. image:: ../images/covid.close.0160.png
+   :alt: Screenshot showing where the final code should appear
 
 
 Suspend unfilled requests

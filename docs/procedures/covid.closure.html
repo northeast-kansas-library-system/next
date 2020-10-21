@@ -35,7 +35,9 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/override.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" /> 
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="COVID-19 reopening" href="covid.reopening.html" />
+    <link rel="prev" title="Emergency procedures" href="../emergency.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -83,8 +85,24 @@
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../history.html">History of Next Search Catalog</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../emergency.html">Emergency procedures</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">COVID-19 closure</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#circulation-rules">Circulation rules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#staff-client-js">Staff client JS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#opac-js">OPAC JS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#news-block">News block</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#suspend-unfilled-requests">Suspend unfilled requests</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#due-dates">Due dates</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#email">email</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#opachiddenitems-optional">OpacHiddenItems (optional)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="covid.reopening.html">COVID-19 reopening</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../emergency.html#indices-and-tables">Indices and tables</a></li>
 </ul>
 
             
@@ -130,6 +148,8 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
+          <li><a href="../emergency.html">Emergency procedures</a> &raquo;</li>
+        
       <li>COVID-19 closure</li>
     
     
@@ -155,7 +175,7 @@
 <div class="section" id="circulation-rules">
 <h2>Circulation rules<a class="headerlink" href="#circulation-rules" title="Permalink to this headline">¶</a></h2>
 <p><em>Go to Home &gt; Administration &gt; Circulation and fine rules</em> and choose the library that needs to be closed from the “Select a library” dropdown</p>
-<img alt="../_images/covid.close.0010.png" src="../_images/covid.close.0010.png" />
+<img alt="Screenshot showing where to find Default checkout, hold and return policy" src="../_images/covid.close.0010.png" />
 <p>Go to the section of the page titled <em>“Default checkout, hold and return policy for LIBRARYNAME”</em> and change the variables as follow:</p>
 <ol class="arabic simple">
 <li>Total current checkouts allowed - no change</li>
@@ -166,16 +186,16 @@
 <li>Return policy - CHANGE TO “Item returns home”</li>
 <li>Once the variables are set, click on the <em>“Save”</em> button</li>
 </ol>
-<img alt="../_images/covid.close.0020.png" src="../_images/covid.close.0020.png" />
+<img alt="Screenshot of needed settings for Default checkout, hold and return policy" src="../_images/covid.close.0020.png" />
 </div>
 <div class="section" id="staff-client-js">
 <h2>Staff client JS<a class="headerlink" href="#staff-client-js" title="Permalink to this headline">¶</a></h2>
 <p>Go to <em>Home &gt; Administration &gt; System preferences</em> and click on the “Staff client” tab</p>
-<img alt="../_images/covid.close.0030.png" src="../_images/covid.close.0030.png" />
+<img alt="Screenshot of where to find &quot;Staff client&quot; tab" src="../_images/covid.close.0030.png" />
 <p>Scroll down to the “IntranetUserJS” preference and click on “Edit with Code Mirror”</p>
-<img alt="../_images/covid.close.0040.png" src="../_images/covid.close.0040.png" />
+<img alt="Screenshot of where to find IntranetUserJS system preference" src="../_images/covid.close.0040.png" />
 <p>Do a browser search for “//COVID19 closures”</p>
-<img alt="../_images/covid.close.0050.png" src="../_images/covid.close.0050.png" />
+<img alt="Screenshot of where to find //COVID19 closures" src="../_images/covid.close.0050.png" />
 <p>Immediately after</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">//</span><span class="n">COVID19</span> <span class="n">closures</span>
 </pre></div>
@@ -211,16 +231,16 @@ $(&quot;#pickup option[value=&#39;XLIBRARYX&#39;]&quot;).attr(&quot;value&quot;,
 </tbody>
 </table>
 <p>Click on “Save all Staff Client preferences”</p>
-<img alt="../_images/covid.close.0060.png" src="../_images/covid.close.0060.png" />
+<img alt="Screenshot of what it should look like after the code is added" src="../_images/covid.close.0060.png" />
 </div>
 <div class="section" id="opac-js">
 <h2>OPAC JS<a class="headerlink" href="#opac-js" title="Permalink to this headline">¶</a></h2>
 <p>Go to <em>Home &gt; Administration &gt; System preferences</em> and click on the “OPAC” tab</p>
-<img alt="../_images/covid.close.0070.png" src="../_images/covid.close.0070.png" />
+<img alt="Screenshot of where to find the OPAC tab" src="../_images/covid.close.0070.png" />
 <p>Scroll down to the “OPACUserJS” preference and click on “Edit with Code Mirror”</p>
-<img alt="../_images/covid.close.0080.png" src="../_images/covid.close.0080.png" />
+<img alt="Screenshot of where to find OPACUserJS" src="../_images/covid.close.0080.png" />
 <p>Do a browser search for “//COVID19 closures”</p>
-<img alt="../_images/covid.close.0090.png" src="../_images/covid.close.0090.png" />
+<img alt="Screenshot of where to find //COVID19 Closures" src="../_images/covid.close.0090.png" />
 <p>Immediately after</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">//</span><span class="n">COVID19</span> <span class="n">closures</span>
 </pre></div>
@@ -259,16 +279,16 @@ $(&quot;#pickup option[value=&#39;XLIBRARYX&#39;]&quot;).attr(&quot;value&quot;,
 </tbody>
 </table>
 <p>Click on “Save all OPAC preferences”</p>
-<img alt="../_images/covid.close.0100.png" src="../_images/covid.close.0100.png" />
+<img alt="Screenshot of what it should look like after the changes are made" src="../_images/covid.close.0100.png" />
 </div>
 <div class="section" id="news-block">
 <h2>News block<a class="headerlink" href="#news-block" title="Permalink to this headline">¶</a></h2>
 <p>Go to <em>Home &gt; Tools</em> and open the “News” Tools</p>
-<img alt="../_images/covid.close.0110.png" src="../_images/covid.close.0110.png" />
+<img alt="Screenshot of where to find &quot;News&quot; on the tools page" src="../_images/covid.close.0110.png" />
 <p>Find the news item titled “COVID-19 Closures and information” and click on “Edit”</p>
-<img alt="../_images/covid.close.0120.png" src="../_images/covid.close.0120.png" />
+<img alt="Screenshot of where to find the COVID news and the edit button" src="../_images/covid.close.0120.png" />
 <p>Click on the <em>&lt;&gt;</em> icon to edit the raw html of the news Item</p>
-<img alt="../_images/covid.close.0130.png" src="../_images/covid.close.0130.png" />
+<img alt="Screenshot of where to find the raw HTML button" src="../_images/covid.close.0130.png" />
 <p>Find the spot in the existing news items where the library you are closing will fit alphabetically and insert:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
 <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="n">XLIBNAMEX</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
@@ -304,11 +324,11 @@ $(&quot;#pickup option[value=&#39;XLIBRARYX&#39;]&quot;).attr(&quot;value&quot;,
 </tbody>
 </table>
 <p>Click on “Save” after necessary changes have been made.</p>
-<img alt="../_images/covid.close.0140.png" src="../_images/covid.close.0140.png" />
+<img alt="Screenshot of where the code should go and where the save button is" src="../_images/covid.close.0140.png" />
 <p>After saving, you should verify that the information is accurate and looks correct and click on “Submit” to finalize the changes</p>
-<img alt="../_images/covid.close.0150.png" src="../_images/covid.close.0150.png" />
+<img alt="Screenshot of what the rendered code should look like and where the Submit button is" src="../_images/covid.close.0150.png" />
 <p>When you return to the home page in the staff client, the updates should appear on the left hand side of the homepage</p>
-<img alt="../_images/covid.close.0160.png" src="../_images/covid.close.0160.png" />
+<img alt="Screenshot showing where the final code should appear" src="../_images/covid.close.0160.png" />
 </div>
 <div class="section" id="suspend-unfilled-requests">
 <h2>Suspend unfilled requests<a class="headerlink" href="#suspend-unfilled-requests" title="Permalink to this headline">¶</a></h2>
@@ -446,6 +466,15 @@ due date
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="covid.reopening.html" class="btn btn-neutral float-right" title="COVID-19 reopening" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../emergency.html" class="btn btn-neutral float-left" title="Emergency procedures" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

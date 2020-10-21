@@ -7,11 +7,11 @@ Welcome to Next Search Catalog!
 ===============================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
    history
-   emergency 
+   emergency
 
 Indices and tables
 ==================
