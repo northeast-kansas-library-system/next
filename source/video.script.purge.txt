@@ -1,0 +1,38 @@
+Training video script
+
+Have Firefox open with slide for this specific training video title;
+NEKLS page;
+OPAC;
+Staff client home page;
+
+Other pages as needed
+
+Youtube page (for end of video)
+
+-----
+
+Hello, my name is George Williams and I'm the Next Search Catalog coordinator at Northeast Kansas Library System.
+
+This training video is going to cover getting rid of borrower account expiration flags.
+
+
+Currently in Next Search Catalog we have a process in place where twice a year we delete accounts that have been expired for more than 3 years and have no conditions that would prevent them from being deleted in bulk.  Once accounts have been expired for more than 2 years, an "Account expiration" flag is added to expired accounts.  This makes it easy to delete these accounts when the time comes and easy for staff to run reports on which accounts at their library have been expired for a long period of time.
+
+From time to time somebody comes in to the library and wants to renew an account that's been expired for more than two years and has one of these flags on it.  In order to renew an account with an expiration flag on it, staff MUST remove the flag before the account can be renewed.
+
+So, to remove an Account Expiration flag from an account, these are the steps:
+
+1. Look up the account
+2. Click on EDIT
+3. Click on the "CLEAR" button next to the Account Expiration block
+4. Click on "Save" to save the changes you've just made to the account
+
+Once you've cleared that "Account expiration" flag and saved the account, you should be able to renew that account just like normal.
+
+
+
+If you like this video and you want to see more videos like it, please look for our YouTube channel.  Right now you can find it by searching for Next Search Catalog on YouTube.  That's where this video is.  If you subscribe to this channel every time a new video is uploaded, you'll be notified.
+
+Again, this is George Williams and I'm the Next Search Catalog coordinator at Northeast Kansas Library System.
+
+That's all we have for this video so thanks for your attention.
