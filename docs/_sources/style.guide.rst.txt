@@ -81,12 +81,25 @@ DIRECTIVES
     content
 
 Image directive
-^^^^^^^^^^^^^^^
+---------------
 
   .. image:: images/nekls_next_logo.png
      :width: 50%
      :alt: Sample image - USE ALT TEXT FOR ALL IMAGES (see accessibility guidelines)
 
+
+Comments directive
+------------------
+
+.. comments
+   Lines will not appear in final documents
+
+
+TODO
+^^^^
+
+.. comment
+   [TODO] Can be used to create TODO comments if surrounded by brackets
 
 
 INTERNAL LINKS
@@ -141,14 +154,6 @@ Blank 2 column template
 +------------+------------+
 |            |            |
 +------------+------------+
-
-
-
-TODO
-====
-
-..
-   [TODO] To do can be used if surrounded by brackets
 
 
 
