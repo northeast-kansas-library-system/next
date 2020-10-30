@@ -3,7 +3,7 @@ Timeline
 
 - 2003:
  - NEKLS engages RMG Consultants to conduct a feasibility study of the idea of developing a regional shared catalog
- - As a result of that study, several NEKLS libraries participate with the Kansas City Public Library Consortia (KCLC)
+ - As a result of that study, several NEKLS libraries participate with the Kansas City (Missouri) Public Library Consortia (KCLC)
  - NExpress begins as a courier system among Northeast Kansas libraries
 - 2004-2005:
  - The NExpress courier system thrives
@@ -34,7 +34,7 @@ Timeline
  - August - Robin Hastings of NEKLS becomes Koha-NA President (Koha-NA changes its name to koha-US at this time)
  - END OF YEAR: Total circulation - 1754867
 - 2016:
- - August - NEKLS staff attende `3rd Annual koha-US Conference <http://koha-us.org/learn/conferences/kohacon2016/>`_ in Monterey, California
+ - August - NEKLS staff attend `3rd Annual koha-US Conference <http://koha-us.org/learn/conferences/kohacon2016/>`_ in Monterey, California
  - August - Paola Free Public Library joins NExpress
  - END OF YEAR: Next Search Catalog includes 44 public libraries and 1 school district
  - END OF YEAR: Total circulation - 1696577 \| Total patrons - 118751 \| Total titles - 394901 \| Total items - 1041850
@@ -58,12 +58,14 @@ Timeline
  - January - George Williams of NEKLS becomes koha-US President
  - January - Highland Community College joins Next Search Catalog
  - June - Upgrade to Koha 18.11
- - August - Next drops Lynda.com content due to privacy concerns
+ - August - Next drops Lynda.com content due to changes in the Lynda.com policies regarding patron data
  - September - NEKLS staff attend the `6th annual koha-US Conference <http://koha-us.org/learn/conferences/kohacon2019/>`_ in Pueblo, Colorado
  - December - Upgrade to Koha 19.05
  - END OF YEAR: Next Search Catalog includes 44 public libraries; 1 school district; and 1 community college library
  - END OF YEAR: Total circulation - 1458904 \| Total patrons - 119204 \| Total titles - 407228 \| Total items - 1030825
 - 2020:
+ - March - Governor Kelly orders schools and libraries to close in response to the COVID-19 pandemic
  - April - George Williams from NEKLS delivers the keynote address at the first `KohaThon <http://koha-us.org/kohathon-2020/>`_ online conference
  - May - Next adds Lynda.com content again after Lynda revises their privacy policies
  - June - Upgrade to Koha 19.11
+ - December - Upgrade to Koha 20.05
