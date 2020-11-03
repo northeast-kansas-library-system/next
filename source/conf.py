@@ -115,7 +115,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'NextSearchCatalog.tex', 'Next Search Catalog',
-     'NEKLS Staff'),
+     'NEKLS Staff', 'manual'),
 ]
 
 # -- Options for manual page output ------------------------------------------
