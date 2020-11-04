@@ -1,4 +1,1 @@
-ug.20210119.rst
-ug.20210401.rst
-ug.20210902.rst
-ug.20211109.rst
+https://northeast-kansas-library-system.github.io/next/

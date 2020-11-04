@@ -3,6 +3,8 @@
 
 ..
   [todo]
+  https://northeast-kansas-library-system.github.io/next/usergroup/ug.20210902.html
+
 
 #. Announcements, news, brief items, etc.
  - Introductions
