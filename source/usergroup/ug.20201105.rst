@@ -47,6 +47,9 @@ Zoom passcode: 7858384090
 ..
   [todo] training documents needed
 
+#. Hoopla searching in Next Search Catalog
+   -
+
 #. 2020 participation agreement (final)
  - `Link to 2021 agreement <https://northeast-kansas-library-system.github.io/next/files/participation.agreement/2021.participation.agreement.draft.pdf>`_
 

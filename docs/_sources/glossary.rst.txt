@@ -32,6 +32,11 @@ Software, languages, and outside services
 System related terms
 --------------------
 
+.. glossary::
+
+   Item type
+      Item types describe an item and help define circulation rules.  Every item must have an item type.
+
    Permission
       User permissions are set by the Next Search Catalog system administrators and determine which components of the system staff members have access to when they log in.
 

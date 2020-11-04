@@ -1,5 +1,5 @@
-2018.11.08 - Agenda
-===================
+2018.11.08 - Agenda and notes
+=============================
 
 Baldwin City Library in Baldwin City
 Zoom Link: https://kslib.zoom.us/j/927269951

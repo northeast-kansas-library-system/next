@@ -1,6 +1,11 @@
 2021.11.09 - Agenda and notes
 =============================
 
+..
+  [todo]
+  https://northeast-kansas-library-system.github.io/next/usergroup/ug.20211109.html
+
+
 #. Announcements, news, brief items, etc.
  - Introductions
  - Additions to the agenda
