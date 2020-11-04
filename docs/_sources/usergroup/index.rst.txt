@@ -1,5 +1,5 @@
 Contents of /usergroup/ folder
-==========================
+==============================
 
 .. toctree::
    :glob:
