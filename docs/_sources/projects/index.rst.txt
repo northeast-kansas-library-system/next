@@ -7,3 +7,4 @@ Contents of /projects/ folder
    :caption: Contents:
 
    *
+   2020/*

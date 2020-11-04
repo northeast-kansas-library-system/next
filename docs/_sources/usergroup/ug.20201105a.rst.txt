@@ -33,7 +33,7 @@ Zoom passcode: 7858384090
   - Live on our server today
   - Every library now has a circulation rule for Video (Television) that matches their circulation rules for VIDEO
   - Contact nexthelp@nekls.org to change the circulation rule
-  - You will need to update the item type on items owned by your library `(instructions here) <https://northeast-kansas-library-system.github.io/next/reports/2731/ccode.tv.change.html>`_ or ask for help at nexthelp@nekls.org
+  - You will need to update the item type on items owned by your library (instructions here) or wait for me to do it for you
 
 
   ..
