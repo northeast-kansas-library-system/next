@@ -9,11 +9,3 @@ Here's how it works:
 #. A few seconds after the search has completed, a box will pop-up above the OPAC search results saying "Found XX results in Hoopla"
 #. If you click on the link, a window will pop up showing you results for that search from Hoopla
 #. Clicking on the cover image for one of these results will take you directly to Hoopla
-
-Questions and answers
----------------------
-
-Q: If I upgrade to Hoopla 2.0, will my library's Hoopla 2.0 content appear in the results?
-A: Yes - if the patron is logged in to their account and their home library matches your library.
-
-Q: 
