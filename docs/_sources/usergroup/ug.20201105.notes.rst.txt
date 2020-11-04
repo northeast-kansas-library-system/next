@@ -9,12 +9,12 @@
 Zoom Link: `Zoom link <https://kslib.zoom.us/j/533936363>`_ |br|
 Zoom passcode: 7858384090
 
-#. Announcements, news, brief items, etc.
+1. Announcements, news, brief items, etc.
  - Introductions
  - Additions to the agenda
 
 
-#. Hoopla searching in Next Search Catalog
+2. Hoopla searching in Next Search Catalog
  - We will no longer be adding Marc records for Hoopla titles to the catalog
  - New feature allows patrons to search **all** of Hoopla when searching our catalog
  - Training documents at
@@ -22,24 +22,29 @@ Zoom passcode: 7858384090
 ..
   [todo] training documents needed
 
-#. Placards
+3. Placards for Flipster and Hoopla keywords
  - This is also live in our server now - adds "placards" some OPAC searches
 
 ..
   [todo] training documents needed
 
-#. Item type changes
+4. Item type changes
  - Video (Television) -- Item type code = NVIDTV
   - Live on our server today
   - Every library now has a circulation rule for Video (Television) that matches their circulation rules for VIDEO
   - Contact nexthelp@nekls.org to change the circulation rule
   - You will need to update the item type on items owned by your library `(instructions here) <https://northeast-kansas-library-system.github.io/next/projects/2020/ccode.tv.change.html>`_ or ask for help at nexthelp@nekls.org
-
-
+ - Other changes coming
+  -
   ..
     [todo] training documents needed
 
-#. 942$h
+5. Changes to patron category descriptions
+
+..
+  [todo] training documents needed
+
+6. 942$h
  - Is now a mandatory field starting today
  - Training documents at
  - As stated at the last meeting, 942$c is next (it's the difficult one)
@@ -47,15 +52,15 @@ Zoom passcode: 7858384090
 ..
   [todo] training documents needed
 
-#. 2020 participation agreement (final)
+7. 2020 participation agreement (final)
  - `Link to 2021 agreement <https://northeast-kansas-library-system.github.io/next/files/participation.agreement/2021.participation.agreement.draft.pdf>`_
 
 
-#. 2020 Privacy and confidentiality statement
+8. 2020 Privacy and confidentiality statement
  - `Link to 2021 statement <https://northeast-kansas-library-system.github.io/next/files/privacy.statement/2021.privacy.statement.draft.pdf>`_
 
 
-#. 2021 Meetings
+9. 2021 Meetings
 
  - 2021.01.19 (Tuesday)
 
@@ -80,7 +85,7 @@ Zoom passcode: 7858384090
 
 
 
-#. Next meeting
+10. Next meeting
    - January 19, 2021
    - Zoom only
    - Zoom link

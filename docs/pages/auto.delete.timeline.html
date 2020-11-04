@@ -1,0 +1,264 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Timeline for automatic deletion of items &mdash; Next Search Catalog 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/override.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Next Search Catalog
+          
+
+          
+            
+            <img src="../_static/next.grey.small.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../history.html">History of Next Search Catalog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../emergency.html">Emergency procedures</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Next Search Catalog</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Timeline for automatic deletion of items</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/pages/auto.delete.timeline.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="timeline-for-automatic-deletion-of-items">
+<h1>Timeline for automatic deletion of items<a class="headerlink" href="#timeline-for-automatic-deletion-of-items" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic simple">
+<li>Patron checks out an item and a due date is assigned to the item (the due date may be updated if the patron renews the item)</li>
+<li>X days after an item’s due date, the patron is sent a first overdue notice</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li>the number of days varies by library</li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li>35 days after an item’s due date, the patron is sent a second overdue notice saying that the item will be declared “Lost” in 10 more days</li>
+<li>45 days after an item’s due date, the patron is sent a third overdue notice saying that they are being billed for the replacement cost of the item</li>
+<li>46 days after an item’s due date at between 12:01 a.m. and 2:00 a.m., the item’s status is changed from “checked out” to “Lost (more than 45 days overdue)”</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li>when the status is changed to “Lost (more than 45 days overdue)” the item is removed from the list of items checked out to the patron and the patron is billed for the replacement cost of the item as recorded in the item record (Marc field 952$v)</li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="6">
+<li>13 months after the item has been declared “Lost (more than 45 days overdue) the system will automatically delete the item record</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li>At this time, a copy of the item’s record is moved from the “items” table in the database to the “deleteditems” table</li>
+<li>** some libraries have policies and processes in place to manually delete these items before the 13 month automatic deletion has been triggered</li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="7">
+<li>13 months after the item data has been moved from “items” to “deleteditems” the system will automatically delete the data from the “deleteditms” table - this is done to reduce the size of the database</li>
+</ol>
+<div class="section" id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
+<p>If an item does not have an amount set in the “Cost, replacement price” field (Marc 952$v), the patron will not receive a bill for the item.  Since the system will not send a bill to a patron for $0.00, if the item has no price, no bill will be generated.  If you want to know which items at your library have a $0.00 or empty replacement cost field, run report 3362.</p>
+<p>Borrowers with the following patroncategories will not be automatically billed.  The names of these categories were recently updated to add the word (exempt) in order for staff to more easily identify them.  If you want to a count of how many borrowers at your library belong to each of these categories, please run report 3361.</p>
+<table border="1" class="docutils align-default">
+<colgroup>
+<col width="23%" />
+<col width="77%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Code</th>
+<th class="head">Category Name</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>INHOUSE</td>
+<td>In-House Use by Library Staff (exempt)</td>
+</tr>
+<tr class="row-odd"><td>ILL</td>
+<td>Interlibrary Loan (exempt)</td>
+</tr>
+<tr class="row-even"><td>ASSOCIATE</td>
+<td>Library associate (exempt)</td>
+</tr>
+<tr class="row-odd"><td>STUDENT</td>
+<td>Student (exempt)</td>
+</tr>
+<tr class="row-even"><td>STAFF</td>
+<td>SYSTEM login only (exempt)</td>
+</tr>
+<tr class="row-odd"><td>TEACHER</td>
+<td>Teacher/Faculty/Administrator (exempt)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Northeast Kansas Library System
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
