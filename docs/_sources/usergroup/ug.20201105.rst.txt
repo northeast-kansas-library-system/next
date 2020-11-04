@@ -1,4 +1,4 @@
-2020.09.08 - Agenda and notes
+2020.11.05 - Agenda and notes
 =============================
 
 |ss| Leavenworth Public Library\ |se| |br| Meeting switched to Zoom only
@@ -24,6 +24,9 @@ Zoom passcode: 7858384090
    - 2021.11.09 (Tuesday)
      - 10:00 a.m. - noon
      - Leavenworth Public Library (also on Zoom)
+
+#. Hoopla searching in Next Search Catalog
+   -
 
 #. 2020 participation agreement (final)
  - `Link to 2021 agreement <https://northeast-kansas-library-system.github.io/next/files/participation.agreement/2021.participation.agreement.draft.pdf>`_
