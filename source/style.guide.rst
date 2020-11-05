@@ -85,7 +85,7 @@ Image directive
 
   .. image:: images/nekls_next_logo.png
      :width: 50%
-     :alt: Sample image - USE ALT TEXT FOR ALL IMAGES (see accessibility guidelines)
+     :alt: View of
 
 
 Comments directive

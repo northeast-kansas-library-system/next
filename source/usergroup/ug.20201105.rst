@@ -12,6 +12,8 @@ Zoom passcode: 7858384090
 #. Announcements, news, brief items, etc.
  - Introductions
  - Additions to the agenda
+ - Announcement
+  - Upgrade to Koha 20.05 on Saturday, December 19
 2. Hoopla searching in Next Search Catalog |br| |br|
 #. Placards for Flipster and Hoopla keywords |br| |br|
 #. Item type changes
