@@ -58,13 +58,13 @@ Zoom passcode: 7858384090
   [todo] training documents needed
 
 7. 2020 participation agreement (final)
- - `Link to 2021 agreement <https://northeast-kansas-library-system.github.io/next/files/participation.agreement/2021.participation.agreement.draft.pdf>`_
+ - `Link to 2021 agreement <https://northeast-kansas-library-system.github.io/next/files/participation.agreement/2021.participation.agreement.final.pdf>`_
 
 ..
   [todo] update documents - move old documents to this site
 
 8. 2020 Privacy and confidentiality statement
- - `Link to 2021 statement <https://northeast-kansas-library-system.github.io/next/files/privacy.statement/2021.privacy.statement.draft.pdf>`_
+ - `Link to 2021 statement <https://northeast-kansas-library-system.github.io/next/files/privacy.statement/2021.next.privacy.statement.final.pdf>`_
 
  ..
    [todo] update documents - move old documents to this site
