@@ -26,7 +26,7 @@ Zoom passcode: 7858384090
  - This is also live in our server now - adds "placards" some OPAC searches
 
 ..
-  [todo] training documents needed
+  [todo] training documents needed Keywords needed
 
 4. Item type changes
  - Video (Television) -- Item type code = NVIDTV
