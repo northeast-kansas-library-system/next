@@ -27,9 +27,9 @@ Zoom passcode: 7858384090
 
 3. Placards for Flipster and Hoopla keywords
  - This is also live in our server now - adds "placards" some OPAC searches
+ - See the page at `this link <https://northeast-kansas-library-system.github.io/next/pages/opac.placards.html>`_ for a quick example
+ - Or search for "Atlantic Monthly," "Hoopla," or "Family handyman ebook" on the OPAC
 
-..
-  [todo] training documents needed (requires all flipster title names)
 
 4. Item type changes
  - Video (Television) -- Item type code = NVIDTV
@@ -38,10 +38,8 @@ Zoom passcode: 7858384090
   - Contact nexthelp@nekls.org to change the circulation rule
   - You will need to update the item type on items owned by your library `(instructions here) <https://northeast-kansas-library-system.github.io/next/projects/2020/ccode.tv.change.html>`_ or ask for help at nexthelp@nekls.org
  - Other changes coming
-  -
+  - See the timeline at `this link <https://northeast-kansas-library-system.github.io/next/projects/itype.recode.timeline.html>`_
 
-..
-  [todo] training documents needed + finish tables and timeline
 
 5. Changes to patron category descriptions
  - 6 patron categories are not automatically billed for items when they have been overdue for more than 45 days
@@ -54,45 +52,29 @@ Zoom passcode: 7858384090
  - Training documents at
  - As stated at the last meeting, 942$c is next (it's the difficult one)
 
-..
-  [todo] training documents needed
 
 7. 2020 participation agreement (final)
  - `Link to 2021 agreement <https://northeast-kansas-library-system.github.io/next/files/participation.agreement/2021.participation.agreement.final.pdf>`_
 
-..
-  [todo] update documents - move old documents to this site
 
 8. 2020 Privacy and confidentiality statement
  - `Link to 2021 statement <https://northeast-kansas-library-system.github.io/next/files/privacy.statement/2021.next.privacy.statement.final.pdf>`_
 
- ..
-   [todo] update documents - move old documents to this site
-
 
 9. 2021 Meetings
-
  - 2021.01.19 (Tuesday)
-
   - 10:00 a.m. - noon
   - Zoom only
   - State statistical survey help from 1:00 p.m. - 3:00 p.m.
-
  - 2021.04.01 (Thursday)
-
   - 10:00 a.m. - noon
   - Zoom only
-
  - 2021.09.02 (Thursday)
-
   - 10:00 a.m. - noon
-  - Nekls office (also on Zoom)
-
+  - Nekls office (in person and on Zoom)
  - 2021.11.09 (Tuesday)
-
-   - 10:00 a.m. - noon
-   - Leavenworth Public Library (also on Zoom)
-
+  - 10:00 a.m. - noon
+  - Leavenworth Public Library (in person and on Zoom)
 
 
 10. Next meeting
