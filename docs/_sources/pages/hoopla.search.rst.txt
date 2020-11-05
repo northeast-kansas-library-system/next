@@ -61,9 +61,11 @@ Questions and answers
 ---------------------
 
 Q: Does this mean the patron doesn't need a Hoopla account any more?
+|
 A: No.  It means that once a patron has a Hoopla account, when they log into the OPAC, Next Search Catalog is checking with Hoopla and if the patron has a Hoopla account, the catalog is connecting the patron's existing Hoopla account to their OPAC account.
 
 Q: When will the "Expires" bug be fixed?
+|
 A: We don't know.  People are working on it.
 
 
