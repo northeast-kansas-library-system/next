@@ -24,6 +24,7 @@ Zoom passcode: 7858384090
  - New feature allows patrons to search **all** of Hoopla when searching our catalog
  - Training documents at `(this link) <https://northeast-kansas-library-system.github.io/next//pages/hoopla.search.html>`_
  - Live now on our production server
+ - At the meeting Jack suggested we look at Capria and we will follow up on Capria by the January meeting
 
 
 3. Placards for Flipster and Hoopla keywords
@@ -40,12 +41,15 @@ Zoom passcode: 7858384090
   - You will need to update the item type on items owned by your library `(instructions here) <https://northeast-kansas-library-system.github.io/next/projects/2020/ccode.tv.change.html>`_ or ask for help at nexthelp@nekls.org
  - Other changes coming
   - See the timeline at `this link <https://northeast-kansas-library-system.github.io/next/projects/itype.recode.timeline.html>`_
+ - At the meeting "Costume," "Mask," and "Video (digital player)" item types were also suggested and may be incorported into the timeline at `this link <https://northeast-kansas-library-system.github.io/next/projects/itype.recode.timeline.html>`_
 
 
 5. Changes to patron category descriptions
  - 6 patron categories are not automatically billed for items when they have been overdue for more than 45 days
  - The names of those categories have been updated to include "(exempt)" after the name of the Category
  - The timeline of the automatic overdue item deletion process is at `this link <https://northeast-kansas-library-system.github.io/next/pages/auto.delete.timeline.html>`_
+ - To get a count of borrowers at your library in all categories plus an indication of which categories staff at your library can use, run report 3361
+ - The Library associate (exempt), Student (exempt), and Teacher/Faculty/Administrator (exempt) all have corresponding non-exampt counterparts.  If you want your patrons in any or all of those exempt categories updated to their non-exempt counterparts, let us know at nexthelp@nekls.org
 
 
 6. 942$h
@@ -82,6 +86,7 @@ Zoom passcode: 7858384090
    - January 19, 2021
    - Zoom only
    - Zoom link
+
 
 
  .. |ss| raw:: html
