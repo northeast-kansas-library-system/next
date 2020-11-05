@@ -29,7 +29,7 @@ Here's how it works:
       :alt: View of Hoopla details page for this title
    |
 
-#. If you are logged into your Next Search Catalog account and you have a Hoopla account with that card number, you will see additional options after the search is complete
+#. If you are logged into your Next Search Catalog account and your Hoopla account with that card number, you will see additional options after the search is complete
 
    .. image:: ../images/hoopla.search.0050.png
       :alt: View of OPAC search when logged in
@@ -62,12 +62,10 @@ Questions and answers
 
 Q: Does this mean the patron doesn't need a Hoopla account any more?
 
-|
 A: No.  It means that once a patron has a Hoopla account, when they log into the OPAC, Next Search Catalog is checking with Hoopla and if the patron has a Hoopla account, the catalog is connecting the patron's existing Hoopla account to their OPAC account.
 
 Q: When will the "Expires" bug be fixed?
 
-|
 A: We don't know.  People are working on it.
 
 
