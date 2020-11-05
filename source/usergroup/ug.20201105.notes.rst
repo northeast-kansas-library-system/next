@@ -1,8 +1,8 @@
-2020.11.05 - Agenda and notes
-=============================
+2020.11.05 - Agenda with notes
+==============================
 
 ..
-  https://northeast-kansas-library-system.github.io/next/usergroup/ug.20201105.html
+  https://northeast-kansas-library-system.github.io/next/usergroup/ug.20201105notes.html
 
 |ss| Leavenworth Public Library\ |se| |br| Meeting switched to Zoom only
 |br|
@@ -16,6 +16,7 @@ Zoom passcode: 7858384090
   - Upgrade to Koha 20.05 on Saturday, December 19
   - Training dates will be announced soon (first week of December)
   - All training will be online
+  - Koha community release notes `https://koha-community.org/koha-20-05-released/ <https://koha-community.org/koha-20-05-released/>`_
 
 
 2. Hoopla searching in Next Search Catalog
