@@ -1,5 +1,5 @@
-Extra patron attribute needed for Kanopy at LINWOOD
-===================================================
+Kanopy Allowed attribute at LINWOOD
+===================================
 
 Whenever a patron logs into an outside service like Kanopy or Hoopla or Lynda.com, that web service talks to our catalog through a connection called SIP2 to verify that the patron has an account and that they are allowed to access their service.  The information that is transmitted across this connection includes some parts of the patron's contact information including the patron's home library.  The problem we have with Kanopy, however, is that, because of the way the receiving end of the Kanopy SIP2 connection is configured, Kanopy cannot determine what the patron's home library is through the normal SIP2 process.  Because of this, we need to send the patron's home library through an alternate route.  To make this happen, we've created a new field in the "Permissions" section on a patron's account called "Kanopy (LINWOOD)."
 
@@ -59,11 +59,8 @@ If a new patron with a LINWOOD home library is added at a library not logged in 
 Non-LINWOOD patrons with Kanopy access
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If an existing patron who has Kanopy access changes their home library, that patron's Kanopy access needs to be removed from their account manually.  If the change to their account happens and staff is not logged in at LINWOOD, staff will not be able to remove the "Kanopy (LINWOOD)" status.  In order to identify these patrons, staff at LINWOOD will need to regularly run REPORT # NEEDED.
+If an existing patron who has Kanopy access changes their home library, that patron's Kanopy access needs to be removed from their account manually.  If the change to their account happens and staff is not logged in at LINWOOD, staff will not be able to remove the "Kanopy (LINWOOD)" status.  In order to identify these patrons, staff at LINWOOD will need to regularly run report 3370.
 
 .. image:: ../LINWOOD/images/kanopy.linwood.080.png
 
 .. image:: ../LINWOOD/images/kanopy.linwood.070.png
-
-..
-  [TODO] Needs reports, report numbers, and all screenshots updated.
