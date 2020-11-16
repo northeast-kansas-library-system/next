@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Extra patron attribute needed for Kanopy at LINWOOD &mdash; Next Search Catalog 1.0 documentation</title>
+  <title>Kanopy Allowed attribute at LINWOOD &mdash; Next Search Catalog 1.0 documentation</title>
   
 
   
@@ -131,7 +131,7 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-      <li>Extra patron attribute needed for Kanopy at LINWOOD</li>
+      <li>Kanopy Allowed attribute at LINWOOD</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -150,8 +150,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="extra-patron-attribute-needed-for-kanopy-at-linwood">
-<h1>Extra patron attribute needed for Kanopy at LINWOOD<a class="headerlink" href="#extra-patron-attribute-needed-for-kanopy-at-linwood" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="kanopy-allowed-attribute-at-linwood">
+<h1>Kanopy Allowed attribute at LINWOOD<a class="headerlink" href="#kanopy-allowed-attribute-at-linwood" title="Permalink to this headline">¶</a></h1>
 <p>Whenever a patron logs into an outside service like Kanopy or Hoopla or Lynda.com, that web service talks to our catalog through a connection called SIP2 to verify that the patron has an account and that they are allowed to access their service.  The information that is transmitted across this connection includes some parts of the patron’s contact information including the patron’s home library.  The problem we have with Kanopy, however, is that, because of the way the receiving end of the Kanopy SIP2 connection is configured, Kanopy cannot determine what the patron’s home library is through the normal SIP2 process.  Because of this, we need to send the patron’s home library through an alternate route.  To make this happen, we’ve created a new field in the “Permissions” section on a patron’s account called “Kanopy (LINWOOD).”</p>
 <p>The new “Kanopy (LINWOOD)” permission will have 3 options</p>
 <ul class="simple">
@@ -189,7 +189,7 @@
 </div>
 <div class="section" id="non-linwood-patrons-with-kanopy-access">
 <h3>Non-LINWOOD patrons with Kanopy access<a class="headerlink" href="#non-linwood-patrons-with-kanopy-access" title="Permalink to this headline">¶</a></h3>
-<p>If an existing patron who has Kanopy access changes their home library, that patron’s Kanopy access needs to be removed from their account manually.  If the change to their account happens and staff is not logged in at LINWOOD, staff will not be able to remove the “Kanopy (LINWOOD)” status.  In order to identify these patrons, staff at LINWOOD will need to regularly run REPORT # NEEDED.</p>
+<p>If an existing patron who has Kanopy access changes their home library, that patron’s Kanopy access needs to be removed from their account manually.  If the change to their account happens and staff is not logged in at LINWOOD, staff will not be able to remove the “Kanopy (LINWOOD)” status.  In order to identify these patrons, staff at LINWOOD will need to regularly run report 3370.</p>
 <img alt="../../_images/kanopy.linwood.080.png" src="../../_images/kanopy.linwood.080.png" />
 <img alt="../../_images/kanopy.linwood.070.png" src="../../_images/kanopy.linwood.070.png" />
 </div>
