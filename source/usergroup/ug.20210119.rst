@@ -15,9 +15,10 @@
  - Introductions
  - Additions to the agenda
 
-#. Changing the value of "OPACShowHoldQueueDetails" (Sharon at LINWOOD)
+2. Changing the value of "OPACShowHoldQueueDetails" (Sharon at LINWOOD)
 
-#. Next meeting
+
+3. Next meeting
 
 .. |ss| raw:: html
 
