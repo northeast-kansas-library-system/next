@@ -1,0 +1,239 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Kanopy Allowed attribute at OTTAWA &mdash; Next Search Catalog 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/override.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Next Search Catalog
+          
+
+          
+            
+            <img src="../../_static/next.grey.small.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../history.html">History of Next Search Catalog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../emergency.html">Emergency procedures</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Next Search Catalog</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+      <li>Kanopy Allowed attribute at OTTAWA</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/branches/OTTAWA/kanopy.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="kanopy-allowed-attribute-at-ottawa">
+<h1>Kanopy Allowed attribute at OTTAWA<a class="headerlink" href="#kanopy-allowed-attribute-at-ottawa" title="Permalink to this headline">¶</a></h1>
+<p>Whenever a patron logs into an outside service like Kanopy or Hoopla or Lynda.com, that web service talks to our catalog through a connection called SIP2 to verify that the patron has an account and that they are allowed to access their service.  The information that is transmitted across this connection includes some parts of the patron’s contact information including the patron’s home library.  The problem we have with Kanopy, however, is that, because of the way the receiving end of the Kanopy SIP2 connection is configured, Kanopy cannot determine what the patron’s home library is through the normal SIP2 process.  Because of this, we need to send the patron’s home library through an alternate route.  To make this happen, we’ve created a new field in the “Permissions” section on a patron’s account called “Kanopy (OTTAWA).”</p>
+<p>The new “Kanopy (OTTAWA)” permission will have 3 options</p>
+<ul class="simple">
+<li>[blank]</li>
+<li>Not allowed</li>
+<li>Allowed (Ottawa Library)</li>
+</ul>
+<p>These three options will only be available to staff logged in at OTTAWA in order to prevent staff at other libraries from granting permission to access the Ottawa Library’s Kanopy service to their patrons.</p>
+<p>This will affect staff and patrons in two ways:</p>
+<ol class="arabic simple">
+<li>When staff at OTTAWA create a new account for a patron, the patron’s “Kanopy (OTTAWA)” permission needs to be set to “Allowed (Ottawa Library)” if their home library is OTTAWA or “Not allowed” if their home library is not OTTAWA.  This should happen automatically when a new patron is created.</li>
+<li>If staff at another library change a patron’s home library, staff at OTTAWA will need to update the patron’s “Kanopy (OTTAWA)” settings to “Allowed (Ottawa Library)” if the patron’s new home library is OTTAWA or”Not allowed” if the patron’s new home library is no longer OTTAWA.  This process cannot happen automatically because only OTTAWA staff have access to the “Kanopy (OTTAWA)” permission settings.  Reports will be set up to help OTTAWA staff manage this process.</li>
+</ol>
+<div class="section" id="creating-a-new-account">
+<h2>Creating a new account<a class="headerlink" href="#creating-a-new-account" title="Permalink to this headline">¶</a></h2>
+<p>When logged in at Ottawa Library, click on “Patrons”</p>
+<img alt="../../_images/kanopy.ottawa.010.png" src="../../_images/kanopy.ottawa.010.png" />
+<p>Then click on the appropriate category on the “New patron” button</p>
+<img alt="../../_images/kanopy.ottawa.020.png" src="../../_images/kanopy.ottawa.020.png" />
+<p>Then go through your normal process for creating a new patron</p>
+<img alt="../../_images/kanopy.ottawa.030.png" src="../../_images/kanopy.ottawa.030.png" />
+<p>By default, the patron’s home library should be set to OTTAWA and the patron’s “Kanopy (OTTAWA)” permission should, by default, be set to “Ottawa Library”</p>
+<img alt="../../_images/kanopy.ottawa.040.png" src="../../_images/kanopy.ottawa.040.png" />
+<p>If you change the patron’s home library from to anything besides OTTAWA, the “Kanopy (OTTAWA)” permission should automatically switch to “Not allowed”</p>
+<img alt="../../_images/kanopy.ottawa.050.gif" src="../../_images/kanopy.ottawa.050.gif" />
+<p>However, if you chage a patron’s “Kanopy (OTTAWA)” permission manually, the patron’s home library will not update automatically.</p>
+</div>
+<div class="section" id="running-reports-to-manually-update-kanopy-permission">
+<h2>Running reports to manually update Kanopy Permission<a class="headerlink" href="#running-reports-to-manually-update-kanopy-permission" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="ottawa-patrons-without-kanopy-access">
+<h3>OTTAWA patrons without Kanopy access<a class="headerlink" href="#ottawa-patrons-without-kanopy-access" title="Permalink to this headline">¶</a></h3>
+<p>If a new patron with a OTTAWA home library is added at a library not logged in as OTTAWA, the new patron’s “Kanopy (OTTAWA)” settings will be left blank and the patron will not be able to access Kanopy.  In order to identify these patrons, staff at OTTAWA will need to regularly run report 3368.</p>
+<img alt="../../_images/kanopy.ottawa.060.png" src="../../_images/kanopy.ottawa.060.png" />
+<img alt="../../_images/kanopy.ottawa.070.png" src="../../_images/kanopy.ottawa.070.png" />
+</div>
+<div class="section" id="non-ottawa-patrons-with-kanopy-access">
+<h3>Non-OTTAWA patrons with Kanopy access<a class="headerlink" href="#non-ottawa-patrons-with-kanopy-access" title="Permalink to this headline">¶</a></h3>
+<p>If an existing patron who has Kanopy access changes their home library, that patron’s Kanopy access needs to be removed from their account manually.  If the change to their account happens and staff is not logged in at OTTAWA, staff will not be able to remove the “Kanopy (OTTAWA)” status.  In order to identify these patrons, staff at OTTAWA will need to regularly run report 3370.</p>
+<img alt="../../_images/kanopy.ottawa.080.png" src="../../_images/kanopy.ottawa.080.png" />
+<img alt="../../_images/kanopy.ottawa.070.png" src="../../_images/kanopy.ottawa.070.png" />
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Northeast Kansas Library System
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -11,6 +11,9 @@
   [todo] : January 5: e-mail asking for agenda items
 
 
+  Zoom Link: `Zoom link <https://kslib.zoom.us/j/93333695534?pwd=Qkd6dkY3MEt4STJEeWdsWjcrem0yZz09>`_ |br|
+  Zoom passcode: 7858384090
+
 #. Announcements, news, brief items, etc.
  - Introductions
  - Additions to the agenda
