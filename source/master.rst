@@ -8,6 +8,8 @@ Index of indexes
    glob
    pages/index
    procedures/index
+   problems/index
    projects/index
+   proposals/index
    reports/index
    usergroup/index
