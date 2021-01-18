@@ -1,0 +1,246 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Proposal to change OPACShowHoldQueueDetails &mdash; Next Search Catalog 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/override.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Next Search Catalog
+          
+
+          
+            
+            <img src="../_static/next.grey.small.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../history.html">History of Next Search Catalog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../emergency.html">Emergency procedures</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Next Search Catalog</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Proposal to change OPACShowHoldQueueDetails</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/proposals/OPACShowHoldQueueDetails.change.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="proposal-to-change-opacshowholdqueuedetails">
+<h1>Proposal to change OPACShowHoldQueueDetails<a class="headerlink" href="#proposal-to-change-opacshowholdqueuedetails" title="Permalink to this headline">¶</a></h1>
+<p>There is a system preference in Koha called “OPACShowHoldQueueDetails.”</p>
+<p>The options for this preference are:</p>
+<ul class="simple">
+<li>Don’t show any hold details</li>
+<li>Show holds</li>
+<li>Show holds and their priority level</li>
+<li><strike> Show prioity level </strike> (bug - doesn’t work correctly)</li>
+</ul>
+<p>Currently this preference is set to “Don’t show any hold details.”  This means that, on the item record in the OPAC, there is no indication of how many requests there may be on any title.</p>
+<div class="section" id="history">
+<h2>History<a class="headerlink" href="#history" title="Permalink to this headline">¶</a></h2>
+<p>This system preference has been set this way since 2014 or 2015.  At that time there was a bug that was scrambling the request queue every time a request was filled.  This caused the requests queues to be filled out of order.  As a stop-gap measure, Heather manually re-ordered the holds queues using data from a report she ran every evening (George was doing the same thing in Idaho at that time).  Borrowers were upset when they noticed that their requests were being filled out of order, therefore, this preference was set to “Don’t show any hold details” so that borrowers would stop complaining about the problem that was out of our control.  This bug was resolved within 3-4 months of its appearance, but this system preference has never been changed back in Next Search Catalog.</p>
+<p>In the meantime, a new system preference was added to the system called “LocalHoldsPriority.”  This is the system preference that tells Koha to give priority for filling requests when the pickup library matches the item’s home library.  In other words, if someone requests that an item to be picked up at PAOLA and PAOLA owns a copy of that item, the PAOLA copy will fill the PAOLA request - even if there are requests closer to the top of the holds queue.  This means that if your library doesn’t own a copy of an item that is in high demand, requests to pick up that item at your library will almost certainly be filled out of order.</p>
+</div>
+<div class="section" id="proposal">
+<h2>Proposal<a class="headerlink" href="#proposal" title="Permalink to this headline">¶</a></h2>
+<p>It’s been proposed that we change how this system preference operates.  On January 21, NEKLS will send a survey to the Next Search Catalog library directors asking if this system preference should be set to:</p>
+<ul class="simple">
+<li>Don’t show any hold details (no change)</li>
+<li>Show holds</li>
+<li>Show holds and their priority level</li>
+</ul>
+<hr class="docutils" />
+<p>This is how this system preference affects what borrowers see in the OPAC:</p>
+</div>
+<div class="section" id="currently-on-the-opac-details-page">
+<h2>Currently on the OPAC details page<a class="headerlink" href="#currently-on-the-opac-details-page" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/OPACShowHoldQueueDetails.change.0010.png" src="../_images/OPACShowHoldQueueDetails.change.0010.png" />
+<p>Currently on a borrower’s Holds tab</p>
+<img alt="../_images/OPACShowHoldQueueDetails.change.0040.png" src="../_images/OPACShowHoldQueueDetails.change.0040.png" />
+</div>
+<hr class="docutils" />
+<div class="section" id="changing-to-show-holds-would-result-in-this-combination">
+<h2>Changing to “Show holds” would result in this combination<a class="headerlink" href="#changing-to-show-holds-would-result-in-this-combination" title="Permalink to this headline">¶</a></h2>
+<p>“Show holds” on the details page</p>
+<img alt="../_images/OPACShowHoldQueueDetails.change.0020.png" src="../_images/OPACShowHoldQueueDetails.change.0020.png" />
+<p>“Show holds” on the Holds tab</p>
+<img alt="../_images/OPACShowHoldQueueDetails.change.0040.png" src="../_images/OPACShowHoldQueueDetails.change.0040.png" />
+</div>
+<hr class="docutils" />
+<div class="section" id="changing-to-show-holds-and-their-priority-level-would-result-in-this-combination">
+<h2>Changing to “Show holds and their priority level” would result in this combination<a class="headerlink" href="#changing-to-show-holds-and-their-priority-level-would-result-in-this-combination" title="Permalink to this headline">¶</a></h2>
+<p>“Show holds and their priority level” on the details page</p>
+<img alt="../_images/OPACShowHoldQueueDetails.change.0030.png" src="../_images/OPACShowHoldQueueDetails.change.0030.png" />
+<p>“Show holds and their priority level” on the Holds tab</p>
+<img alt="../_images/OPACShowHoldQueueDetails.change.0050.png" src="../_images/OPACShowHoldQueueDetails.change.0050.png" />
+<hr class="docutils" />
+<p>The voting on this issue will remain open until February 5, 2021.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Northeast Kansas Library System
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
