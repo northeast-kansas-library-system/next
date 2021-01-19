@@ -4,10 +4,9 @@
 ..
   https://northeast-kansas-library-system.github.io/next/usergroup/ug.20210119.html
 
-
-
-  Zoom Link: `Zoom link <https://kslib.zoom.us/j/93333695534?pwd=Qkd6dkY3MEt4STJEeWdsWjcrem0yZz09>`_ |br|
-  Zoom passcode: 7858384090
+Meeting will be on Zoom only
+Zoom Link: `Zoom link <https://kslib.zoom.us/j/93333695534?pwd=Qkd6dkY3MEt4STJEeWdsWjcrem0yZz09>`_ |br|
+Zoom passcode: 7858384090
 
 1. Announcements, news, brief items, etc.
  - Introductions
