@@ -1,0 +1,109 @@
+New and modified item types and collection codes (January 2020)
+===============================================================
+
+Item type changes and additions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|Added/modified      | itemtype (CODE)    | description         | purpose              | Print Nonprint     |
++====================+====================+=====================+======================+====================+
+|New - Added         |NELECT              |Tablets, e-readers , |Gives libraries a     |Nonprint            |
+|2021.01.01          |                    |and personal         |specific item type    |                    |
+|                    |                    |computing devices    |for these devices     |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|New - Added         |NREL_ART            |Artwork              |Creates new item      |Nonprint            |
+|2021.01.01          |                    |                     |type for artwork      |                    |
+|                    |                    |                     |                      |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|New - Added         |NREL_BIKE           |Bicycle              |Created at the        |Nonprint            |
+|2020.09.01          |                    |                     |request of            |                    |
+|                    |                    |                     |POMONA                |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|New - Added         |NREL_CLOTH          |Cloting,             |Created after         |Nonprint            |
+|2021.01.01          |                    |costumes, and        |the suggestion        |                    |
+|                    |                    |masks                |at the last meeting   |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|New - Added         |NREL_COOK           |Cooking              |Created to add        |Nonprint            |
+|2021.01.01          |                    |equipment            |flexibilty with       |                    |
+|                    |                    |                     |cookware and          |                    |
+|                    |                    |                     |equipment             |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|New - Added         |NREL_TOOL           |Tools                |Created at the        |Nonprint            |
+|2021.01.01          |                    |                     |request of            |                    |
+|                    |                    |                     |BURLINGAME            |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|New - Added         |NREL_TOY            |Board games,         |Several libraies      |Nonprint            |
+|2021.01.01          |                    |dolls, puzzles,      |have asked for a      |                    |
+|                    |                    |and toys             |boardgame itype       |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|New - Added         |NSOFT               |Software             |Seems to be a need    |Nonprint            |
+|2021.01.01          |                    |                     |                      |                    |
+|                    |                    |                     |                      |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|Modified            |PUNC                |(Unclassified)       |Renamed code          |Print               |
+|2021.01.01          |used to be          |                     |per re-code           |                    |
+|                    |XXX                 |                     |project               |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|Modified            |PSPECIAL            |Special collections  |Renamed code &        |Print               |
+|2021.01.01          |used to be          |(no requests allowed)|description           |                    |
+|                    |WALKIN              |used to be           |per re-code           |                    |
+|                    |                    |WALKIN ONLY          |project               |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|Modified            |PBBKWALK            |Book (no requests    |Renamed code &        |Print               |
+|2021.01.01          |used to be          |allowed)             |description           |                    |
+|                    |WALKIN2             |used to be           |per re-code           |                    |
+|                    |                    |WALKIN BOOK          |project               |                    |
+|                    |                    |                     |                      |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|Modified            |MIFI                |Wireless hotspot     |Renamed description   |Nonprint            |
+|2021.01.01          |                    |used to be           |per re-code           |                    |
+|                    |                    |MIFI DEVICE          |project               |                    |
+|                    |                    |                     |                      |                    |
+|                    |                    |                     |                      |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+|Modified            |FLPLAYAWAY          |Audiobook (media     |Renamed description   |Nonprint            |
+|2021.01.01          |                    |player)              |per re-code           |                    |
+|                    |                    |used to be           |project               |                    |
+|                    |                    |FLOATING PLAYAWAY    |                      |                    |
+|                    |                    |                     |                      |                    |
++--------------------+--------------------+---------------------+----------------------+--------------------+
+
+
+-----
+
+Collection code changes and additions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
++-------------------------+-------------------------+-------------------------+-------------------------+
+|Added/modified           | Collection code         | description             | purpose                 |
++=========================+=========================+=========================+=========================+
+|New - added              |BICYCLE                  |Bicycle                  |Added at the request     |
+|2020.09.01               |                         |                         |of POMONA                |
+|                         |                         |                         |                         |
+|                         |                         |                         |                         |
+|                         |                         |                         |                         |
++-------------------------+-------------------------+-------------------------+-------------------------+
+|New - added              |PS5                      |VG-PlayStation 5         |There will be a need     |
+|2021.01.01               |                         |                         |                         |
+|                         |                         |                         |                         |
+|                         |                         |                         |                         |
+|                         |                         |                         |                         |
++-------------------------+-------------------------+-------------------------+-------------------------+
+|New - added              |XBOXX                    |VG-XBox X                |There will be a need     |
+|2021.01.01               |                         |                         |                         |
+|                         |                         |                         |                         |
+|                         |                         |                         |                         |
+|                         |                         |                         |                         |
++-------------------------+-------------------------+-------------------------+-------------------------+
+|New - added              |VIDHOLIDAY               |Holiday video            |Available for use - will |
+|2021.01.10               |                         |make collecting DVD      |                         |
+|                         |                         |                         |statistics easier        |
+|                         |                         |                         |                         |
+|                         |                         |                         |                         |
++-------------------------+-------------------------+-------------------------+-------------------------+
+|New - added              |VIDPLAYER                |Video (media player)     |                         |
+|2021.01.10               |                         |                         |                         |
+|                         |                         |                         |                         |
+|                         |                         |                         |                         |
+|                         |                         |                         |                         |
++-------------------------+-------------------------+-------------------------+-------------------------+

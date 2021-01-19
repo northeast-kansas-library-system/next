@@ -6,6 +6,7 @@ Index of indexes
    :caption: Contents:
 
    glob
+   howto/index
    pages/index
    procedures/index
    problems/index
