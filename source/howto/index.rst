@@ -1,4 +1,4 @@
-Contents of /projects/ folder
+Contents of /howto/ folder
 =============================
 
 .. toctree::
@@ -7,5 +7,4 @@ Contents of /projects/ folder
    :caption: Contents:
 
    *
-   2020/*
-   2021/*
+   directors/*
