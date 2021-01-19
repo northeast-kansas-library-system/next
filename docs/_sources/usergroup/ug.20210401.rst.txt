@@ -6,13 +6,16 @@
   https://northeast-kansas-library-system.github.io/next/usergroup/ug.20210401.html
 
 
-#. Announcements, news, brief items, etc.
+1. Announcements, news, brief items, etc.
  - Introductions
  - Additions to the agenda
 
-#. Test
+2. Item types and collection codes updates.
 
-#. Next meeting
+3. Next meeting
+  - September 2, 2021 (Thursday)
+  - 10:00 a.m. - noon
+  - Nekls office (in person - COVID19 permitting - and on Zoom)
 
 .. |ss| raw:: html
 
