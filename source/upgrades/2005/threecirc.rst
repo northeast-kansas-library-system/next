@@ -1,5 +1,5 @@
 3 Circulation Changes
-=====================
+======================
 
 There are currently some bugs affecting the patron edit screens.  We will not upgrade until these bugs are resolved.
 

@@ -1,5 +1,5 @@
 Changes to discuss on a library-by-library basis
-================================================
+=================================================
 
 Individual library control of some parts of the OPAC
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -8,15 +8,24 @@ It was our hope that we could turn over full control of this feature to library 
 
 The advantage of this feature is that it allows libraries that may subscribe to services such as Tutor.com or Kanopy to put links to those services on the home page of the OPAC when borrowers with the same home library are logged into the catalog.
 
+This doesn't mean that we can't modify the OPAC pages for an individual library - just that the training will need to be individualized for the time being.
+
 When a borrower is not logged in:
 
-..
-  [todo] screenshot needed
+
+.. image:: ../../images/librarybylibrary.8810.png
 
 When a borrower is logged in:
 
-..
-  [todo] screenshot needed
+.. image:: ../../images/librarybylibrary.8820.png
+
+Normally these controls will be located in the news tool:
+
+.. image:: ../../images/librarybylibrary.8830.png
+
+But a bug is rendering the news tool problematic:
+
+.. image:: ../../images/librarybylibrary.8840.png
 
 
 

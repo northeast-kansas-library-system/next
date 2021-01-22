@@ -1,5 +1,5 @@
 Report a problem with an OPAC page
-==================================
+===================================
 
 **This is a brand new feature for the OPAC in Koha 20.05.**
 
