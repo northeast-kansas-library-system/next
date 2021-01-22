@@ -6,8 +6,7 @@
 
 |ss| Leavenworth Public Library\ |se| |br| Meeting switched to Zoom only
 |br|
-Zoom Link: `Zoom link <https://kslib.zoom.us/j/533936363>`_ |br|
-Zoom passcode: 7858384090
+No recording of this meeting was made
 
 1. Announcements, news, brief items, etc.
  - Introductions

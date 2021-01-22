@@ -1,0 +1,20 @@
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about patron changes.
+
+.. only:: html
+
+  .. raw:: html
+
+      <div style="position:relative;padding-top:50%;">
+
+      </div>
+
+.. only:: latex
+
+
+
+-----
