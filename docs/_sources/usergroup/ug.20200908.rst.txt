@@ -3,8 +3,7 @@
 
 |ss| Corning City Library\ |se| |br| Meeting switched to Zoom only
 |br|
-Zoom Link: `Zoom link <https://kslib.zoom.us/j/533936363>`_ |br|
-Zoom passcode: 838-4090
+No recording of this meeting was made
 
 #. Announcements, news, brief items, etc.
  - Introductions

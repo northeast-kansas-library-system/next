@@ -13,4 +13,5 @@ Index of indexes
    projects/index
    proposals/index
    reports/index
+   upgrades/index
    usergroup/index

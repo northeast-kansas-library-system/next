@@ -12,6 +12,7 @@ Welcome to Next Search Catalog!
 
    history
    emergency
+   upgrades/2005/index
 
 Indices and tables
 ==================
