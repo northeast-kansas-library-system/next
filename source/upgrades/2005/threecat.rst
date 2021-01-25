@@ -42,3 +42,23 @@ I strongly recommend against using this feature because it will not work for lib
 This means, that, there are virtually no libraries in Next Search Catalog that can use this feature.
 
 .. image:: ../../images/threecat.30010.png
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about reporting a page problem.
+
+.. only:: html
+
+  .. raw:: html
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ysdc6m7DJOM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+.. only:: latex
+
+   https://youtu.be/ysdc6m7DJOM
+
+-----

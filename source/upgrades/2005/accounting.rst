@@ -71,3 +71,22 @@ Automatic notes enhancement
 Automatic notes made from the "Make a payment," "Create manual invoice," and "Create manual credit" tabs now include the date and time the transaction happened:
 
 .. image:: ../../images/accounting.0120.png
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about reporting a page problem.
+
+.. only:: html
+
+  .. raw:: html
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oCe_LncENDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+.. only:: latex
+
+   https://youtu.be/oCe_LncENDg
+
+-----
