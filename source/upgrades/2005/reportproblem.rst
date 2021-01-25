@@ -48,11 +48,11 @@ Watch a YouTube video about reporting a page problem.
 
   .. raw:: html
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/j9aYOgNRFtc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ctYgbeI6aHk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 .. only:: latex
 
-   https://youtu.be/j9aYOgNRFtc
+   https://youtu.be/ctYgbeI6aHk
 
 -----
 
