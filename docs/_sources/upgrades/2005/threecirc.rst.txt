@@ -40,3 +40,23 @@ Currently when you click on "Add child" these fields pre-fill based on the adult
 After the upgrade, the "Alternate address" information will also be added:
 
 .. image:: ../../images/threecirc.90020.jpg
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about reporting a page problem.
+
+.. only:: html
+
+  .. raw:: html
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/F_vTFergp2w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+.. only:: latex
+
+   https://youtu.be/F_vTFergp2w
+
+-----

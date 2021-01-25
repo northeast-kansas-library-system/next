@@ -74,3 +74,23 @@ Item types were recently added for:
 +--------------------+----------------------------------------------------+
 
 If your library wants to use any of these item types, you must contact NEKLS to set up circulation rules before you start using them.
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about reporting a page problem.
+
+.. only:: html
+
+  .. raw:: html
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OxWoSvTpWO8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+.. only:: latex
+
+   https://youtu.be/OxWoSvTpWO8
+
+-----

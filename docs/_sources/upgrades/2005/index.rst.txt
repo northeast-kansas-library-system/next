@@ -13,3 +13,9 @@ Koha 20.05 training
    threecirc
    threecat
    librarybylibrary
+
+-----
+
+Videos are availabe for all of these topics on YouTube
+
+`Use this link to go to the playlist <https://youtube.com/playlist?list=PLCFhpYAI2ZLnyOyxAea3tuWQ7fD-yqV-3>`_

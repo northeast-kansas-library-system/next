@@ -72,3 +72,23 @@ If a borrower places more than the allowed purchase suggestions they will get th
 If a borrower places more than the allowed purchase suggestions in for a specific time frame, they will get this error message
 
 .. image:: ../../images/threeopac.50020.jpg
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about reporting a page problem.
+
+.. only:: html
+
+  .. raw:: html
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/d_0ip0mB2kY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+.. only:: latex
+
+   https://youtu.be/d_0ip0mB2kY
+
+-----
