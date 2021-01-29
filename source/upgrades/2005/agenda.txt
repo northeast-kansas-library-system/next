@@ -1,0 +1,121 @@
+Agenda:
+
+
+Adding links to the OPAC home page for your library
+
+  Talk about the issue and say that it will come up at the end.
+
+Report a problem with an OPAC page
+
+  Go to:  http://catalog-test.nexpresslibrary.org/
+  Do a search for anything - point out link
+  Log in as:  FROST865 / 12345!
+  Point out the link
+  Look up: Hidden Benedict Jacka
+  Point out the link and then click on it
+  Fill out the form
+  Go to: http://staff-test.nexpresslibrary.org
+  Look up FROST865
+  Click on notices - show message
+
+  Reiterate that the messages will be e-mailed to the borrower's home library.
+
+
+Accounting / fees changes
+    Apply credit function improved
+      Show how this has changed - talk about the bugs and the issues
+
+    Manual invoice
+      Add an invoice - show changes -
+      Go to https://staff.nextkansas.org/cgi-bin/koha/circ/circulation.pl?borrowernumber=265158
+      Create a manual invoice
+      Go to http://staff-test.nexpresslibrary.org/cgi-bin/koha/circ/circulation.pl?borrowernumber=277917
+      Create a manual invoice
+
+    “Apply discount” button on “Transactions” tab
+      Apply a discount
+      Go to https://staff.nextkansas.org/cgi-bin/koha/circ/circulation.pl?borrowernumber=265158
+      --
+      Go to http://staff-test.nexpresslibrary.org/cgi-bin/koha/circ/circulation.pl?borrowernumber=277917
+      Show differences
+
+    Automatic fee/invoice/credit notes enhancement
+      Point out the changes in the code that throw the datetime into this field
+      Go to https://staff.nextkansas.org/cgi-bin/koha/members/pay.pl?borrowernumber=265158
+      --
+      Go to http://staff-test.nexpresslibrary.org/cgi-bin/koha/circ/circulation.pl?borrowernumber=277917
+      Show differences
+
+3 OPAC Changes
+    Library information
+      Go to:  https://nextkansas.org/
+      Click on "Help"
+      Go to:  http://catalog-test.nexpresslibrary.org/
+      Click on "Help"
+      Show differences
+      Show back-end where library information is stored
+
+    Star ratings
+      Look up http://catalog-test.nexpresslibrary.org/cgi-bin/koha/opac-detail.pl?biblionumber=694674
+
+    Purchase suggestion limits
+      Go to:  http://catalog-test.nexpresslibrary.org/
+      Log in as:  FROST865 / 12345!
+      Show everyone where the purchase suggestion form is
+      Show everyone where to find suggestions made by their borrowers
+      Set  MaxOpenSuggestions  to 5
+      Place new request - show error
+      Set  MaxOpenSuggestions  to 10
+      Set  MaxTotalSuggestions to 6
+      Place new requests - show error
+
+      Initial setting  MaxOpenSuggestions 100 / MaxTotalSuggestions 30/30
+
+
+
+3 Circulation Changes
+    Renew items when accruing late fees are paid
+      Can't show, so describe
+
+    Changes to collapsed fields on patron edit/entry
+    Go to https://staff.nextkansas.org/cgi-bin/koha/circ/circulation.pl?borrowernumber=265158
+    --
+    Go to http://staff-test.nexpresslibrary.org/cgi-bin/koha/circ/circulation.pl?borrowernumber=277917
+    Describe differences
+
+    Pre-filled fields for Guarantee accounts
+
+
+3 Cataloging/Technical Services Changes
+    952$v will be marked as “Important”
+      Go to http://staff-test.nexpresslibrary.org/cgi-bin/koha/catalogue/detail.pl?biblionumber=361303
+      Add an item - leave 952$v blank
+
+    Item search output
+      Go to https://staff.nextkansas.org
+      --
+      To to http://staff-test.nexpresslibrary.org
+      Do a search - show differences
+
+    Create labels by barcode number range
+      Go to https://staff.nextkansas.org
+      --
+      To to http://staff-test.nexpresslibrary.org
+      Show new option under label creator - tell people not to use it
+
+
+Changes to discuss on a library-by-library basis
+    Individual library control of some parts of the OPAC
+    Go to https://staff.nextkansas.org
+    --
+    To to http://staff-test.nexpresslibrary.org
+    Show news editor interface and associated problems
+    Show Otto Frosty homepage
+    Change Otto Frosty's home library to <> NEKLS - show home page again
+
+
+    Curbside plugin
+      Show framework of curbside plugin
+
+    Recent item-type changes
+      Go over item type changes
