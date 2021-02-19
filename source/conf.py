@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Next Search Catalog'
-copyright = '2020, Northeast Kansas Library System'
+copyright = '2021, Northeast Kansas Library System'
 author = 'Northeast Kansas Library System'
 
 # The full version, including alpha/beta/rc tags
@@ -32,6 +32,12 @@ release = '1.0'
 # ones.
 extensions = [
     'sphinx.ext.githubpages',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.coverage',
+    'sphinxcontrib.spelling',
+    'sphinx.ext.autosectionlabel'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
