@@ -90,3 +90,17 @@ Item types
 +---------------+--------------------------------------------------+-----------------------+
 |REFERENCE      |REFERENCE MATERIAL |BOOKS  |
 +---------------+--------------------------------------------------+-----------------------+
+
+SQL to get table
+
+
+SELECT
+  RPAD(itemtypes.itemtype, 15, "^"),
+  rpad(itemtypes.description, 45, "^"),
+  length(itemtypes.description),
+  if(itemtypes.notforloan > 0, "Not for loan^^^", "^^^^^^^^^^^^^^^"),
+  itemtypes.notforloan,
+  itemtypes.hideinopac,
+  itemtypes.searchcategory
+FROM
+  itemtypes
