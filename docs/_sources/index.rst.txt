@@ -20,3 +20,6 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+.. include:: opac_self_service/self_checkout.rst
