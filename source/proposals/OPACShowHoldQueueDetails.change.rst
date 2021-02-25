@@ -22,7 +22,7 @@ In the meantime, a new system preference was added to the system called "LocalHo
 Proposal
 --------
 
-It's been proposed that we change how this system preference operates.  On January 21, NEKLS will send a survey to the Next Search Catalog library directors asking if this system preference should be set to:
+It's been proposed that we change how this system preference operates.  In February, NEKLS will send a survey to the Next Search Catalog library directors asking if this system preference should be set to:
 
 - Don't show any hold details (no change)
 - Show holds
