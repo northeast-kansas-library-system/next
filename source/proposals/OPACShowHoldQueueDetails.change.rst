@@ -69,7 +69,7 @@ Changing to "Show holds and their priority level" would result in this combinati
 
 -----
 
-The voting on this issue will remain open until February 5, 2021.
+The voting on this issue will remain open until March 19, 2021.
 
 .. |ss| raw:: html
 
