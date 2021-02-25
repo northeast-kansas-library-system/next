@@ -1,3 +1,14 @@
+.. image includes file for next
+
+.. |deceased_borrower_0010.png| image:: /images/best_practices/deceased_borrower_0010.png
+    :alt: Delete a borrower account - steps 1-3
+
+.. |deceased_borrower_0020.png| image:: /images/best_practices/deceased_borrower_0020.png
+    :alt: Delete a borrower account - step 4
+
+
+
+
 .. |accounting.0010.png| image:: /images/accounting.0010.png
     :alt: Alt text
 
@@ -423,3 +434,35 @@
 
 .. |threeopac.50020.jpg| image:: /images/threeopac.50020.jpg
     :alt: Alt text
+
+.. upgrades
+
+.. |clear_cache_0010.jpg| image:: /images/upgrades/clear_cache_0010.jpg
+    :alt: Clear cache in Firefox with keystrokes - steps 1-5
+
+.. |clear_cache_0020.jpg| image:: /images/upgrades/clear_cache_0020.jpg
+    :alt: Clear cache in Chrome with keystrokes - steps 1-5
+
+.. |clear_cache_0030.jpg| image:: /images/upgrades/clear_cache_0030.jpg
+    :alt: Clear cache in Firevox with the options menu - steps 1-3
+
+.. |clear_cache_0040.jpg| image:: /images/upgrades/clear_cache_0040.jpg
+    :alt: Clear cache in Firevox with the options menu - steps 4-5
+
+.. |clear_cache_0050.jpg| image:: /images/upgrades/clear_cache_0050.jpg
+    :alt: Clear cache in Firevox with the options menu - steps 5-6
+
+.. |clear_cache_0060.jpg| image:: /images/upgrades/clear_cache_0060.jpg
+    :alt: Clear cache in Chrome with the options menu - steps 1-4
+
+.. |clear_cache_0070.jpg| image:: /images/upgrades/clear_cache_0070.jpg
+    :alt: Clear cache in Firevox with the options menu - steps 5-7
+
+.. |clear_cache_0080.jpg| image:: /images/upgrades/clear_cache_0080.jpg
+    :alt: Set Firefox to clear cache every day - steps 1-2
+
+.. |clear_cache_0090.jpg| image:: /images/upgrades/clear_cache_0090.jpg
+    :alt: Set Firefox to clear cache every day - steps 3-5
+
+.. |clear_cache_0100.jpg| image:: /images/upgrades/clear_cache_0100.jpg
+    :alt: Set Firefox to clear cache every day - steps 6-8

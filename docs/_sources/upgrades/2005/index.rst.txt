@@ -13,6 +13,7 @@ Koha 20.05 training
    threecirc
    threecat
    librarybylibrary
+   ../upgrade_clear_cache
 
 -----
 
