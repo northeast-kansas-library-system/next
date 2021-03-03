@@ -1,11 +1,44 @@
 .. image includes file for next
 
+.. /best_practices folder
+
 .. |deceased_borrower_0010.png| image:: /images/best_practices/deceased_borrower_0010.png
     :alt: Delete a borrower account - steps 1-3
 
 .. |deceased_borrower_0020.png| image:: /images/best_practices/deceased_borrower_0020.png
     :alt: Delete a borrower account - step 4
 
+.. / bugs folder
+
+.. |phantom_restrictions_0010.png| image:: /images/bugs/phantom_restrictions_0010.png
+    :alt: Phantom restrictions - overview of problem
+
+.. |phantom_restrictions_0020.png| image:: /images/bugs/phantom_restrictions_0020.png
+    :alt: Phantom restrictions - Solution step 1
+
+.. |phantom_restrictions_0030.png| image:: /images/bugs/phantom_restrictions_0030.png
+    :alt: Phantom restrictions - Solution step 2
+
+.. |phantom_restrictions_0040.png| image:: /images/bugs/phantom_restrictions_0040.png
+    :alt: Phantom restrictions - Solution step 3
+
+.. |phantom_restrictions_0050.png| image:: /images/bugs/phantom_restrictions_0050.png
+    :alt: Phantom restrictions - Solution step 4
+
+.. |phantom_restrictions_0060.png| image:: /images/bugs/phantom_restrictions_0060.png
+    :alt: Phantom restrictions - Solution step 5
+
+.. |phantom_restrictions_0110.png| image:: /images/bugs/phantom_restrictions_0110.png
+    :alt: Phantom restrictions - Solution step 4
+
+.. |phantom_restrictions_0120.png| image:: /images/bugs/phantom_restrictions_0120.png
+    :alt: Phantom restrictions - Solution step 5
+
+.. |phantom_restrictions_0130.png| image:: /images/bugs/phantom_restrictions_0130.png
+    :alt: Phantom restrictions - Solution step 5
+
+.. |phantom_restrictions_0140.png| image:: /images/bugs/phantom_restrictions_0140.png
+    :alt: Phantom restrictions - Solution step 4
 
 
 
