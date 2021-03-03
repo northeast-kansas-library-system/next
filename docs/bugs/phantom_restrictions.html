@@ -162,41 +162,55 @@
 <ol class="arabic simple">
 <li>In the restrictions tab, click on “Add manual restriction”</li>
 </ol>
-<p><img alt="Phantom restrictions - Solution step 1" src="../_images/phantom_restrictions_0020.png" /></p>
+<blockquote>
+<div><img alt="Phantom restrictions - Solution step 1" src="../_images/phantom_restrictions_0020.png" /></div></blockquote>
 <ol class="arabic simple" start="2">
 <li>Click on the “Add restriction” button (you can, optionally, make a note about the restriction)</li>
 </ol>
-<p><img alt="Phantom restrictions - Solution step 2" src="../_images/phantom_restrictions_0030.png" /></p>
+<blockquote>
+<div><img alt="Phantom restrictions - Solution step 2" src="../_images/phantom_restrictions_0030.png" /></div></blockquote>
 <ol class="arabic simple" start="3">
 <li>Then click on “Remove” restriction</li>
 </ol>
-<p><img alt="Phantom restrictions - Solution step 3" src="../_images/phantom_restrictions_0040.png" /></p>
+<blockquote>
+<div><img alt="Phantom restrictions - Solution step 3" src="../_images/phantom_restrictions_0040.png" /></div></blockquote>
 <ol class="arabic simple" start="4">
 <li>Click “Yes” in the pop-up window to confirm that you do want to remove the restriction</li>
 </ol>
-<p><img alt="Phantom restrictions - Solution step 4" src="../_images/phantom_restrictions_0050.png" /></p>
+<blockquote>
+<div><img alt="Phantom restrictions - Solution step 4" src="../_images/phantom_restrictions_0050.png" /></div></blockquote>
 <ol class="arabic simple" start="5">
 <li>All restrictions should now be gone</li>
 </ol>
-<p><img alt="Phantom restrictions - Solution step 5" src="../_images/phantom_restrictions_0060.png" /></p>
+<blockquote>
+<div><img alt="Phantom restrictions - Solution step 5" src="../_images/phantom_restrictions_0060.png" /></div></blockquote>
 </div>
 <div class="section" id="what-causes-this-problem">
 <h2>What causes this problem:<a class="headerlink" href="#what-causes-this-problem" title="Permalink to this headline">¶</a></h2>
 <p>We believe this is caused by Koha community bug <a class="reference external" href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=26208" target="_blank">26208</a></p>
 <p>For the example in the screenshots above:</p>
-<ul class="simple">
-<li>The borrower’s account was blocked on March 1 when two of the items they had checked out were overdue for more than 35 days and they were sent a “Library account blocked” email.</li>
-</ul>
+<ul>
+<li><p class="first">The borrower’s account was blocked on March 1 when two of the items they had checked out were overdue for more than 35 days and they were sent a “Library account blocked” email.</p>
 <p><img alt="Phantom restrictions - Solution step 4" src="../_images/phantom_restrictions_0110.png" /></p>
-<ul class="simple">
-<li>The two items were renewed on March 2.</li>
+</li>
 </ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ul>
+<li><p class="first">The two items were renewed on March 2.</p>
 <p><img alt="Phantom restrictions - Solution step 5" src="../_images/phantom_restrictions_0130.png" /></p>
-<ul class="simple">
-<li>The restriction was removed from the table in the database called “borrower_debarments” but it was not removed from the table called “borrowers.”  This is a known bug in Koha and the Koha community is working to solve the problem.  In fact, a patch has been created.  If possible the patch will be added to our system as soon as possible.  It is possible, however, that we may have to wait for the next upgrade for this problem to be permanently fixed.</li>
+</li>
 </ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ul>
+<li><p class="first">The restriction was removed from the table in the database called “borrower_debarments” but it was not removed from the table called “borrowers.”  This is a known bug in Koha and the Koha community is working to solve the problem.  In fact, a patch has been created.  If possible the patch will be added to our system as soon as possible.  It is possible, however, that we may have to wait for the next upgrade for this problem to be permanently fixed.</p>
 <p>The reason that the solution listed above works is because, when you add the new restriction to an account, Koha has to update both tables - borrowers and borrowers_debarments.  When Koha updates those tables, the process of adding and removing debarments recognizes that there is a discrepancy between the two tables and fixes it.  That way when you take off the new restriction, the phantom restriction is no longer there.</p>
 <p><img alt="Phantom restrictions - Solution step 4" src="../_images/phantom_restrictions_0140.png" /></p>
+</li>
+</ul>
 </div>
 </div>
 
