@@ -43,6 +43,10 @@ What causes this problem:
 
 We believe this is caused by Koha community bug `26208 <https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=26208>`_
 
+This bug causes the removal of restrictions to fail when multiple items are checked out and 1 or more of them is overdue long enough to cause an automatic restriction and then the items are renewed.
+
+There are many things that happen in the database when an item is renewed.  Similarly there are many things that happen in the database when a restriction is added or removed automatically.  As a part of the restriction process, data is added to a field in the borrowers table in a field called "debarments" and there is also a new line added to a table called "borrower_debarments."  In some situations the sequence of events that is happening behind the scenes removes the restriction data from one table, but not the other when items are renewed - but not all of the time - only in certain circumstances.
+
 For the example in the screenshots above:
 
 - The borrower's account was blocked on March 1 when two of the items they had checked out were overdue for more than 35 days and they were sent a "Library account blocked" email.
@@ -56,5 +60,5 @@ For the example in the screenshots above:
 - The restriction was removed from the table in the database called "borrower_debarments" but it was not removed from the table called "borrowers."  This is a known bug in Koha and the Koha community is working to solve the problem.  In fact, a patch has been created.  If possible the patch will be added to our system as soon as possible.  It is possible, however, that we may have to wait for the next upgrade for this problem to be permanently fixed.
 
   The reason that the solution listed above works is because, when you add the new restriction to an account, Koha has to update both tables - borrowers and borrowers_debarments.  When Koha updates those tables, the process of adding and removing debarments recognizes that there is a discrepancy between the two tables and fixes it.  That way when you take off the new restriction, the phantom restriction is no longer there.
-  
+
   |phantom_restrictions_0140.png|
