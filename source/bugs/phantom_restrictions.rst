@@ -62,3 +62,13 @@ For the example in the screenshots above:
   The reason that the solution listed above works is because, when you add the new restriction to an account, Koha has to update both tables - borrowers and borrowers_debarments.  When Koha updates those tables, the process of adding and removing debarments recognizes that there is a discrepancy between the two tables and fixes it.  That way when you take off the new restriction, the phantom restriction is no longer there.
 
   |phantom_restrictions_0140.png|
+
+Report and weekly administrative process to alievate the problem
+----------------------------------------------------------------
+
+There is now a process to help identify borrowers that may be affected by this bug and to remove the phantom restrictions.
+
+#. Run report 3482.
+#. If the report identifies any results, click on the down arrow in the "Batch operaitions with X visible records" button and choose "Batch patron modification."
+#. Once the batch patron modification tool has loaded, check the checkbox to the right of "Restriction expiration" and "Restriction comment" and run the tool.
+#. Running the tool should remove the data causing the phantom restriction warnings.  You can test to see if phantom restrictions have been removed by running report 3482 again.
