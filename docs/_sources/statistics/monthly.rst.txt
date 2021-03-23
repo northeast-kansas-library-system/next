@@ -1,3 +1,5 @@
+.. include:: /images.rst
+
 Monthly statistical data
 =======================
 

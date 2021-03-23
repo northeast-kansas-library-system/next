@@ -1,3 +1,5 @@
+.. include:: /images.rst
+
 Annual statistical data
 =======================
 
@@ -6,7 +8,7 @@ Annual statistical data
 
 The 2020 data can be found on the Next Search Catalog home page on the statistics tab.
 
-.. image:: ../images/statistics.annual.0010.png
+|statistics.annual.0010.png|
 
 This spreadsheet answers the following questions for the annual state statistical survey:
 
@@ -44,7 +46,6 @@ This spreadsheet answers the following questions for the annual state statistica
 7. Question 9.3b - Total DVDs
   - Data gathered on the fly.
   - The report that generated this data caounted items in the item table by item type (where the item had one of the video item types) and collection code (where the collection code was BLU-RAY, COMBO, DVD, or TVSERIES).
-  - This year, the report was generated automatically between midnight and 2:00 a.m. on January 1, 2021.
 
 8. Question 9.5 - total of all other materials at end of 2020
   - Data gathered from Report	2868.
