@@ -13,6 +13,7 @@ Welcome to Next Search Catalog!
    history
    emergency
    upgrades/2005/index
+   statistics/analysis.tools
    license
 
 Indices and tables
