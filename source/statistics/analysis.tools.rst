@@ -80,53 +80,58 @@ To use this tool:
 
 1. Download the `state.data.xlsx <https://northeast-kansas-library-system.github.io/next/files/statistics/state.data.xlsx>`_ and save it to your computer
 
+   |tool1.0010.png|
 
+|
+2. Go to `KS Statistical Data & Reports <https://kslib.info/1131/Statistical-Data-Reports>`_ and download a copy of the full data report for any year between 2012 and 2019
 
-2. Go to `KS Statistical Data & Reports <https://kslib.info/1131/Statistical-Data-Reports>`_ and download a copy of the full data report for any of the following years:
+   |tool1.0020.png|
 
-  - 2019
-  - 2018
-  - 2017
-  - 2016
-  - 2015
-  - 2014
-  - 2013
-  - 2012
+   |tool1.0022.png|
 
+   |tool1.0025.png|
 
-
+|
 3. Open state.data.xlsx on your computer and navigate to the tab that says "State data"
 
+   |tool1.0030.png|
 
-
+|
 4. Open the file from KS Statistical Data & Reports on your computer
 
+   |tool1.0040.png|
 
-
+|
 5. Find your library in the report from the state library, hightlight that entire row, and type "control C" to copy the entire borrowed
 
+   |tool1.0050.png|
 
+|
+6. Highlight the first cell in the row for the year you've selected on the "State data" tab in state.data.xlsx
 
-6. Highliht the first cell in the row for the year you've selected on the "State data" tab in state.data.xlsx
+   |tool1.0060.png|
 
-
-
+|
 7. Click on the clipboard and select "Paste values" to paste the data from the state report into state.data.xlsx
 
+   |tool1.0070.png|
 
+|
+8. Continue to add any data you want from other years as necessary for any year between 2012 and 2019
 
-8. Repeat this process as necessary for any year between 2012 and 2019
+   |tool1.0080.png|
 
-
-
+|
 9. When you've added all of the data you're interested in, switch to the "Annual data dashboard" tab
 
+   |tool1.0090.png|
 
-
+|
 10.  The spreadsheet will automatically calculate the print collection size per capita, circulation per capita, and annual turnover
 
+   |tool1.0100.png|
 
-
+|
 ** Please note that all of the formulas in this spreadsheet and its structure are locked.  The password to unlock the formulas can be found on the "Standards and instructions" tab.  Feel free to modify and adapt the spreadsheet as you see fit.  However, please recognize that, if you modify the spreadsheet or any of its formulas, none of the NEKLS staff will be able to help you fix fix problems with a spreadsheet that you have modified yourself.
 
 Spreadsheet tool #2
@@ -138,36 +143,45 @@ To use this tool:
 
 1. Download the `local.data.xlsx <https://northeast-kansas-library-system.github.io/next/files/statistics/local.data.xlsx>`_ and save it to your computer
 
+   |tool2.0010.png|
 
-
+|
 2. Run Next Search Catalog report 2731 for your library.  You can use any parameters you want.  To do your full collection, I recommend choosing your home library, changing the default for "Item added between date1:" to 01/01/1900 and leaveing all other settings on their defaults.
 
+   |tool2.0020.png|
 
-
+|
 3. Once the report has run, download the results to a .csv file and open it
 
+   |tool2.0030.png|
 
+   |tool2.0035.png|
 
+   |tool2.0037.png|
+
+|
 4. Open local.data.xlsx and navigate to the "Collection data (2731)" tab
 
+   |tool2.0040.png|
 
-
+|
 5. Highlight the data you want to evaluate from the csv file for report 2731 and type "control C" to copy the data to the clipboard
 
+   |tool2.0050.png|
 
-
+|
 6. Select cell A1 on the "Collection data (2731)" tab in local.data.xlsx and paste the data from report 2731 into local.data.xlsx
 
+   |tool2.0060.png|
 
+   |tool2.0065.png|
 
-7. Once you've added all the data you wish to evaluate to the "Collection data (2731)" tab, switch to the "Weeding data dashboard" tab
+|
+7. Once you've added all the data you wish to evaluate to the "Collection data (2731)" tab, switch to the "Weeding data dashboard" tab.  The spreadsheet will automatically calculate the lowest publication date in the collection, the highest publication date, the average publication date, the median publication date, and tell you how many items in the collection are less than 5 years old, how many are 6-10 years old, how many are 11-15 years old and how many are more than 15 years old.  It will also show you data based on date added, date last borrowed, and date last seen.
 
+   |tool2.0070.png|
 
-
-8. The spreadsheet will automatically calculate the lowest publication date in the collection, the highest publication date, the average publication date, the median publication date, and tell you how many items in the collection are less than 5 years old, how many are 6-10 years old, how many are 11-15 years old and how many are more than 15 years old.  It will also show you data based on date added, date last borrowed, and date last seen.
-
-
-
+|
 ** Publication date data is based on the 264$c field in the title's Marc record.  If the data is missing, or contains alphabetical characters, the date will be ignored.  If the data has been incorrectly entered, that will affect the calculations made by this spreadsheet.
 
 *** Please note that all of the formulas in this spreadsheet and its structure are locked.  The password to unlock the formulas can be found on the "Standards and instructions" tab.  Feel free to modify and adapt the spreadsheet as you see fit.  However, please recognize that, if you modify the spreadsheet or any of its formulas, none of the NEKLS staff will be able to help you fix fix problems with a spreadsheet that you have modified yourself.
