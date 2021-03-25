@@ -502,3 +502,69 @@
 
 .. |statistics.moving.0040.png| image:: /images/statistics/statistics.moving.0040.png
     :alt: Go to the "Statistics - prior years" tab for data from 2019 or before
+
+.. |tool1.0010.png| image:: /images/statistics/tool1.0010.png
+    :alt: Alt text
+
+.. |tool1.0020.png| image:: /images/statistics/tool1.0020.png
+    :alt: Alt text
+
+.. |tool1.0022.png| image:: /images/statistics/tool1.0022.png
+    :alt: Alt text
+
+.. |tool1.0025.png| image:: /images/statistics/tool1.0025.png
+    :alt: Alt text
+
+.. |tool1.0030.png| image:: /images/statistics/tool1.0030.png
+    :alt: Alt text
+
+.. |tool1.0040.png| image:: /images/statistics/tool1.0040.png
+    :alt: Alt text
+
+.. |tool1.0050.png| image:: /images/statistics/tool1.0050.png
+    :alt: Alt text
+
+.. |tool1.0060.png| image:: /images/statistics/tool1.0060.png
+    :alt: Alt text
+
+.. |tool1.0070.png| image:: /images/statistics/tool1.0070.png
+    :alt: Alt text
+
+.. |tool1.0080.png| image:: /images/statistics/tool1.0080.png
+    :alt: Alt text
+
+.. |tool1.0090.png| image:: /images/statistics/tool1.0090.png
+    :alt: Alt text
+
+.. |tool1.0100.png| image:: /images/statistics/tool1.0100.png
+    :alt: Alt text
+
+.. |tool2.0010.png| image:: /images/statistics/tool2.0010.png
+    :alt: Alt text
+
+.. |tool2.0020.png| image:: /images/statistics/tool2.0020.png
+    :alt: Alt text
+
+.. |tool2.0030.png| image:: /images/statistics/tool2.0030.png
+    :alt: Alt text
+
+.. |tool2.0035.png| image:: /images/statistics/tool2.0035.png
+    :alt: Alt text
+
+.. |tool2.0037.png| image:: /images/statistics/tool2.0037.png
+    :alt: Alt text
+
+.. |tool2.0040.png| image:: /images/statistics/tool2.0040.png
+    :alt: Alt text
+
+.. |tool2.0050.png| image:: /images/statistics/tool2.0050.png
+    :alt: Alt text
+
+.. |tool2.0060.png| image:: /images/statistics/tool2.0060.png
+    :alt: Alt text
+
+.. |tool2.0065.png| image:: /images/statistics/tool2.0065.png
+    :alt: Alt text
+
+.. |tool2.0070.png| image:: /images/statistics/tool2.0070.png
+    :alt: Alt text
