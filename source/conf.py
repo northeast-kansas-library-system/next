@@ -19,7 +19,6 @@
 
 project = 'Next Search Catalog'
 copyright = '2021, Northeast Kansas Library System'
-copyright1 = 'License?'
 author = 'Northeast Kansas Library System'
 
 # The full version, including alpha/beta/rc tags
