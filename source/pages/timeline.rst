@@ -99,4 +99,10 @@ Timeline
  - April - George Williams from NEKLS delivers the keynote address at the first `KohaThon <http://koha-us.org/kohathon-2020/>`_ online conference
  - May - Next adds Lynda.com content again after Lynda revises their privacy policies
  - June - Upgrade to Koha 19.11
- - December - Upgrade to Koha 20.05
+ - August - George Williams from NEKLS and Christopher Brannon from Coeur d'Alene Public Library begin a video training series for koha-US `See https://koha-us.org/learn/ for more information <https://koha-us.org/learn/>`_
+ - END OF YEAR: Next Search Catalog includes 44 public libraries; 1 school district; and 1 community college library
+ - END OF YEAR: Total circulation - 802267 \| Total patrons - 123251 \| Total titles - 405078 \| Total items - 1025310
+
+- 2021
+
+ - February - Upgrade to Koha 20.05
