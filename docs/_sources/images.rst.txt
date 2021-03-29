@@ -10,6 +10,51 @@
 
 .. / bugs folder
 
+.. |ff87.0010.png| image:: /images/bugs/ff87.0010.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0011.png| image:: /images/bugs/ff87.0011.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0012.png| image:: /images/bugs/ff87.0012.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0013.png| image:: /images/bugs/ff87.0013.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0020.png| image:: /images/bugs/ff87.0020.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0030.png| image:: /images/bugs/ff87.0030.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0040.png| image:: /images/bugs/ff87.0040.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0050.png| image:: /images/bugs/ff87.0050.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0060.png| image:: /images/bugs/ff87.0060.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0070.png| image:: /images/bugs/ff87.0070.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0080.png| image:: /images/bugs/ff87.0080.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0081.png| image:: /images/bugs/ff87.0081.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0082.png| image:: /images/bugs/ff87.0082.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0083.png| image:: /images/bugs/ff87.0082.png
+    :alt: Firefox 87 pop-up bug
+
+.. |ff87.0090.png| image:: /images/bugs/ff87.0090.png
+    :alt: Firefox 87 pop-up bug
+
 .. |phantom_restrictions_0010.png| image:: /images/bugs/phantom_restrictions_0010.png
     :alt: Phantom restrictions - overview of problem
 

@@ -3,16 +3,21 @@
 
 ..
   [todo]
-  https://northeast-kansas-library-system.github.io/next/usergroup/ug.20210401.html
-
+  add link to Zoom
+  send e-mail
 
 1. Announcements, news, brief items, etc.
  - Introductions
  - Additions to the agenda
 
-2. Item types and collection codes updates.
+#. The system preference OPACShowHoldQueueDetails will be updated on April 1
 
-3. Next meeting
+   `What this will look like <>`
+   `Voting results <https://www.surveymonkey.com/stories/SM-WK8R5SDC/>`_
+
+#. Item types, location, and collection codes updates.
+
+#. Next meeting
   - September 2, 2021 (Thursday)
   - 10:00 a.m. - noon
   - Nekls office (in person - COVID19 permitting - and on Zoom)

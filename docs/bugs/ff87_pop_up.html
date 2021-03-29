@@ -1,0 +1,263 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Allow pop-ups from … &mdash; Next Search Catalog 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/override.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Next Search Catalog
+          
+
+          
+            
+            <img src="../_static/next.grey.small.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../history.html">History of Next Search Catalog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../emergency.html">Emergency procedures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../upgrades/2005/index.html">Koha 20.05 training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../statistics/analysis.tools.html">Collection statistical analysis tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../license.html">License</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Next Search Catalog</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Allow pop-ups from …</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/bugs/ff87_pop_up.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="allow-pop-ups-from">
+<h1>Allow pop-ups from …<a class="headerlink" href="#allow-pop-ups-from" title="Permalink to this headline">¶</a></h1>
+<p>Firefox version 87 was released on March 23, 2021, and it includes a security feature that makes “Private browsing mode” more secure by refusing to allow exceptions for the pop-up blocker.</p>
+<p>The practical effect for Next Search Catalog is that, if you’re in private browsing mode in Firefox and you check in an item that is on hold and needs to be shipped to another library, you have to override the pop-up blocker for every transaction.</p>
+<div class="section" id="symptoms">
+<h2>Symptoms:<a class="headerlink" href="#symptoms" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">If you check in an item with a request at another library and you click “Print slip and confirm,” if you have this problem you should see a “Firefox prevented this site from opening a pop-up window” warning and when you click the “Options” button, “Allow pop-ups for staff.nextkansas.org” will be grey and un-clickable</p>
+<blockquote>
+<div><p><img alt="Firefox 87 pop-up bug" src="../_images/ff87.0010.png" /></p>
+</div></blockquote>
+</li>
+<li><p class="first">If you do click on “Edit Pop-up Blocker options …” staff.nextkansas.org or nextkansas.org is either already listed as an exception - or addiing them as an exception makes no difference</p>
+<blockquote>
+<div><p><img alt="Firefox 87 pop-up bug" src="../_images/ff87.0020.png" /></p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="solution">
+<h2>Solution:<a class="headerlink" href="#solution" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Go to the address bar and type “<a class="reference external" href="about:config" target="_blank">about:config</a>” and hit enter</p>
+<blockquote>
+<div><p><img alt="Firefox 87 pop-up bug" src="../_images/ff87.0030.png" /></p>
+</div></blockquote>
+</li>
+<li><p class="first">Click on “Accept the Risk and Continue” when you see the security .. warning:</p>
+<blockquote>
+<div><p><img alt="Firefox 87 pop-up bug" src="../_images/ff87.0040.png" /></p>
+</div></blockquote>
+</li>
+<li><p class="first">In the search bar type “isolateby.privatebrowsing”</p>
+<blockquote>
+<div><p><img alt="Firefox 87 pop-up bug" src="../_images/ff87.0050.png" /></p>
+</div></blockquote>
+</li>
+<li><p class="first">Click on the back and forth arrow to change “isolateby.privatebrowsing” from “true” to “false”</p>
+<blockquote>
+<div><p><img alt="Firefox 87 pop-up bug" src="../_images/ff87.0060.png" /></p>
+</div></blockquote>
+</li>
+<li><p class="first">Once “isolateby.privatebrowsing” is set to “false” close the browser</p>
+<blockquote>
+<div><p><img alt="Firefox 87 pop-up bug" src="../_images/ff87.0070.png" /></p>
+</div></blockquote>
+</li>
+<li><p class="first">Reopen the browser and go to the options page and make sure nextkansas.org is listed as an exception - if it is not, add it and click on “Save changes”</p>
+<blockquote>
+<div><p><img alt="Firefox 87 pop-up bug" src="../_images/ff87.0080.png" /></p>
+<p><img alt="Firefox 87 pop-up bug" src="../_images/ff87.0081.png" /></p>
+<p><img alt="Firefox 87 pop-up bug" src="../_images/ff87.0082.png" /></p>
+<p><img alt="Firefox 87 pop-up bug" src="../_images/ff87.0082.png" /></p>
+</div></blockquote>
+</li>
+<li><p class="first">Check in an item with a request at another library and click “Print slip and confirm.”  This should have solved the problem.</p>
+<blockquote>
+<div><p><img alt="Firefox 87 pop-up bug" src="../_images/ff87.0090.png" /></p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Northeast Kansas Library System
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+    <p><br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+     
+
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
