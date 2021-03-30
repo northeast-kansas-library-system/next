@@ -1,5 +1,5 @@
-2021.04.01 - Agenda and notes
-=============================
+2021.04.01 - Agenda and notes (still in progress)
+=================================================
 
 Meeting will be on Zoom only at |br|
 `Click here for Zoom <https://kslib.zoom.us/j/94918233902?pwd=anpJVWxEY24vU21QZFEzREs3OE1UUT09>`_ |br|
