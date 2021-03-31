@@ -622,3 +622,8 @@
 
 .. |tool2.0070.png| image:: /images/statistics/tool2.0070.png
     :alt: Alt text
+
+.. / systempreferences folder
+
+.. |OPACShowHoldQueueDetails.0010.png| image:: /images/systempreferences/OPACShowHoldQueueDetails.0010.png
+    :alt: OPACShowHoldQueueDetail
