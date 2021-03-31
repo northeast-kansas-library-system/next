@@ -1,7 +1,7 @@
 .. include:: /images.rst
 
-Phantom restrictions bug
-========================
+Next - Patrons - Phantom restrictions bug
+=========================================
 
 
 There is a bug in Koha that is creating "phantom" restrictions.

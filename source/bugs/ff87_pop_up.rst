@@ -1,7 +1,7 @@
 .. include:: /images.rst
 
-Allow pop-ups from . . .
-========================
+Firefox bug - Pop-up blocker prevents printing
+==============================================
 
 Firefox version 87 was released on March 23, 2021, and it includes a security feature that makes "Private browsing mode" more secure by refusing to allow exceptions for the pop-up blocker.
 

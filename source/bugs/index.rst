@@ -1,5 +1,5 @@
-Contents of /bugs/ folder
-==========================
+Bugs
+====
 
 .. toctree::
    :glob:
