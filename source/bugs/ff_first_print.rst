@@ -1,6 +1,6 @@
 .. include:: /images.rst
 
-Firefox bug - First receipt print of the day fails
+Firefox - First receipt print of the day fails
 ==================================================
 
 There is a Firefox bug that is causing some Next Search Catalog receipt printing to fail.  Particularly the first print job of a Firefox browser station.
