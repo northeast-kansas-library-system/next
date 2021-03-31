@@ -12,6 +12,7 @@ Welcome to Next Search Catalog!
 
    history
    emergency
+   bugs/index
    upgrades/2005/index
    statistics/analysis.tools
    license

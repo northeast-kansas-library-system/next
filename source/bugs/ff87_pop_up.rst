@@ -14,7 +14,7 @@ Symptoms:
 
     |ff87.0010.png|
 
-#. If you do click on "Edit Pop-up Blocker options . . ." staff.nextkansas.org or nextkansas.org is either already listed as an exception - or addiing them as an exception makes no difference
+#. If you do click on "Edit Pop-up Blocker options . . ." staff.nextkansas.org or nextkansas.org is either already listed as an exception - or adding them as an exception makes no difference
 
     |ff87.0020.png|
 
