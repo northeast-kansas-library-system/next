@@ -58,7 +58,7 @@
 .. |ff87.0082.png| image:: /images/bugs/ff87.0082.png
     :alt: Firefox 87 pop-up bug
 
-.. |ff87.0083.png| image:: /images/bugs/ff87.0082.png
+.. |ff87.0083.png| image:: /images/bugs/ff87.0083.png
     :alt: Firefox 87 pop-up bug
 
 .. |ff87.0090.png| image:: /images/bugs/ff87.0090.png
