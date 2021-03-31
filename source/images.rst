@@ -10,6 +10,15 @@
 
 .. / bugs folder
 
+.. |ff_first_print.0030.png| image:: /images/bugs/ff_first_print.0030.png
+    :alt: Firefox printing bug
+
+.. |ff_first_print.0040.png| image:: /images/bugs/ff_first_print.0040.png
+    :alt: Firefox printing bug
+
+.. |ff_first_print.0050.png| image:: /images/bugs/ff_first_print.0050.png
+    :alt: Firefox printing bug
+
 .. |ff87.0010.png| image:: /images/bugs/ff87.0010.png
     :alt: Firefox 87 pop-up bug
 
