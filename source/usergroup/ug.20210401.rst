@@ -29,6 +29,10 @@ No recording of this meeting will be made |br|
 
 #. What should the best practices be for claims returned items (OTTAWA)
 
+    - Specifically OTTAWA wanted to know about what to do when a different library marks one of your items as "Claims returned."
+    - ILL rules
+    - Report 2915
+
     ..
       Need CR reports - 1 report to identify items - 1 report to identify library where item was checked out
 
