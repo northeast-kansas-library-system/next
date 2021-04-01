@@ -30,13 +30,15 @@ No recording of this meeting will be made |br|
 #. What should the best practices be for claims returned items (OTTAWA)
 
     - Specifically OTTAWA wanted to know about what to do when a different library marks one of your items as "Claims returned."
-    - ILL rules
+    - `Interlibrary Loan Code for the United States <http://www.ala.org/rusa/guidelines/interlibrary>`_
+      - Basically says that if you send something to another library and they don't return it, you can bill them for the replacement cost of the item.
     - Report 2915
 
-    ..
-      Need CR reports - 1 report to identify items - 1 report to identify library where item was checked out
-
 #. Discussion of patrons reporting claims returned (LEAVENWRTH)
+
+    - LEAVENWRTH believes that they are experiencing an increase in finding things on the shelves that were not checked in
+    - The question is "Is this human error, a software glitch, or something else."
+    - Is anyone interested in trying to study this phenomenon?  It would be best if 3-4 libraries would take part.  The study would probably take 1 year - possibly 2.
 
     ..
       Are libraries experiencing an uptick in how often patrons are reporting material not c/in, even after quarantine is completed, and the item is found on the library’s shelf?
@@ -51,8 +53,12 @@ No recording of this meeting will be made |br|
 
 #. Circulation/fees/request rules report fixes
 
-    ..
-      comment
+    - Due to major changes in how Koha manages circulation rules, report 3340 is irreparably damaged
+    - Report 3486, 3487, and 3488 are the replacements
+      - 3486 covers checkouts and renewals
+      - 3487 covers late fees and "suspensions"
+      - 3488 covers requests and some miscellaneous rules
+      - Future reports will cover
 
 #. Weeding tools from Collection Development 2.0 with Gail Santy
 
