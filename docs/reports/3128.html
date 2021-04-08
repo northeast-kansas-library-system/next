@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Contents of /reports/ folder &mdash; Next Search Catalog: Reports 1.0 documentation</title>
+  <title>3128 &mdash; Next Search Catalog: Reports 1.0 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="../_static/override.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="3128" href="3128.html" />
+    <link rel="next" title="License" href="../license.html" />
     <link rel="prev" title="Welcome to Next Search Catalog: Report documentation" href="../index.html" /> 
 </head>
 
@@ -86,8 +86,12 @@
             
               <p class="caption"><span class="caption-text">Reports:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Contents of /reports/ folder</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="3128.html">3128</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3128</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#running-the-report">Running the report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#description">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#limitations">Limitations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes">Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sql">SQL</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../license.html">License</a></li>
@@ -136,13 +140,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>Contents of /reports/ folder</li>
+      <li>3128</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/reports/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/reports/3128.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -155,13 +159,29 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="contents-of-reports-folder">
-<h1>Contents of /reports/ folder<a class="headerlink" href="#contents-of-reports-folder" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">This folder contains:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="3128.html">3128</a></li>
-</ul>
+  <div class="section" id="id1">
+<h1>3128<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="running-the-report">
+<h2>Running the report<a class="headerlink" href="#running-the-report" title="Permalink to this headline">¶</a></h2>
+<p>To run the report, click on Run and choose your library.</p>
+</div>
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>This report gathers statistics for the previou month based on check-out library, item shelving location at the time of circulation, and item type at the time of circulation.  This report gathers data for the previous calendar month, so if you run it on March 5, you’ll get data for February.  If you run it on March 31, you’ll also get data for February.  In order to get data for March, you have to wait until April to run the report.</p>
+</div>
+<div class="section" id="limitations">
+<h2>Limitations<a class="headerlink" href="#limitations" title="Permalink to this headline">¶</a></h2>
+<p>Shelving location data is stored in the statistics table based on the item’s location at the time the item is checked out.  If an item is checkedout while the shelving location is still “Recently returned,” the statistics table will record the shelving location as “Recently returned.”</p>
+<p>Also, since the data is stored in the statistics table, if the shelving location or item type change after the item has checked out, that change will not be reflected in this report.  So if an item has an incorrect shelving location or incorrect item type, updating the incorrect data will not update this report.</p>
+<p>This report counts all items checked out at your library regardless of which library owned the item.  The statistics table does not record the item’s home library.</p>
+</div>
+<div class="section" id="changes">
+<h2>Changes<a class="headerlink" href="#changes" title="Permalink to this headline">¶</a></h2>
+<p>This report was updated on April 2, 2021, to accomodate changes made to the shelving locations table in the previous month.</p>
+</div>
+<div class="section" id="sql">
+<h2>SQL<a class="headerlink" href="#sql" title="Permalink to this headline">¶</a></h2>
+<p>The SQL for this report can be found at this link <a class="reference external" href="https://northeast-kansas-library-system.github.io/nextkansas.sql/R.003128.txt" target="_blank">Report 3128</a></p>
 </div>
 </div>
 
@@ -173,7 +193,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="3128.html" class="btn btn-neutral float-right" title="3128" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../license.html" class="btn btn-neutral float-right" title="License" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="../index.html" class="btn btn-neutral float-left" title="Welcome to Next Search Catalog: Report documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

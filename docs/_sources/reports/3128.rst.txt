@@ -1,0 +1,33 @@
+.. include:: /images.rst
+
+3128
+====
+
+Running the report
+------------------
+
+To run the report, click on Run and choose your library.
+
+Description
+-----------
+
+This report gathers statistics for the previou month based on check-out library, item shelving location at the time of circulation, and item type at the time of circulation.  This report gathers data for the previous calendar month, so if you run it on March 5, you'll get data for February.  If you run it on March 31, you'll also get data for February.  In order to get data for March, you have to wait until April to run the report.
+
+Limitations
+-----------
+
+Shelving location data is stored in the statistics table based on the item's location at the time the item is checked out.  If an item is checkedout while the shelving location is still "Recently returned," the statistics table will record the shelving location as "Recently returned."
+
+Also, since the data is stored in the statistics table, if the shelving location or item type change after the item has checked out, that change will not be reflected in this report.  So if an item has an incorrect shelving location or incorrect item type, updating the incorrect data will not update this report.
+
+This report counts all items checked out at your library regardless of which library owned the item.  The statistics table does not record the item's home library.
+
+Changes
+-------
+
+This report was updated on April 2, 2021, to accomodate changes made to the shelving locations table in the previous month.
+
+SQL
+---
+
+The SQL for this report can be found at this link `Report 3128 <https://northeast-kansas-library-system.github.io/nextkansas.sql/R.003128.txt>`_

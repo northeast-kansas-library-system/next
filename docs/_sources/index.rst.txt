@@ -1,26 +1,23 @@
-.. Next Search Catalog documentation master file, created by
-   sphinx-quickstart on Mon Aug 31 16:30:22 2020.
+.. Next Search Catalog: Reports documentation master file, created by
+   sphinx-quickstart on Fri Apr  2 11:31:43 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Next Search Catalog!
-===============================================
+.. include:: /images.rst
+
+Welcome to Next Search Catalog: Report documentation
+====================================================
 
 .. toctree::
+   :glob:
    :maxdepth: 1
-   :caption: Contents:
+   :caption: Reports:
 
-   history
-   usergroup/index
-   emergency
-   bugs/index
-   upgrades/2005/index
-   statistics/analysis.tools
+   reports/*
    license
+
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
