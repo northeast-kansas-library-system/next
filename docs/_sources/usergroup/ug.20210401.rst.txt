@@ -85,6 +85,7 @@ No recording of this meeting will be made |br|
       - Reports 2731, 3475, 3476, 3483, 3484
       - Spreadsheet tool #1
       - Spreadsheet tool #2
+      - `Collection Development 1.0 <https://www.youtube.com/watch?v=ZlDqCnZZyvI>`_ (link added after the meeting ended)
 
 #. Next meeting
   - September 2, 2021 (Thursday)

@@ -8,3 +8,5 @@ Contents of /howto/ folder
 
    *
    directors/*
+   lists/*
+   opac/*
