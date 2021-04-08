@@ -95,6 +95,71 @@
     :alt: Phantom restrictions - Solution step 4
 
 
+.. howto folder
+
+.. lists folder
+
+.. |list_create_0010.png| image:: /images/howto/lists/list_create_0010.png
+    :alt: Create a list in the staff client step 1 screenshot
+
+.. |list_create_0020.png| image:: /images/howto/lists/list_create_0020.png
+    :alt: Create a list in the staff client step 2 screenshot
+
+.. |list_create_0030.png| image:: /images/howto/lists/list_create_0030.png
+    :alt: Create a list in the staff client step 3 screenshot
+
+.. |list_create_0040.png| image:: /images/howto/lists/list_create_0040.png
+    :alt: Create a list in the staff client step 4 screenshot
+
+.. |list_create_0050.png| image:: /images/howto/lists/list_create_0050.png
+    :alt: Create a list in the staff client step 5 screenshot
+
+.. |list_create_0110.png| image:: /images/howto/lists/list_create_0110.png
+    :alt: Create a list in the staff client from a search step 1 screenshot
+
+.. |list_create_0120.png| image:: /images/howto/lists/list_create_0120.png
+    :alt: Create a list in the staff client from a search step 2 screenshot
+
+.. |list_create_0130.png| image:: /images/howto/lists/list_create_0130.png
+    :alt: Create a list in the staff client from a search step 3 screenshot
+
+.. |list_create_0140.png| image:: /images/howto/lists/list_create_0140.png
+    :alt: Create a list in the staff client from a search step 4 screenshot
+
+.. |list_create_0150.png| image:: /images/howto/lists/list_create_0150.png
+    :alt: Create a list in the staff client from a search step 5 screenshot
+
+.. |list_create_0210.png| image:: /images/howto/lists/list_create_0210.png
+    :alt: Create a list in the staff client from item details page step 1 screenshot
+
+.. |list_create_0220.png| image:: /images/howto/lists/list_create_0220.png
+    :alt: Create a list in the staff client from item details page step 2 screenshot
+
+.. |list_create_0230.png| image:: /images/howto/lists/list_create_0230.png
+    :alt: Create a list in the staff client from item details page step 3 screenshot
+
+.. |list_create_0240.png| image:: /images/howto/lists/list_create_0240.png
+    :alt: Create a list in the OPAC step 4 screenshot
+
+.. |list_create_0310.png| image:: /images/howto/lists/list_create_0310.png
+    :alt: Create a list in the OPAC step 1 screenshot
+
+.. |list_create_0320.png| image:: /images/howto/lists/list_create_0320.png
+    :alt: Create a list in the OPAC step 2 screenshot
+
+.. |list_create_0330.png| image:: /images/howto/lists/list_create_0330.png
+    :alt: Create a list in the OPAC step 3 screenshot
+
+.. |list_create_0340.png| image:: /images/howto/lists/list_create_0340.png
+    :alt: Create a list in the OPAC step 4 screenshot
+
+.. |list_create_0350.png| image:: /images/howto/lists/list_create_0350.png
+    :alt: Create a list in the OPAC step 5 screenshot
+
+
+
+
+
 
 .. |accounting.0010.png| image:: /images/accounting.0010.png
     :alt: Alt text
