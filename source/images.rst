@@ -157,9 +157,78 @@
     :alt: Create a list in the OPAC step 5 screenshot
 
 
+.. |list_create_0410.png| image:: /images/howto/lists/list_create_0410.png
+    :alt: Create a list in the OPAC step 1 screenshot
+
+.. |list_create_0420.png| image:: /images/howto/lists/list_create_0420.png
+    :alt: Create a list in the OPAC step 2 screenshot
+
+.. |list_create_0430.png| image:: /images/howto/lists/list_create_0430.png
+    :alt: Create a list in the OPAC step 3 screenshot
+
+.. |list_create_0440.png| image:: /images/howto/lists/list_create_0440.png
+    :alt: Create a list in the OPAC step 4 screenshot
+
+.. |list_create_0450.png| image:: /images/howto/lists/list_create_0450.png
+    :alt: Create a list in the OPAC step 5 screenshot
+
+.. |list_create_0460.png| image:: /images/howto/lists/list_create_0460.png
+    :alt: Create a list in the OPAC step 6 screenshot
 
 
 
+.. list / add
+
+.. |list_add_0010.png| image:: /images/howto/lists/list_add_0010.png
+    :alt: Add titles to a list in the staff client from a search step 1 screenshot
+
+.. |list_add_0020.png| image:: /images/howto/lists/list_add_0020.png
+    :alt: Add titles to a list in the staff client from a search step 2 screenshot
+
+.. |list_add_0030.png| image:: /images/howto/lists/list_add_0030.png
+    :alt: Add titles to a list in the staff client from a search step 3 screenshot
+
+.. |list_add_0040.png| image:: /images/howto/lists/list_add_0040.png
+    :alt: Add titles to a list in the staff client from a search step 4 screenshot
+
+.. |list_add_0050.png| image:: /images/howto/lists/list_add_0050.png
+    :alt: Add titles to a list in the staff client from a search step 5 screenshot
+
+
+.. |list_add_0110.png| image:: /images/howto/lists/list_add_0110.png
+    :alt: Add titles to a list in the staff client from the details page step 1 screenshot
+
+.. |list_add_0120.png| image:: /images/howto/lists/list_add_0120.png
+    :alt: Add titles to a list in the staff client from the details page step 2 screenshot
+
+.. |list_add_0130.png| image:: /images/howto/lists/list_add_0130.png
+    :alt: Add titles to a list in the staff client from the details page step 3 screenshot
+
+.. |list_add_0140.png| image:: /images/howto/lists/list_add_0140.png
+    :alt: Add titles to a list in the staff client from the details page step 4 screenshot
+
+.. |list_add_0210.png| image:: /images/howto/lists/list_add_0210.png
+    :alt: Add titles to a list in the staff client in a batch from the lists module step 1 screenshot
+
+.. |list_add_0220.png| image:: /images/howto/lists/list_add_0220.png
+    :alt: Add titles to a list in the staff client in a batch from the lists module step 2 screenshot
+
+.. |list_add_0230.png| image:: /images/howto/lists/list_add_0230.png
+    :alt: Add titles to a list in the staff client in a batch from the lists module step 3 screenshot
+
+.. |list_add_0240.png| image:: /images/howto/lists/list_add_0240.png
+    :alt: Add titles to a list in the staff client in a batch from the lists module step 4 screenshot
+
+.. |list_add_0250.png| image:: /images/howto/lists/list_add_0250.png
+    :alt: Add titles to a list in the staff client in a batch from the lists module step 5 screenshot
+
+.. |list_add_0260.png| image:: /images/howto/lists/list_add_0260.png
+    :alt: Add titles to a list in the staff client in a batch from the lists module step 6 screenshot
+
+
+
+
+.. unorganized - needs work
 
 .. |accounting.0010.png| image:: /images/accounting.0010.png
     :alt: Alt text

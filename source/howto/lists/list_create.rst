@@ -1,10 +1,13 @@
 .. include:: /images.rst
 
-Create a list from the staff client
-===================================
+How to create a list
+====================
+
+Creating lists from the staff client
+------------------------------------
 
 Creating an empty list
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 #. From the home page, click on "Lists"
 
@@ -28,7 +31,7 @@ Creating an empty list
 
 
 Create a list from search results
----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Search the catalog (In this example I'm searching for the author "Ian Fleming")
 
@@ -52,7 +55,7 @@ Create a list from search results
 
 
 Create a list from a title's details page
------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Search the catalog (In this example I'm searching for the author "Jane Austen," the title "Sense and sensibility," and the ISBN "9781676583387")
 
@@ -71,8 +74,11 @@ Create a list from a title's details page
     |list_create_0240.png|
 
 
-Create a list from the OPAC
-===========================
+Creating lists from the OPAC
+----------------------------
+
+Creating a list from "Your lists"
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Click on your account at nextkansas.org
 
@@ -93,3 +99,30 @@ Create a list from the OPAC
 #. The catalog will take you to a "List created" message
 
     |list_create_0350.png|
+
+Creating a list from a search
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Search for materials
+
+    |list_create_0410.png|
+
+#. Check the checkboxes next to the titles you want to add to your list
+
+    |list_create_0420.png|
+
+#. Click on the "With selected titles" dropdown and choose "New list"
+
+    |list_create_0430.png|
+
+#. A pop-up window will appear -- once you add a name and choose a category, click on "Save"
+
+    |list_create_0440.png|
+
+#. Go to your account and click on "Your lists"
+
+    |list_create_0450.png|
+
+#. The list should now appear in your list of lists
+
+    |list_create_0460.png|
