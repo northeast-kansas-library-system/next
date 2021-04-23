@@ -94,6 +94,33 @@
 .. |phantom_restrictions_0140.png| image:: /images/bugs/phantom_restrictions_0140.png
     :alt: Phantom restrictions - Solution step 4
 
+.. branches folder
+
+.. branches/lansing folder
+
+.. |kanopy.lansing.010.png| image:: /images/branches/lansing/kanopy.lansing.010.png
+    :alt: Koha home page - click on "patrons"
+
+.. |kanopy.lansing.020.png| image:: /images/branches/lansing/kanopy.lansing.020.png
+    :alt: Patrons page - click on "New patron"
+
+.. |kanopy.lansing.030.png| image:: /images/branches/lansing/kanopy.lansing.030.png
+    :alt: Add borrower page - add the new borrower as you normally would
+
+.. |kanopy.lansing.040.png| image:: /images/branches/lansing/kanopy.lansing.040.png
+    :alt: Permissions sub-group - set "Kanopy (LANSING)" to "Allowed (LANSING)"
+
+.. |kanopy.lansing.050.gif| image:: /images/branches/lansing/kanopy.lansing.050.gif
+    :alt: Screenshot in progress
+
+.. |kanopy.lansing.060.png| image:: /images/branches/lansing/kanopy.lansing.060.png
+    :alt: Use the report to add "Allowed (LANSING)" as needed
+
+.. |kanopy.lansing.070.png| image:: /images/branches/lansing/kanopy.lansing.070.png
+    :alt: The link in the report takes you directly to the edit borrower page
+
+.. |kanopy.lansing.080.png| image:: /images/branches/lansing/kanopy.lansing.080.png
+    :alt: Use the report to remove "Allowed (LANSING)" as needed
 
 .. howto folder
 
