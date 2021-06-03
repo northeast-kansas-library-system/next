@@ -788,3 +788,6 @@
 
 .. |OPACShowHoldQueueDetails.0010.png| image:: /images/systempreferences/OPACShowHoldQueueDetails.0010.png
     :alt: OPACShowHoldQueueDetail
+
+.. |test.png| image:: /images/test/test.png
+    :alt: test
