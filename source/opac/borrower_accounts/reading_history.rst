@@ -1,7 +1,7 @@
 .. include:: /images.rst
 
-Reading history
--------------------
+Reading history in the OPAC
+---------------------------
 
 Library card holders can access their reading history on the "Your Reading History" tab in the OPAC.
 
@@ -9,11 +9,11 @@ Library card holders can access their reading history on the "Your Reading Histo
 
 To get there:
 
-.. login instructions screenshot
+|quick_login.png|
 
 To delete your reading history:
 
-.. delete history screenshot
+|reading_history_immediate_deletion.png|
 
 To disable reading history:
 
