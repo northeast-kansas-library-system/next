@@ -94,6 +94,60 @@
 .. |phantom_restrictions_0140.png| image:: /images/bugs/phantom_restrictions_0140.png
     :alt: Phantom restrictions - Solution step 4
 
+.. borrowers_overview folder
+
+.. |accounting_tab.png| image:: /images/borrower_overview/accounting_tab.png
+    :alt: Location of the accounting tab
+
+.. |batch_check_out_tab.png| image:: /images/borrower_overview/batch_check_out_tab.png
+    :alt: Location of the batch check out tab
+
+.. |check_out_tab.png| image:: /images/borrower_overview/check_out_tab.png
+    :alt: Location of the check out tab
+
+.. |circulation_history_tab.png| image:: /images/borrower_overview/circulation_history_tab.png
+    :alt: Location of the circulation history tab
+
+.. |details_tab.png| image:: /images/borrower_overview/details_tab.png
+    :alt: Location of the details tab
+
+.. |files_tab.png| image:: /images/borrower_overview/files_tab.png
+    :alt: Location of the files tab
+
+.. |holds_history_tab.png| image:: /images/borrower_overview/holds_history_tab.png
+    :alt: Location of the hold history tab
+
+.. |holds_waiting.png| image:: /images/borrower_overview/holds_waiting.png
+    :alt: Location of the holds waiting tab
+
+.. |messages.png| image:: /images/borrower_overview/messages.png
+    :alt: Location of borrower messages on the borrower check-out page
+
+.. |modification_log_tab.png| image:: /images/borrower_overview/modification_log_tab.png
+    :alt: Location of the modification log tab
+
+.. |more.png| image:: /images/borrower_overview/more.png
+    :alt: Location of the "More" drop-down button on the borrower toolbar
+
+.. |notices_tab.png| image:: /images/borrower_overview/notices_tab.png
+    :alt: Location of the notices tab
+
+.. |print.png| image:: /images/borrower_overview/print.png
+    :alt: Location of the "Print" drop-down button
+
+.. |purchase_suggestion_tab.png| image:: /images/borrower_overview/purchase_suggestion_tab.png
+    :alt: Location of the purchase suggestion tab
+
+.. |routing_lists_tab.png| image:: /images/borrower_overview/routing_lists_tab.png
+    :alt: Location of the routing list tab
+
+.. |statistics_tab.png| image:: /images/borrower_overview/statistics_tab.png
+    :alt: Location of the statistics tab
+
+.. |toolbar.png| image:: /images/borrower_overview/toolbar.png
+    :alt: Location of the borrower toolbar
+
+
 .. branches folder
 
 .. branches/lansing folder

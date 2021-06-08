@@ -1,17 +1,13 @@
 .. include:: /images.rst
 
-Circulation history
--------------------
+Circulation history in the staff client
+---------------------------------------
+
+Circulation history is retained for the previous 13 months - **unless** the borrower has disabled circulation history in the "Your privacy" tab in their account on the OPAC.
 
 A borrower's circulation history can be found in the staff client on the "Circulation history" tab in their account.
 
-.. screenshot needed
-
-Borrowers can access their reading history on the "Your Reading History" tab in the OPAC.
-
-.. screenshot needed
-
-Next Search Catalog is set up so that, if a borrower's "Privacy" setting is set to "Default," the catalog will record every item they've checked out in the previous 13 months.
+|circulation_history_tab.png|
 
 In the staff client you can see the borrower's "Privacy" setting on the details page in their account but staff **cannot** change a borrower's privacy setting.  Borrowers can only change their privacy setting in the OPAC.
 
