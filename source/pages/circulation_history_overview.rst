@@ -13,7 +13,7 @@ Circulation history is referred to as "Circulation history" in the staff client 
 
 
 Frequently asked questions
----
+--------------------------
 
 - Q: Why do we delete circulation history after 13 months?
 - A: Two reasons
