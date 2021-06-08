@@ -150,6 +150,9 @@
 .. |privacy_pref_moremember.pl.png| image:: /images/borrower_overview/privacy_pref_moremember.pl.png
     :alt: Location of the privacy pref display
 
+.. |readingrec_pl.png| image:: /images/borrower_overview/readingrec_pl.png
+    :alt: Circulation history sample page
+
 
 .. branches folder
 
@@ -187,6 +190,11 @@
 .. |reading_history_immediate_deletion.png| image:: /images/howto/opac/reading_history_immediate_deletion.png
     :alt: 2 step reading history deletion
 
+.. |reading_history_disable.png| image:: /images/howto/opac/reading_history_disable.png
+    :alt: 3 step reading history disable
+
+.. |reading_history_enable.png| image:: /images/howto/opac/reading_history_enable.png
+    :alt: 3 step reading history enable
 
 .. lists folder
 
@@ -316,7 +324,10 @@
 .. |list_add_0260.png| image:: /images/howto/lists/list_add_0260.png
     :alt: Add titles to a list in the staff client in a batch from the lists module step 6 screenshot
 
+.. opac folder
 
+.. |your_reading_history.png| image:: /images/opac/reading_history/your_reading_history.png
+    :alt: Sample reading history
 
 
 .. unorganized - needs work

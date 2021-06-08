@@ -3,6 +3,10 @@
 Circulation history overview
 ============================
 
+By default, circulation history is turned on for most borrowers in Next Search Catalog.  The biggest exceptions to that general rule are borrowers from Highland Community College, Borrowers with digital only cards, and some library associate accounts.  Additionally borrowers can delete and disable their circulation history in the public catalog.  Staff, however, are not able to control a borrower's circulation history.
+
+Circulation history is referred to as "Circulation history" in the staff client and "Your Reading History" in the public catalog.
+
 .. include:: \borrowers\circulation_history\circulation_history.rst
 
 .. include:: \opac\borrower_accounts\reading_history.rst
