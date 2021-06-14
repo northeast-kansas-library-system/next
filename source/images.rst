@@ -1,5 +1,9 @@
 .. image includes file for next
 
+.. |br| raw:: html
+
+    <br />
+
 .. /best_practices folder
 
 .. |deceased_borrower_0010.png| image:: /images/best_practices/deceased_borrower_0010.png
@@ -156,6 +160,32 @@
 
 .. branches folder
 
+.. branches/atchison folder
+
+.. |kanopy.atchison.010.png| image:: /images/branches/atchison/kanopy.atchison.010.png
+    :alt: Koha home page - click on "patrons"
+
+.. |kanopy.atchison.020.png| image:: /images/branches/atchison/kanopy.atchison.020.png
+    :alt: Patrons page - click on "New patron"
+
+.. |kanopy.atchison.030.png| image:: /images/branches/atchison/kanopy.atchison.030.png
+    :alt: Add borrower page - add the new borrower as you normally would
+
+.. |kanopy.atchison.040.png| image:: /images/branches/atchison/kanopy.atchison.040.png
+    :alt: Permissions sub-group - set "Kanopy (ATCHISON)" to "Allowed (ATCHISON)"
+
+.. |kanopy.atchison.050.gif| image:: /images/branches/atchison/kanopy.atchison.050.gif
+    :alt: Screenshot in progress
+
+.. |kanopy.atchison.060.png| image:: /images/branches/atchison/kanopy.atchison.060.png
+    :alt: Use the report to add "Allowed (ATCHISON)" as needed
+
+.. |kanopy.atchison.070.png| image:: /images/branches/atchison/kanopy.atchison.070.png
+    :alt: The link in the report takes you directly to the edit borrower page
+
+.. |kanopy.atchison.080.png| image:: /images/branches/atchison/kanopy.atchison.080.png
+    :alt: Use the report to remove "Allowed (ATCHISON)" as needed
+
 .. branches/lansing folder
 
 .. |kanopy.lansing.010.png| image:: /images/branches/lansing/kanopy.lansing.010.png
@@ -182,7 +212,7 @@
 .. |kanopy.lansing.080.png| image:: /images/branches/lansing/kanopy.lansing.080.png
     :alt: Use the report to remove "Allowed (LANSING)" as needed
 
-.. howto folder
+.. / howto folder
 
 .. |quick_login.png| image:: /images/howto/opac/quick_login.png
     :alt: 3 step opac login instructions
@@ -195,6 +225,10 @@
 
 .. |reading_history_enable.png| image:: /images/howto/opac/reading_history_enable.png
     :alt: 3 step reading history enable
+
+.. |kanopy_attribute.png| image:: /images/howto/sip_setup/kanopy_attribute.png
+    :alt: Add attribute example
+
 
 .. lists folder
 
