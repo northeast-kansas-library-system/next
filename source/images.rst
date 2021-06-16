@@ -186,6 +186,32 @@
 .. |kanopy.atchison.080.png| image:: /images/branches/atchison/kanopy.atchison.080.png
     :alt: Use the report to remove "Allowed (ATCHISON)" as needed
 
+.. branches/basehor folder
+
+.. |kanopy.basehor.010.png| image:: /images/branches/basehor/kanopy.basehor.010.png
+    :alt: Koha home page - click on "patrons"
+
+.. |kanopy.basehor.020.png| image:: /images/branches/basehor/kanopy.basehor.020.png
+    :alt: Patrons page - click on "New patron"
+
+.. |kanopy.basehor.030.png| image:: /images/branches/basehor/kanopy.basehor.030.png
+    :alt: Add borrower page - add the new borrower as you normally would
+
+.. |kanopy.basehor.040.png| image:: /images/branches/basehor/kanopy.basehor.040.png
+    :alt: Permissions sub-group - set "Kanopy (BASEHOR)" to "Allowed (BASEHOR)"
+
+.. |kanopy.basehor.050.gif| image:: /images/branches/basehor/kanopy.basehor.050.gif
+    :alt: Screenshot in progress
+
+.. |kanopy.basehor.060.png| image:: /images/branches/basehor/kanopy.basehor.060.png
+    :alt: Use the report to add "Allowed (BASEHOR)" as needed
+
+.. |kanopy.basehor.070.png| image:: /images/branches/basehor/kanopy.basehor.070.png
+    :alt: The link in the report takes you directly to the edit borrower page
+
+.. |kanopy.basehor.080.png| image:: /images/branches/basehor/kanopy.basehor.080.png
+    :alt: Use the report to remove "Allowed (BASEHOR)" as needed
+
 .. branches/lansing folder
 
 .. |kanopy.lansing.010.png| image:: /images/branches/lansing/kanopy.lansing.010.png

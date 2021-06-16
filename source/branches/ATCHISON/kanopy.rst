@@ -52,7 +52,7 @@ Running reports to manually update Kanopy Permission
 ATCHISON patrons without Kanopy access
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If a new patron with a ATCHISON home library is added at a library not logged in as ATCHISON, the new patron's "Kanopy (ATCHISON)" settings will be left blank and the patron will not be able to access Kanopy.  In order to identify these patrons, staff at ATCHISON will need to regularly run report 3495.
+If a new patron with a ATCHISON home library is added at a library not logged in as ATCHISON, the new patron's "Kanopy (ATCHISON)" settings will be left blank and the patron will not be able to access Kanopy.  In order to identify these patrons, staff at ATCHISON will need to regularly run report 3520.
 
   |kanopy.atchison.060.png|
 
@@ -61,7 +61,7 @@ If a new patron with a ATCHISON home library is added at a library not logged in
 Non-ATCHISON patrons with Kanopy access
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If an existing patron who has Kanopy access changes their home library, that patron's Kanopy access needs to be removed from their account manually.  If the change to their account happens and staff is not logged in at ATCHISON, staff will not be able to remove the "Kanopy (ATCHISON)" status.  In order to identify these patrons, staff at ATCHISON will need to regularly run report 3496.
+If an existing patron who has Kanopy access changes their home library, that patron's Kanopy access needs to be removed from their account manually.  If the change to their account happens and staff is not logged in at ATCHISON, staff will not be able to remove the "Kanopy (ATCHISON)" status.  In order to identify these patrons, staff at ATCHISON will need to regularly run report 3521.
 
   |kanopy.atchison.080.png|
 
