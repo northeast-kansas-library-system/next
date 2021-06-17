@@ -1,5 +1,5 @@
-Contents of /howto/ folder
-=============================
+How to do things
+================
 
 .. toctree::
    :glob:

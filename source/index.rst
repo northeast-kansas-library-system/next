@@ -11,6 +11,7 @@ Welcome to Next Search Catalog!
    :caption: Contents:
 
    history
+   howto/index
    usergroup/index
    emergency
    bugs/index
