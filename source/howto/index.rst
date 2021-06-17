@@ -10,3 +10,4 @@ Contents of /howto/ folder
    directors/*
    lists/*
    opac/*
+   sip_setup/*

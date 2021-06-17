@@ -157,6 +157,7 @@
 .. |readingrec_pl.png| image:: /images/borrower_overview/readingrec_pl.png
     :alt: Circulation history sample page
 
+--------------------------------------------------------------------------------
 
 .. branches folder
 
@@ -175,7 +176,8 @@
     :alt: Permissions sub-group - set "Kanopy (ATCHISON)" to "Allowed (ATCHISON)"
 
 .. |kanopy.atchison.050.gif| image:: /images/branches/atchison/kanopy.atchison.050.gif
-    :alt: Screenshot in progress
+    :class: gif-border
+    :alt: Animated screenshot - changing the home library changes the Kanopy permission
 
 .. |kanopy.atchison.060.png| image:: /images/branches/atchison/kanopy.atchison.060.png
     :alt: Use the report to add "Allowed (ATCHISON)" as needed
@@ -185,6 +187,8 @@
 
 .. |kanopy.atchison.080.png| image:: /images/branches/atchison/kanopy.atchison.080.png
     :alt: Use the report to remove "Allowed (ATCHISON)" as needed
+
+.. branches/baldwin folder
 
 .. branches/basehor folder
 
@@ -201,7 +205,8 @@
     :alt: Permissions sub-group - set "Kanopy (BASEHOR)" to "Allowed (BASEHOR)"
 
 .. |kanopy.basehor.050.gif| image:: /images/branches/basehor/kanopy.basehor.050.gif
-    :alt: Screenshot in progress
+    :class: gif-border
+    :alt: Animated screenshot - changing the home library changes the Kanopy permission
 
 .. |kanopy.basehor.060.png| image:: /images/branches/basehor/kanopy.basehor.060.png
     :alt: Use the report to add "Allowed (BASEHOR)" as needed
@@ -211,6 +216,44 @@
 
 .. |kanopy.basehor.080.png| image:: /images/branches/basehor/kanopy.basehor.080.png
     :alt: Use the report to remove "Allowed (BASEHOR)" as needed
+
+.. branches/bern folder
+
+.. branches/bonnerspgs folder
+
+.. branches/burlingame folder
+
+.. branches/carbondale folder
+
+.. branches/centralia folder
+
+.. branches/corning folder
+
+.. branches/digital folder
+
+.. branches/doniall folder
+
+.. branches/donielwd folder
+
+.. branches/donihigh folder
+
+.. branches/donitroy folder
+
+.. branches/doniwath folder
+
+.. branches/effingham folder
+
+.. branches/eudora folder
+
+.. branches/everest folder
+
+.. branches/hiawatha folder
+
+.. branches/high_cc folder
+
+.. branches/holton folder
+
+.. branches/horton folder
 
 .. branches/lansing folder
 
@@ -227,7 +270,8 @@
     :alt: Permissions sub-group - set "Kanopy (LANSING)" to "Allowed (LANSING)"
 
 .. |kanopy.lansing.050.gif| image:: /images/branches/lansing/kanopy.lansing.050.gif
-    :alt: Screenshot in progress
+    :class: gif-border
+    :alt: Animated screenshot - changing the home library changes the Kanopy permission
 
 .. |kanopy.lansing.060.png| image:: /images/branches/lansing/kanopy.lansing.060.png
     :alt: Use the report to add "Allowed (LANSING)" as needed
@@ -237,6 +281,99 @@
 
 .. |kanopy.lansing.080.png| image:: /images/branches/lansing/kanopy.lansing.080.png
     :alt: Use the report to remove "Allowed (LANSING)" as needed
+
+.. branches/leavenwrth folder
+
+.. |kanopy.leavenwrth.010.jpg| image:: /images/branches/leavenwrth/kanopy.leavenwrth.010.jpg
+    :alt: Koha home page - click on "patrons"
+
+.. |kanopy.leavenwrth.020.jpg| image:: /images/branches/leavenwrth/kanopy.leavenwrth.020.jpg
+    :alt: Patrons page - click on "New patron"
+
+.. |kanopy.leavenwrth.030.jpg| image:: /images/branches/leavenwrth/kanopy.leavenwrth.030.jpg
+    :alt: Add borrower page - add the new borrower as you normally would
+
+.. |kanopy.leavenwrth.040.jpg| image:: /images/branches/leavenwrth/kanopy.leavenwrth.040.jpg
+    :alt: Permissions sub-group - set "Kanopy (LANSING)" to "Allowed (LANSING)"
+
+.. |kanopy.leavenwrth.050.gif| image:: /images/branches/leavenwrth/kanopy.leavenwrth.050.gif
+    :class: gif-border
+    :alt: Animated screenshot - changing the home library changes the Kanopy permission
+
+.. |kanopy.leavenwrth.060.jpg| image:: /images/branches/leavenwrth/kanopy.leavenwrth.060.jpg
+    :alt: Use the report to add "Allowed (LANSING)" as needed
+
+.. |kanopy.leavenwrth.070.jpg| image:: /images/branches/leavenwrth/kanopy.leavenwrth.070.jpg
+    :alt: The link in the report takes you directly to the edit borrower page
+
+.. |kanopy.leavenwrth.080.jpg| image:: /images/branches/leavenwrth/kanopy.leavenwrth.080.jpg
+    :alt: Use the report to remove "Allowed (LANSING)" as needed
+
+.. branches/linwood folder
+
+.. branches/louisburg folder
+
+.. branches/lyndon folder
+
+.. branches/mclouth folder
+
+.. branches/meriden folder
+
+.. branches/nekls folder
+
+.. branches/nortonvlle folder
+
+.. branches/osagecity folder
+
+.. branches/osawatomie folder
+
+.. branches/oskaloosa folder
+
+.. branches/ottawa folder
+
+.. branches/overbrook folder
+
+.. branches/paola folder
+
+.. branches/perry folder
+
+.. branches/phall folder
+
+.. branches/phaxtell folder
+
+.. branches/phses folder
+
+.. branches/phshs folder
+
+.. branches/phsms folder
+
+.. branches/phwac folder
+
+.. branches/pomona folder
+
+.. branches/richmond folder
+
+.. branches/rossville folder
+
+.. branches/sabetha folder
+
+.. branches/seneca folder
+
+.. branches/silverlake folder
+
+.. branches/tonganoxie folder
+
+.. branches/valleyfall folder
+
+.. branches/wellsville folder
+
+.. branches/wetmore folder
+
+.. branches/williamsbg folder
+
+.. branches/winchester folder
+
+--------------------------------------------------------------------------------
 
 .. / howto folder
 

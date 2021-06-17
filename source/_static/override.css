@@ -17,3 +17,8 @@
 .wy-menu-vertical header, .wy-menu-vertical p.caption {
   color: #ffffff !important;
 }
+
+/* Override table of contents font color */
+.gif-border  {
+  border: 8px solid #000000;
+}
