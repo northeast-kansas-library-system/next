@@ -1,5 +1,5 @@
-Contents of /howto/ folder
-=============================
+How to do things
+================
 
 .. toctree::
    :glob:
@@ -10,3 +10,4 @@ Contents of /howto/ folder
    directors/*
    lists/*
    opac/*
+   sip_setup/*

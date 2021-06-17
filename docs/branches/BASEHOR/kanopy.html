@@ -17,33 +17,35 @@
   
 
   
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/override.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" /> 
-
-  
-  <script src="../../_static/js/modernizr.min.js"></script>
-
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -83,6 +85,7 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../history.html">History of Next Search Catalog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">How to do things</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../usergroup/index.html">Usergroup meetings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../emergency.html">Emergency procedures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../bugs/index.html">Bugs</a></li>
@@ -153,7 +156,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="kanopy-allowed-attribute-at-basehor">
+  <hr class="docutils" />
+<hr class="docutils" />
+<div class="section" id="kanopy-allowed-attribute-at-basehor">
 <h1>Kanopy Allowed attribute at BASEHOR<a class="headerlink" href="#kanopy-allowed-attribute-at-basehor" title="Permalink to this headline">¶</a></h1>
 <p>Whenever a patron logs into an outside service like Kanopy or Hoopla or Lynda.com, that web service talks to our catalog through a connection called SIP2 to verify that the patron has an account and that they are allowed to access their service.  The information that is transmitted across this connection includes some parts of the patron’s contact information including the patron’s home library.  The problem we have with Kanopy, however, is that, because of the way the receiving end of the Kanopy SIP2 connection is configured, Kanopy cannot determine what the patron’s home library is through the normal SIP2 process.  Because of this, we need to send the patron’s home library through an alternate route.  To make this happen, we’ve created a new field in the “Permissions” section on a patron’s account called “Kanopy (BASEHOR).”</p>
 <p>The new “Kanopy (BASEHOR)” permission will have 3 options</p>
@@ -184,7 +189,7 @@
 <div><img alt="Permissions sub-group - set &quot;Kanopy (BASEHOR)&quot; to &quot;Allowed (BASEHOR)&quot;" src="../../_images/kanopy.basehor.040.png" /></div></blockquote>
 <p>If you change the patron’s home library from to anything besides BASEHOR, the “Kanopy (BASEHOR)” permission should automatically switch to “Not allowed”</p>
 <blockquote>
-<div><img alt="Screenshot in progress" src="images/branches/basehor/kanopy.basehor.050.gif" /></div></blockquote>
+<div><img alt="Animated screenshot - changing the home library changes the Kanopy permission" class="gif-border" src="../../_images/kanopy.basehor.050.gif" /></div></blockquote>
 <p>However, if you chage a patron’s “Kanopy (BASEHOR)” permission manually, the patron’s home library will not update automatically.</p>
 </div>
 <div class="section" id="running-reports-to-manually-update-kanopy-permission">
@@ -239,35 +244,16 @@
   
 
 
-  
-
-    
-    
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'../../',
-              VERSION:'1.0',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
-        <script type="text/javascript" src="../../_static/jquery.js"></script>
-        <script type="text/javascript" src="../../_static/underscore.js"></script>
-        <script type="text/javascript" src="../../_static/doctools.js"></script>
-    
-
-  
-
-  <script type="text/javascript" src="../../_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+
+  
+  
+    
+   
 
 </body>
 </html>

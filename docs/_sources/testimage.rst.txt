@@ -1,0 +1,33 @@
+.. include:: /images.rst
+
+Map Test
+========
+
+Testing a bitmap
+
+|test.png|
+
+.. raw:: html
+
+    <img src="_images/test.png" alt="Workplace" usemap="#workmap" style="width: 1915px">
+    <map name="workmap">
+        <area target="_blank" alt="" title="" href="http://google.com" coords="512,212,889,261" shape="rect">
+        <area target="_blank" alt="" title="" href="patrons" coords="517,281,892,330" shape="rect">
+        <area target="" alt="" title="" href="advanced_search" coords="515,349,892,406" shape="rect">
+        <area target="" alt="" title="" href="lists" coords="512,415,892,467" shape="rect">
+        <area target="" alt="" title="" href="course_reserves" coords="513,482,892,545" shape="rect">
+        <area target="" alt="" title="" href="authorities" coords="515,555,892,606" shape="rect">
+        <area target="" alt="" title="" href="cataloging" coords="1212,210,1591,261" shape="rect">
+        <area target="" alt="" title="" href="serials" coords="1212,279,1593,333" shape="rect">
+        <area target="" alt="" title="" href="acquisitions" coords="1212,344,1591,399" shape="rect">
+        <area target="" alt="" title="" href="reports" coords="1210,418,1596,469" shape="rect">
+        <area target="" alt="" title="" href="tools" coords="1214,484,1594,542" shape="rect">
+        <area target="" alt="" title="" href="system_administration" coords="1215,557,1594,606" shape="rect">
+        <area target="" alt="" title="" href="about_koha" coords="1214,623,1594,684" shape="rect">
+        <area target="" alt="" title="" href="news" coords="25,210,466,1983" shape="rect">
+        <area target="" alt="" title="" href="left_header" coords="6,7,738,54" shape="rect">
+        <area target="" alt="" title="" href="pending_interactions" coords="513,692,1880,811" shape="rect">
+        <area target="" alt="" title="" href="tabs" coords="517,826,1880,1344" shape="rect">
+        <area target="" alt="" title="" href="right_header" coords="1396,8,1912,56" shape="rect">
+        <area target="" alt="" title="" href="search_box" coords="175,64,767,156" shape="rect">
+    </map>

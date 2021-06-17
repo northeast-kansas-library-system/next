@@ -1,5 +1,5 @@
-How to set a staff account password
-===================================
+How to reset a staff account password
+=====================================
 
 Change password by calling NEKLS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

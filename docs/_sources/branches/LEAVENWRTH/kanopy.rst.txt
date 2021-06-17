@@ -1,3 +1,5 @@
+.. include:: /images.rst
+
 Kanopy Allowed attribute at LEAVENWRTH
 ===================================
 
@@ -21,25 +23,25 @@ Creating a new account
 
 When logged in at Leavenworth Public Library, click on "Patrons"
 
-.. image:: ../LEAVENWRTH/images/kanopy.leavenwrth.010.jpg
+  |kanopy.leavenwrth.010.jpg|
 
 Then click on the appropriate category on the "New patron" button
 
-.. image:: ../LEAVENWRTH/images/kanopy.leavenwrth.020.jpg
+    |kanopy.leavenwrth.020.jpg|
 
 Then go through your normal process for creating a new patron
 
-.. image:: ../LEAVENWRTH/images/kanopy.leavenwrth.030.jpg
+  |kanopy.leavenwrth.030.jpg|
 
 By default, the patron's home library should be set to LEAVENWRTH and the patron's "Kanopy (LEAVENWRTH)" permission should, by default, be set to "Leavenworth Public Library"
 
-.. image:: ../LEAVENWRTH/images/kanopy.leavenwrth.040.jpg
+  |kanopy.leavenwrth.040.jpg|
 
 If you change the patron's home library from to anything besides LEAVENWRTH, the "Kanopy (LEAVENWRTH)" permission should automatically switch to "Not allowed"
 
-.. only:: html
+  .. only:: html
 
-   .. image:: ../LEAVENWRTH/images/kanopy.leavenwrth.050.gif
+      |kanopy.leavenwrth.050.gif|
 
 However, if you chage a patron's "Kanopy (LEAVENWRTH)" permission manually, the patron's home library will not update automatically.
 
@@ -52,15 +54,15 @@ LEAVENWRTH patrons without Kanopy access
 
 If a new patron with a LEAVENWRTH home library is added at a library not logged in as LEAVENWRTH, the new patron's "Kanopy (LEAVENWRTH)" settings will be left blank and the patron will not be able to access Kanopy.  In order to identify these patrons, staff at LEAVENWRTH will need to regularly run report 3368.
 
-.. image:: ../LEAVENWRTH/images/kanopy.leavenwrth.060.jpg
+  |kanopy.leavenwrth.060.jpg|
 
-.. image:: ../LEAVENWRTH/images/kanopy.leavenwrth.070.jpg
+  |kanopy.leavenwrth.070.jpg|
 
 Non-LEAVENWRTH patrons with Kanopy access
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If an existing patron who has Kanopy access changes their home library, that patron's Kanopy access needs to be removed from their account manually.  If the change to their account happens and staff is not logged in at LEAVENWRTH, staff will not be able to remove the "Kanopy (LEAVENWRTH)" status.  In order to identify these patrons, staff at LEAVENWRTH will need to regularly run report 3370.
 
-.. image:: ../LEAVENWRTH/images/kanopy.leavenwrth.080.jpg
+  |kanopy.leavenwrth.080.jpg|
 
-.. image:: ../LEAVENWRTH/images/kanopy.leavenwrth.070.jpg
+  |kanopy.leavenwrth.070.jpg|
