@@ -174,202 +174,197 @@
 <li>Intranetmain</li>
 </ul>
 <p>The columns for each monthly tab represent the following data:</p>
-<ol class="arabic simple">
-<li>Total items owned 2021.01.01</li>
-</ol>
+<ol class="arabic">
+<li><p class="first">Total items owned 2021.01.01 (column B)</p>
 <blockquote>
 <div><ul class="simple">
-<li>This data comes from in thhe “Total items at end of month” column from December of the previous year.</li>
+<li>This data comes from in the “Total items at end of month” column from December of the previous year.</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="2">
-<li>Total items at the beginning of the month</li>
-</ol>
+</li>
+<li><p class="first">Total items at the beginning of the month (column C)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “START_I” column of Report 2881</li>
-<li>This report counts items in the items table where the date accessioned was before the first day of the previous month and it counts items in the deleted items table where the date accessioned was before the first date of the previous month and the date deleted was after the first day of the month (i.e. the item was during the month).</li>
+<li>Data gathered from the “START_I” column of Report 3418</li>
+<li>This report counts items in the items table where the date accessioned was before the first day of the previous month and it counts items in the deleted items table where the date accessioned was before the first date of the previous month and the date deleted was after the first day of the month (i.e. the item was added <strong>and</strong> deleted during the same month).</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="3">
-<li>Total items at end of month</li>
-</ol>
+</li>
+<li><p class="first">Total items at end of month (column D)</p>
 <blockquote>
-<div>-Data gathered from the “END_I” column of Report 2881
-- This report counts items in the items table where the date accessioned was before the last day of the previous month and it counts items in the deleted items table where the date accessioned was before the last day of the previous month and the date deleted happened after that date (i.e. the item was deleted during the month you ran the report).</div></blockquote>
-<ol class="arabic simple" start="4">
-<li>Items added this month</li>
-</ol>
+<div><p>-Data gathered from the “END_I” column of Report 3418
+- This report counts items in the items table where the date accessioned was before the last day of the month and it counts items in the deleted items table where the item was in the catalog at the end of the last month but was deleted before the report was run (i.e. items that were deleted at the beginning of the month you’re running the report).</p>
+</div></blockquote>
+</li>
+<li><p class="first">Items added this month (column D)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “ITEMS_ADDED” column of Report 2881</li>
+<li>Data gathered from the “ITEMS_ADD_L_M” column of Report 3418</li>
 <li>This report counts items in the items and in the deleted items table where the date accessioned was during the previous month.</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="5">
-<li>Items deleted this month</li>
-</ol>
+</li>
+<li><p class="first">Items deleted this month (column F)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “ITEMS_DELETED” column of Report 2881</li>
-<li>This report counts items in the deleted items table where the timestamp is sometime during the previous month.</li>
+<li>Data gathered from the “ITEMS_DEL_L_M” column of Report 3418</li>
+<li>This report counts items in the deleted items table where the timestamp is sometime during the previous month.  Because this report relies on the timestamp in the deleted items table, the data may be inaccurate in months when a Koha upgrade took place.</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="6">
-<li>Total titles at end of month</li>
-</ol>
+</li>
+<li><p class="first">Total titles at end of month (column G)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “TOTAL_HOLDINGS” column of Report 2881</li>
+<li>Data gathered from the “TOTAL_HOLDINGS” column of Report 3418</li>
 <li>This report counts distinct biblionumbers in the items table.  It also counts distinct biblionumbers in the deleted items table where the deleted item had been added before the last day of the month and deleted after the new month began.</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="7">
-<li>Bibliographic records added this month</li>
-</ol>
+</li>
+<li><p class="first">Bibliographic records added this month (column H)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “HOLD_ADD_L_M” column of Report 2881</li>
+<li>Data gathered from the “HOLD_ADD_L_M” column of Report 3418</li>
 <li>This report counts distinct biblionumbers in the items table where the data in the biblios table indicates that the bibliographic record was created in the previous calendar month.</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="8">
-<li>Bibliographic records deleted this month</li>
-</ol>
+</li>
+<li><p class="first">Bibliographic records deleted this month (column I)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “HOLD_DEL_L_M” column of Report 2881</li>
-<li>This report counts distinct biblionumbers in the deleted items table where the data in the deleted biblios table indicates that the bibliographic record was deleted in the previous calendar month.</li>
+<li>Data gathered from the “HOLD_DEL_L_M” column of Report 3418</li>
+<li>This report counts distinct biblionumbers in the deleted items table where the data in the deleted biblios table indicates that the bibliographic record was deleted in the previous calendar month.  Like deleted items, because this report relies on the timestamp in the deleted biblios table, the data may be inaccurate in months when a Koha upgrade took place.</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="9">
-<li>Check-outs and renewals this month</li>
-</ol>
+</li>
+<li><p class="first">Check-outs and renewals this month (column J)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “CHECKOUT_RENEW_LM” column of Report 2880</li>
+<li>Data gathered from the “CHECKOUT_RENEW_LM” column of Report 3419</li>
 <li>This report counts rows from the statistics table where the timestamp indicates the transaction happened during the previous month and the statistic type is “issue” or “renew.”</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="10">
-<li>Check-outs this month</li>
-</ol>
+</li>
+<li><p class="first">Check-outs this month (column K)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data will be gathered from a new report</li>
+<li>Data gathered from the “CHECKOUT_LM” column of Report 3419</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="11">
-<li>Renewals this month Returns this month</li>
-</ol>
+</li>
+<li><p class="first">Renewals this month (column L)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data will be gathered from a new report</li>
+<li>Data gathered from the “RENEW_LM” column of Report 3419</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="12">
-<li>Adult checkouts and renewals this month</li>
+</li>
 </ol>
 <blockquote>
-<div><ul class="simple">
-<li>Data gathered from the “CR_ADULT_LM” column of Report 2880
-- This report counts rows from the statistics table where the timestamp indicates the transaction happened during the previous month, the item’s location was like “%ADULT%” and the statistic type is “issue” or “renew.”</li>
-</ul>
-</div></blockquote>
-<ol class="arabic simple" start="13">
-<li>Youth checkouts and renewals this month</li>
-</ol>
+<div><ol class="arabic">
+<li><p class="first">Returns this month (column M)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “CR_YOUTH_LM” column of Report 2880</li>
-<li>This report counts rows from the statistics table where the timestamp indicates the transaction happened during the previous month, the item’s location was NOT like “%ADULT%” and the statistic type is “issue” or “renew.”</li>
+<li>Data gathered from the “RETURN_LM” column of Report 3419</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="14">
-<li>DVD checkouts and renewals this month</li>
+</li>
 </ol>
+</div></blockquote>
+<ol class="arabic">
+<li><p class="first">Adult checkouts and renewals this month (column N)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data will be gathered from a new report</li>
+<li>Data gathered from the “CR_ADULT_LM” column of Report 3419</li>
+<li>This report counts rows from the statistics table where the timestamp indicates the transaction happened during the previous month, the item’s location was like “%ADULT%,” “BALDADULT,” “LVPLADULT,” or “PAOLAADULT” and the statistic type is “issue” or “renew.”</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="15">
-<li>Hoopla Checkouts this month</li>
-</ol>
+</li>
+<li><p class="first">Youth checkouts and renewals this month (column O)</p>
+<blockquote>
+<div><ul class="simple">
+<li>Data gathered from the “CR_YOUTH_LM” column of Report 3419</li>
+<li>This report counts rows from the statistics table where the timestamp indicates the transaction happened during the previous month, the item’s location was NOT like “%ADULT%” and the statistic type is “issue” or “renew.”  If an item has a shelving location of “CART,” “PROC,” or any other non-ADULT shelving location, it will be recorded in this column.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Video Disc checkouts and renewals this month (column P)</p>
+<blockquote>
+<div><ul class="simple">
+<li>Data gathered from the “CR_VIDEO_DISC_LM” column of Report 3419</li>
+<li>This report counts rows from the statistics table where the timestamp indicates the transaction happened during the previous month, the item’s item type was like “NVID%,” and the item’s collection code was “DVD,” “BLU-RAY,” “COMBO,” or “TVSERIES.”</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Hoopla Checkouts this month (column Q)</p>
 <blockquote>
 <div><ul class="simple">
 <li>Data is gathered from a monthly report sent to us from Midwest Tapes</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="16">
-<li>Patron accounts used to checkout items this month</li>
-</ol>
+</li>
+<li><p class="first">Borrower accounts used to checkout items this month (column R)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “PATRON_LM” column of Report 2880</li>
+<li>Data gathered from the “BORROWER_ACCT_USED_LM” column of Report 3420</li>
 <li>This report counts distinct borrowernumbers in the statistics table where the statistic type is “issue,” “renew,” or “localuse.”</li>
+<li>If a borrower uses the library on the 1st, the 5th, and the 20th, they will be counted as 1 borrower for the month.  This gives you an idea of how many people with library cards are borrowing materials in the entire month.</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="17">
-<li>Total patrons at end of month</li>
-</ol>
+</li>
+<li><p class="first">Total borrowers at end of month (column S)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “TOTAL_BORROWERS” column of Report 2898</li>
-<li>This report counts rows in the borrowers table where the dateenrolled field is on or before the last day of the previous month.</li>
+<li>Data gathered from the “TOTAL_BORROWERS” column of Report 3420</li>
+<li>This report counts rows in the borrowers table where the home library equals your library and the dateenrolled field is on or before the last day of the previous month.</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="18">
-<li>Patrons added this month</li>
-</ol>
+</li>
+<li><p class="first">Borrowers added this month (column T)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “B_ADDED_LM” column of Report 2898</li>
-<li>This report counts rows in the borrowers table where the dateenrolled field is in the previous month.</li>
+<li>Data gathered from the “B_ADDED_LM” column of Report 3420</li>
+<li>This report counts rows in the borrowers table where the home library equals your library and the dateenrolled field is in the previous month.</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="19">
-<li>Patrons renewed this month</li>
-</ol>
+</li>
+<li><p class="first">Patrons renewed this month (column U)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “B_RENEWED_LM” column of Report 2898</li>
-<li>This report counts rows in the borrowers table where the date_renewed field is in the previous month.</li>
+<li>Data gathered from the “B_RENEWED_LM” column of Report 3420</li>
+<li>This report counts rows in the borrowers table where the home library equals your library and the date_renewed field is in the previous month.</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="20">
-<li>Patrons deleted this month</li>
-</ol>
+</li>
+<li><p class="first">Patrons deleted this month (column V)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “B_DELETED_LM” column of Report 2898</li>
-<li>This report counts rows in the action logs that indicate a borrower was deleted and the timestamp is in the previous month.</li>
+<li>Data gathered from the “B_DELETED_LM” column of Report 3420</li>
+<li>This report counts rows in the action logs that indicate a borrower with your home library was deleted and the timestamp is in the previous month.</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="21">
-<li>Next ILLs loaned this month</li>
-</ol>
+</li>
+<li><p class="first">Next ILLs loaned this month (column W)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “NX_ILL_LOANED_LM” column of Report 2880</li>
+<li>Data gathered from the “NX_ILL_LOANED_LM” column of Report 3421</li>
 <li>This report counts rows in the branchtransfer table where the sending library matched your library and the datesent field occured during the previous month.</li>
-<li>This report will be updated in 2021 due to changes in the branchtransfers that will make the report more accurate.</li>
 </ul>
 </div></blockquote>
-<ol class="arabic simple" start="22">
-<li>Next ILLs borrowed this month</li>
-</ol>
+</li>
+<li><p class="first">Next ILLs borrowed this month (column X)</p>
 <blockquote>
 <div><ul class="simple">
-<li>Data gathered from the “NX_ILL_BORROWED_LM” column of Report 2880</li>
+<li>Data gathered from the “NX_ILL_BORROWED_LM” column of Report 3421</li>
 <li>This report counts rows in the branchtransfer table where the receiving library matched your library and the datearrived field occured during the previous month.</li>
-<li>This report will be updated in 2021 due to changes in the branchtransfers that will make the report more accurate.</li>
 </ul>
 </div></blockquote>
+</li>
+<li></li>
+</ol>
 </div>
 <div class="section" id="fiscal-year-spreadsheets">
 <h3>Fiscal year spreadsheets<a class="headerlink" href="#fiscal-year-spreadsheets" title="Permalink to this headline">¶</a></h3>
-<p>These spreadsheets contain the exact same data as the monthly spreadsheet except they are set to a July 1 - June 30 fiscal year.</p>
+<p>These spreadsheets contain almost the exact same data as the monthly spreadsheet except they are set to a July 1 - June 30 fiscal year.  The biggest difference will be that the January-June date in the Fiscal year spreadsheet will follow the format for the previous year’s monthly spreadsheet.  If any changes are made to the calendar year spreadsheet in January (such as new columns), those changes will not be incorporated into the fiscal year spreadsheet until June.</p>
 </div>
 <div class="section" id="circulation-statistics-by-item-type-excel-spreadsheet">
 <h3>Circulation statistics by item type - Excel spreadsheet<a class="headerlink" href="#circulation-statistics-by-item-type-excel-spreadsheet" title="Permalink to this headline">¶</a></h3>

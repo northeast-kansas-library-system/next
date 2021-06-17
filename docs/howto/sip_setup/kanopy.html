@@ -1,0 +1,316 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Setting up Kanopy authentication &mdash; Next Search Catalog 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/override.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Next Search Catalog
+          
+
+          
+            
+            <img src="../../_static/next.grey.small.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../history.html">History of Next Search Catalog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usergroup/index.html">Usergroup meetings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../emergency.html">Emergency procedures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../bugs/index.html">Bugs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../upgrades/2005/index.html">Koha 20.05 training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../statistics/analysis.tools.html">Collection statistical analysis tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../license.html">License</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Next Search Catalog</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+      <li>Setting up Kanopy authentication</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/howto/sip_setup/kanopy.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="setting-up-kanopy-authentication">
+<h1>Setting up Kanopy authentication<a class="headerlink" href="#setting-up-kanopy-authentication" title="Permalink to this headline">¶</a></h1>
+<p>Kanopy cannot retrieve a borrower’s home library in the usual manner.  This means that setting up authentication for Kanopy requires extra setup to send the borrower’s home library through an extended borrower attribute.  Because this new borrower attribute can not be consitently updated automatically when existing borrowers have their home library changed, reports need to be run regularly by the library to update borrowers whose home library may have changed without the attribute being updated.</p>
+<div class="section" id="steps-to-take">
+<h2>Steps to take<a class="headerlink" href="#steps-to-take" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Go to Home &gt; Administration &gt; Patron attribute types and click on “New patron attribute type.” <br /> <br /></p>
+</li>
+<li><p class="first">Click on “New patron attribute type,” set the following fields, and click on “Save”:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Patron attribute type code [code should be partialbranchcode+KANOPY - maxlength is 10 characters]</li>
+<li>Description [Kanopy (partial branchname in parenthesis)]</li>
+<li>Repeatable [unchecked]</li>
+<li>Unique identifier [unchecked]</li>
+<li>Display in OPAC [checked]</li>
+<li>Editable in OPAC [unchecked]</li>
+<li>Searchable [unchecked]</li>
+<li>Display in patron’s brief information [checked]</li>
+<li>Authorized value category [DISTRICT]</li>
+<li>Branches limitation [NEKLS + appropriate branch]</li>
+<li>Category [blank]</li>
+<li>Class [Permissions] <br />  <br /></li>
+</ul>
+<p><img alt="Add attribute example" src="../../_images/kanopy_attribute.png" /></p>
+</div></blockquote>
+</li>
+<li><p class="first">The new attribute should appear in the “Permissions” section of the list of attributes. <br /> <br /></p>
+</li>
+<li><p class="first">Create a “xxx borrowers without Kanopy access” report for the library adding Kanopy (use 3495 as a template).</p>
+<blockquote>
+<div><ul class="simple">
+<li>This report should be run regularly by the new library to identify borrowers who should have the new attribute but don’t.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Create a “Non-xxx patrons with xxx Kanopy access” report for the library adding Kanopy (use 3496 as a template).</p>
+<blockquote>
+<div><ul class="simple">
+<li>This report should be run regularly by the new library to identify borrowers who should not have the new attribute but do.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Modify the following jQuery, replacing the selectors marked xxx, to include the selectors for the library adding Kanopy and add it to the appropriate spot in the intranetuserjs system preference:</p>
+<blockquote>
+<div><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="c1">//xxx specific</span>
+  <span class="c1">//Adds class to KANOPY allowed attribute</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.XXX label:contains(&quot;Kanopy (xxx):&quot;)&#39;</span><span class="p">).</span><span class="nx">parent</span><span class="p">().</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">&#39;xxxkanopy&#39;</span><span class="p">);</span>
+  <span class="c1">//Adds Kanopy allowed value to new patrons created at xxx only on new users</span>
+    <span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="nx">location</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;href&#39;</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">url</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="s2">&quot;memberentry.pl?op=add&quot;</span><span class="p">)</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.xxxkanopy select option[value=xxx]&#39;</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;selected&quot;</span><span class="p">,</span> <span class="s2">&quot;selected&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="c1">//Changes to Kanopy not allowed when home library is changed to not-xxx</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.xxx #libraries&#39;</span><span class="p">).</span><span class="nx">change</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.xxxkanopy select option[value=&quot;0&quot;]&#39;</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;selected&quot;</span><span class="p">,</span> <span class="s2">&quot;selected&quot;</span><span class="p">);</span>
+    <span class="p">});</span>
+  <span class="c1">//Changes to Kanopy allowed when home library is changed to xxx</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.xxx #libraries option[value=xxx]&#39;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.xxxkanopy select option[value=xxx]&#39;</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;selected&quot;</span><span class="p">,</span> <span class="s2">&quot;selected&quot;</span><span class="p">);</span>
+    <span class="p">});</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Create training documentation with new screenshots for the library adding Kanopy (use <a class="reference external" href="https://northeast-kansas-library-system.github.io/next/branches/LANSING/kanopy.html" target="_blank">https://northeast-kansas-library-system.github.io/next/branches/LANSING/kanopy.html</a> as an example). <br /> <br /></p>
+</li>
+<li><p class="first">Open an RT ticket with ByWater Solutions and ask them for:</p>
+<blockquote>
+<div><ul class="simple">
+<li>A new SIP username.</li>
+<li>The username should indicate that it’s for Kanopy at the BRANCHCODE that is joining Kanopy (kanopy_lansing, kanopy_sabetha are examples of past SIP usernames).</li>
+<li>The login should pass the borrower’s home library in the second AF field.</li>
+<li>The login should pass the xxxKANOPY attribute as an extended attribute field (we have called this SIP field “KN” in all other Kanopy logins).</li>
+<li>ByWater should give it a password of their choosing.</li>
+<li>When done, this login will look similar to the SIP logins we asked for in RT 63380, 75339, 75340, and 80959.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Create 6 Kanopy test cards with parameters matching 1003002000964 - 1003002000970.  These accounts will be used by Kanopy for testing the SIP connection. <br /> <br /></p>
+</li>
+<li><p class="first">Once ByWater has created the login, test it with the SIP testing tool (<a class="reference external" href="https://clcohio.org/sip-testing-tool/" target="_blank">https://clcohio.org/sip-testing-tool/</a>) and the accounts created in the previous step. <br /> <br /></p>
+</li>
+<li><p class="first">Ask the library to send you the authentication set-up form that Kanopy sends them and send the answers back to the library so they can fill out the form.</p>
+<blockquote>
+<div><ul class="simple">
+<li>A sample of the most recent Kanopy authentication form we’ve seen is at ADDLINK</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Run the report created in step 4 and use the borrower batch modification tool to add the “Kanopy allowed” attribute for this library to all of the borrowers at this library that don’t already have it.  This should be done in groups of no more than 750 borrowers at a time to keep from crashing the system. <br /> <br /></p>
+</li>
+<li><p class="first">Once all of these steps are complete, the library should be ready to start using Kanopy.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Northeast Kansas Library System
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+    <p><br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+     
+
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../../',
+              VERSION:'1.0',
+              LANGUAGE:'None',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

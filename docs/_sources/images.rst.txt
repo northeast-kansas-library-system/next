@@ -1,5 +1,9 @@
 .. image includes file for next
 
+.. |br| raw:: html
+
+    <br />
+
 .. /best_practices folder
 
 .. |deceased_borrower_0010.png| image:: /images/best_practices/deceased_borrower_0010.png
@@ -94,7 +98,119 @@
 .. |phantom_restrictions_0140.png| image:: /images/bugs/phantom_restrictions_0140.png
     :alt: Phantom restrictions - Solution step 4
 
+.. borrowers_overview folder
+
+.. |accounting_tab_circulation_pl.png| image:: /images/borrower_overview/accounting_tab_circulation_pl.png
+    :alt: Location of the accounting tab
+
+.. |batch_check_out_tab_circulation_pl.png| image:: /images/borrower_overview/batch_check_out_tab_circulation_pl.png
+    :alt: Location of the batch check out tab
+
+.. |check_out_tab_circulation_pl.png| image:: /images/borrower_overview/check_out_tab_circulation_pl.png
+    :alt: Location of the check out tab
+
+.. |circulation_history_tab_circulation_pl.png| image:: /images/borrower_overview/circulation_history_tab_circulation_pl.png
+    :alt: Location of the circulation history tab
+
+.. |details_tab_circulation_pl.png| image:: /images/borrower_overview/details_tab_circulation_pl.png
+    :alt: Location of the details tab
+
+.. |files_tab_circulation_pl.png| image:: /images/borrower_overview/files_tab_circulation_pl.png
+    :alt: Location of the files tab
+
+.. |holds_history_tab_circulation_pl.png| image:: /images/borrower_overview/holds_history_tab_circulation_pl.png
+    :alt: Location of the hold history tab
+
+.. |holds_waiting_circulation_pl.png| image:: /images/borrower_overview/holds_waiting_circulation_pl.png
+    :alt: Location of the holds waiting tab
+
+.. |messages_circulation_pl.png| image:: /images/borrower_overview/messages_circulation_pl.png
+    :alt: Location of borrower messages on the borrower check-out page
+
+.. |modification_log_tab_circulation_pl.png| image:: /images/borrower_overview/modification_log_tab_circulation_pl.png
+    :alt: Location of the modification log tab
+
+.. |more_circulation_pl.png| image:: /images/borrower_overview/more_circulation_pl.png
+    :alt: Location of the "More" drop-down button on the borrower toolbar
+
+.. |notices_tab_circulation_pl.png| image:: /images/borrower_overview/notices_tab_circulation_pl.png
+    :alt: Location of the notices tab
+
+.. |print_circulation_pl.png| image:: /images/borrower_overview/print_circulation_pl.png
+    :alt: Location of the "Print" drop-down button
+
+.. |purchase_suggestion_tab_circulation_pl.png| image:: /images/borrower_overview/purchase_suggestion_tab_circulation_pl.png
+    :alt: Location of the purchase suggestion tab
+
+.. |routing_lists_tab_circulation_pl.png| image:: /images/borrower_overview/routing_lists_tab_circulation_pl.png
+    :alt: Location of the routing list tab
+
+.. |statistics_tab_circulation_pl.png| image:: /images/borrower_overview/statistics_tab_circulation_pl.png
+    :alt: Location of the statistics tab
+
+.. |toolbar_circulation_pl.png| image:: /images/borrower_overview/toolbar_circulation_pl.png
+    :alt: Location of the borrower toolbar
+
+.. |privacy_pref_moremember.pl.png| image:: /images/borrower_overview/privacy_pref_moremember.pl.png
+    :alt: Location of the privacy pref display
+
+.. |readingrec_pl.png| image:: /images/borrower_overview/readingrec_pl.png
+    :alt: Circulation history sample page
+
+
 .. branches folder
+
+.. branches/atchison folder
+
+.. |kanopy.atchison.010.png| image:: /images/branches/atchison/kanopy.atchison.010.png
+    :alt: Koha home page - click on "patrons"
+
+.. |kanopy.atchison.020.png| image:: /images/branches/atchison/kanopy.atchison.020.png
+    :alt: Patrons page - click on "New patron"
+
+.. |kanopy.atchison.030.png| image:: /images/branches/atchison/kanopy.atchison.030.png
+    :alt: Add borrower page - add the new borrower as you normally would
+
+.. |kanopy.atchison.040.png| image:: /images/branches/atchison/kanopy.atchison.040.png
+    :alt: Permissions sub-group - set "Kanopy (ATCHISON)" to "Allowed (ATCHISON)"
+
+.. |kanopy.atchison.050.gif| image:: /images/branches/atchison/kanopy.atchison.050.gif
+    :alt: Screenshot in progress
+
+.. |kanopy.atchison.060.png| image:: /images/branches/atchison/kanopy.atchison.060.png
+    :alt: Use the report to add "Allowed (ATCHISON)" as needed
+
+.. |kanopy.atchison.070.png| image:: /images/branches/atchison/kanopy.atchison.070.png
+    :alt: The link in the report takes you directly to the edit borrower page
+
+.. |kanopy.atchison.080.png| image:: /images/branches/atchison/kanopy.atchison.080.png
+    :alt: Use the report to remove "Allowed (ATCHISON)" as needed
+
+.. branches/basehor folder
+
+.. |kanopy.basehor.010.png| image:: /images/branches/basehor/kanopy.basehor.010.png
+    :alt: Koha home page - click on "patrons"
+
+.. |kanopy.basehor.020.png| image:: /images/branches/basehor/kanopy.basehor.020.png
+    :alt: Patrons page - click on "New patron"
+
+.. |kanopy.basehor.030.png| image:: /images/branches/basehor/kanopy.basehor.030.png
+    :alt: Add borrower page - add the new borrower as you normally would
+
+.. |kanopy.basehor.040.png| image:: /images/branches/basehor/kanopy.basehor.040.png
+    :alt: Permissions sub-group - set "Kanopy (BASEHOR)" to "Allowed (BASEHOR)"
+
+.. |kanopy.basehor.050.gif| image:: /images/branches/basehor/kanopy.basehor.050.gif
+    :alt: Screenshot in progress
+
+.. |kanopy.basehor.060.png| image:: /images/branches/basehor/kanopy.basehor.060.png
+    :alt: Use the report to add "Allowed (BASEHOR)" as needed
+
+.. |kanopy.basehor.070.png| image:: /images/branches/basehor/kanopy.basehor.070.png
+    :alt: The link in the report takes you directly to the edit borrower page
+
+.. |kanopy.basehor.080.png| image:: /images/branches/basehor/kanopy.basehor.080.png
+    :alt: Use the report to remove "Allowed (BASEHOR)" as needed
 
 .. branches/lansing folder
 
@@ -122,7 +238,23 @@
 .. |kanopy.lansing.080.png| image:: /images/branches/lansing/kanopy.lansing.080.png
     :alt: Use the report to remove "Allowed (LANSING)" as needed
 
-.. howto folder
+.. / howto folder
+
+.. |quick_login.png| image:: /images/howto/opac/quick_login.png
+    :alt: 3 step opac login instructions
+
+.. |reading_history_immediate_deletion.png| image:: /images/howto/opac/reading_history_immediate_deletion.png
+    :alt: 2 step reading history deletion
+
+.. |reading_history_disable.png| image:: /images/howto/opac/reading_history_disable.png
+    :alt: 3 step reading history disable
+
+.. |reading_history_enable.png| image:: /images/howto/opac/reading_history_enable.png
+    :alt: 3 step reading history enable
+
+.. |kanopy_attribute.png| image:: /images/howto/sip_setup/kanopy_attribute.png
+    :alt: Add attribute example
+
 
 .. lists folder
 
@@ -252,7 +384,10 @@
 .. |list_add_0260.png| image:: /images/howto/lists/list_add_0260.png
     :alt: Add titles to a list in the staff client in a batch from the lists module step 6 screenshot
 
+.. opac folder
 
+.. |your_reading_history.png| image:: /images/opac/reading_history/your_reading_history.png
+    :alt: Sample reading history
 
 
 .. unorganized - needs work
@@ -788,3 +923,6 @@
 
 .. |OPACShowHoldQueueDetails.0010.png| image:: /images/systempreferences/OPACShowHoldQueueDetails.0010.png
     :alt: OPACShowHoldQueueDetail
+
+.. |test.png| image:: /images/test/test.png
+    :alt: test

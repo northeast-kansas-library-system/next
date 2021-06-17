@@ -1,2 +1,33 @@
 2021 Next Search Catalog Meeting Schedule
 =========================================
+
+
+2021.01.19 - 10:00 a.m. - 12:00 p.m. (followed by statistical survey help)
+  Meeting was on Zoom only |br|
+  No recording of this meeting was made
+
+
+2021.04.01 - 10:00 a.m. - 12:00 p.m.
+  Meeting was on Zoom only |br|
+  No recording of this meeting was made
+
+
+2021.09.02 - 10:00 a.m. - 12:00 p.m. NEKLS office + online
+  https://kslib.zoom.us/j/96708696231?pwd=SWx6MFNLbmNTUTAyYWtjalE4UWZndz09
+
+
+2021.11.09 - 10:00 a.m. - 12:00 p.m. Leavewnorth Public Library
+  https://kslib.zoom.us/j/98617151549?pwd=aVppVVdKYURmSXY1UFB0RHUvTE1EZz09
+
+
+.. |ss| raw:: html
+
+    <strike>
+
+.. |se| raw:: html
+
+    </strike>
+
+.. |br| raw:: html
+
+    <br />
