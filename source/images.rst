@@ -98,6 +98,17 @@
 .. |phantom_restrictions_0140.png| image:: /images/bugs/phantom_restrictions_0140.png
     :alt: Phantom restrictions - Solution step 4
 
+.. borrowers
+
+.. |categories_digital_only.0010.jpg| image:: /images/borrowers/categories_digital_only.0010.jpg
+    :alt: Trying to override "Digital only" circulation rules
+
+.. |categories_digital_only.0020.jpg| image:: /images/borrowers/categories_digital_only.0020.jpg
+    :alt: "Digital only" alert message
+
+.. |categories_digital_only.0030.jpg| image:: /images/borrowers/categories_digital_only.0030.jpg
+    :alt: "Digital only" blocked screen
+
 .. borrowers_overview folder
 
 .. |accounting_tab_circulation_pl.png| image:: /images/borrower_overview/accounting_tab_circulation_pl.png
