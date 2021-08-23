@@ -106,3 +106,5 @@ Timeline
 - 2021
 
  - February - Upgrade to Koha 20.05
+ - August - patch to Koha version 20.05.14.000 (Updated 2021-08-19)
+ - August - George Williams from NEKLS and Christopher Brannon from Coeur d'Alene Public Library begin the second season of their video training series for koha-US `See https://koha-us.org/learn/ for more information <https://koha-us.org/learn/>`_
