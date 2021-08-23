@@ -1,7 +1,7 @@
 .. include:: /images.rst
 
 Checkout note on item set by patron
-==========
+===================================
 
 
 Notice information
@@ -12,6 +12,8 @@ Notice information
 - Trigger: this notice is sent to a library when a borrower enters a "Report a problem" note through the OPAC on an item that's currently checked out to them.
 
 - Enable/disable: These notices cannot be disabled - they are sent to the library where the item was checked out, not to the borrower
+
+- CSS: This notice relies on noticesslips.css and the system preference NoticeCSS
 
 
 Notice template details
