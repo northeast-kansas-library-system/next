@@ -1,7 +1,7 @@
 .. include:: /images.rst
 
-Checkout note on item set by patron
-===================================
+Checkout note on item set by patron / CHECKOUT_NOTE
+===================================================
 
 
 Notice information

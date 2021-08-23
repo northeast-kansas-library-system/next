@@ -1,6 +1,6 @@
 .. include:: /images.rst
 
-Account expiration
+Account expiration / MEMBERSHIP_EXPIRY
 ==================
 
 Notice information
@@ -52,7 +52,9 @@ Message template:
         <div id="notice_content">
 
           <p>[% borrower.firstname %] [% borrower.surname %]:</p>
-          <p>Your library card will expire on [% borrower.dateexpiry %]. Please call us at [% branch.branchphone %] or visit us at [% branch.branchname %] to renew your account.</p>
+          <p>
+            Your library card will expire on [% borrower.dateexpiry %]. Please call us at [% branch.branchphone %] or visit us at [% branch.branchname %] to renew your account.
+          </p>
 
         </div>
 
