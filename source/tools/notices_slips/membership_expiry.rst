@@ -1,7 +1,7 @@
 .. include:: /images.rst
 
-Account expiration / MEMBERSHIP_EXPIRY
-==================
+MEMBERSHIP_EXPIRY / Account expiration
+======================================
 
 Notice information
 ------------------
