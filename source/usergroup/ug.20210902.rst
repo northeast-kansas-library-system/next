@@ -11,17 +11,17 @@
  - Additions to the agenda
 
 #. 2022 participation agreement (draft)
-   - Link to draft
+
 ..
   [todo] : August; add link to draft document
 
 #. 2022 Privacy and confidentiality statement (draft)
-   - Link to draft
 
 ..
   [todo] : August; add link to draft document
 
 #. Next meeting
+   November 11, 2021 (tentatively scheduled for LEAVENWRTH)
 
 .. |ss| raw:: html
 
