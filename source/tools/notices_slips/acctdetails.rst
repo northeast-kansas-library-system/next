@@ -12,10 +12,15 @@ Notice information
 - Trigger:
     - This e-mail is sent when a new account is created.
     - This e-mail is only sent once - it is not sent when accounts are renewed or modified
-    - If staff tries to create an account and the process fails the first time staff clicks on "Save" for any reason, this message will not be sent.  Common reasons creating an account fails are: required information is not filled out; card number already exists, username already exists, the borrower's age is not allowed by the borrower category, etc.
+    - If staff tries to create an account and the process fails the first time staff clicks on "Save" for any reason, this message will not be sent
+        - Common reasons creating an account fails are:
+            - Required information is not filled out
+            - Card number already exists
+            - Username already exists
+            - Borrower's age is not allowed by the selected borrower category
 
 - Enable/disable:
-    - The only way to disable this notice is to remove the primary e-mail address from the borrower's account
+    - The only way to disable this notice is to remove all of the :term:`valid email<First valid email>` addresses from the borrower's account
 
 - CSS:
     - The css for this notice is embedded in the notice

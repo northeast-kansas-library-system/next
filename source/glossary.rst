@@ -74,4 +74,4 @@ Notices and slips
           - Primary email
           - Secondary email
           - Alternate address > Email
-      - Please note that a *valid* email address does not necessarily mean the first *working* email address -- it just means the first email address that meets the IETF standards for a valid email address.
+      - Please note that a *valid* email address does not necessarily mean the first *working* email address -- *valid* just means the email address meets the IETF standards for a properly formatted email address (see `Valid email address format <https://help.xmatters.com/ondemand/trial/valid_email_format.htm>`_ for more information)

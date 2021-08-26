@@ -13,7 +13,7 @@ Notice information
     - This notice is sent automatically when a fee is paid on a borrower's account
 
 - Enable/disable:
-    - The only way to disable this notice is to remove the borrower's e-mail address from their account
+    - The only way to disable this notice is to remove all of the :term:`valid email<First valid email>` addresses from the borrower's account
 
 - CSS:
     - The css for this notice is embedded in the notice

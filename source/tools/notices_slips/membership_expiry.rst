@@ -14,7 +14,7 @@ Notice information
     - The 30 day period is set by the global system preference MembershipExpiryDaysNotice
 
 - Enable/disable:
-    - The only way to disable this notice is to remove the primary e-mail address from the borrower's account
+    - The only way to disable this notice is to remove all of the :term:`valid email<First valid email>` addresses from the borrower's account
 
 - CSS:
     - The css for this notice is embedded in the notice
@@ -42,8 +42,8 @@ Message template:
     <html>
 
     <head>
-      <title>[% branch.branchname %] - </title>
-      <!-- Notice code:  MEMBERSHIP_EXPIRY; Library: master; -->
+      <title>[% branch.branchname %] - Your Library Card Expires Soon</title>
+      <!-- Notice code:  MEMBERSHIP_EXPIRY; Library: All; -->
 
       <meta charset="UTF-8" />
 

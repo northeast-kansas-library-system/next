@@ -1,7 +1,7 @@
 .. include:: /images.rst
 
-Article Request - Email - Canceled
-==================================
+AR_CANCELED / Article Request - Email - Canceled / Article Request Canceled
+===========================================================================
 
 Notice information
 ------------------
