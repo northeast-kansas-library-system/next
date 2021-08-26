@@ -1,0 +1,53 @@
+1. Place a request for each borrower 
+  - Look up the title and place a request for each borrower
+  - ADVANTAGES:
+    - Each person checks out and is responsible for their own copy of the title
+  - DISADVANTAGES:
+    - Time consuming
+
+2. Have the borrowers place their own requests
+  - Teach the borrowers to place their own requests
+  - Have them place the requests themselves
+  - ADVANTAGES:
+    - Each person checks out and is responsible for their own copy of the title
+    - Doesn't take any of the library staff's time placing requests
+  - DISADVANTAGES:
+    - Staff has to take the time to train students on how to place requests
+    - Students might not follow through so not everyone may have the title at the same time
+
+3. Create a staff managed book-club
+  - Go to Tools > Patron clubs > New club > Staff managed club
+  - Give the club a name, description, and choose a Library
+  - Look up each student and add them to the club
+  - Place a request on the title for everyone in the club
+  - ADVANTAGES:
+    - Each person checks out and is responsible for their own copy of the title
+    - Once the club is created the process can be repeated again and again and again
+  - DISADVANTAGES:
+    - Set up is time consuming
+    - Only staff can initiate the request process
+
+4. Create a self-enrolled book-club
+  - Go to Tools > Patron clubs > New club > OPAC enrollment club
+  - Give the club a name, description, and choose a Library
+  - Staff can add borrowers to the club or borrowers can add themselves to the club
+  - Place a request on the title for everyone in the club
+  - ADVANTAGES:
+    - Each person checks out and is responsible for their own copy of the title
+    - Once the club is created the process can be repeated again and again and again
+  - DISADVANTAGES:
+    - Set up is time consuming
+    - Self-enrollment requires teaching borrower how to enroll themselves in a club
+    - Students can remove themselves from a club without staff knowing it
+    - Only staff can initiate the request process
+
+5. Book-club account
+  - Look up the title you want to request and click on "Hold" to place a request as normal
+  - Enter a book-club category card library card number and place the reqeust as normal
+  - On the request form change "Holds to place (count)" to the number of copies you require
+  - ADVANGATES:
+    - Easiest process
+  - DISADVANTAGES:
+    - If you check requested items out to the bookclub account, you will not be able to track which student has which copy
+    - If you want to check items out to individual borrowers, you have to cancel the requests on each item when checking them out which can be time consuming and confusing
+    - Bookclub accounts are not exempt from lost item fees, so if you check items out to the bookclub account and the items are kept overdue, the account will be blocked and billed automatically which prevents you from using it for other classes
