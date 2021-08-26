@@ -6,13 +6,17 @@ ACCOUNT_PAYMENT / Account payment / Library payment receipt
 Notice information
 ------------------
 
-- Recipient: This notice is e-mailed a borrower's :term:`first valid email<First valid email>` address
+- Recipient:
+    - This notice is e-mailed a borrower's :term:`first valid email<First valid email>` address
 
-- Trigger: This notice is sent automatically when a fee is paid on a borrower's account
+- Trigger:
+    - This notice is sent automatically when a fee is paid on a borrower's account
 
-- Enable/disable: The only way to disable this notice is to remove the borrower's e-mail address from their account
+- Enable/disable:
+    - The only way to disable this notice is to remove the borrower's e-mail address from their account
 
-- CSS: The css for this notice is embedded in the notice
+- CSS:
+    - The css for this notice is embedded in the notice
 
 Notice details:
 ---------------

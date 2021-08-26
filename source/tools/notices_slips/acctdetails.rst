@@ -6,15 +6,19 @@ ACCTDETAILS / Account Details Template - DEFAULT / Welcome to the library
 Notice information
 ------------------
 
-- Recipient: This notice is e-mailed to the This notice is e-mailed a borrower's :term:`first valid email<First valid email>` address of any *new* borrower with a primary e-mail address
+- Recipient:
+    - This notice is e-mailed a borrower's :term:`first valid email<First valid email>` address of any *new* borrower with a primary e-mail address
 
-- Trigger: This e-mail is sent when a new account is created.
+- Trigger:
+    - This e-mail is sent when a new account is created.
     - This e-mail is only sent once - it is not sent when accounts are renewed or modified
     - If staff tries to create an account and the process fails the first time staff clicks on "Save" for any reason, this message will not be sent.  Common reasons creating an account fails are: required information is not filled out; card number already exists, username already exists, the borrower's age is not allowed by the borrower category, etc.
 
-- Enable/disable: The only way to disable this notice is to remove the primary e-mail address from the borrower's account
+- Enable/disable:
+    - The only way to disable this notice is to remove the primary e-mail address from the borrower's account
 
-- CSS: The css for this notice is embedded in the notice
+- CSS:
+    - The css for this notice is embedded in the notice
 
 Notice details:
 ---------------

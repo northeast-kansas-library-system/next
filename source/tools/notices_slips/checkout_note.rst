@@ -7,13 +7,17 @@ CHECKOUT_NOTE / Checkout note on item set by patron / Borrower reports problem w
 Notice information
 ------------------
 
-- Recipient: The email address of the library where the item was checked out
+- Recipient:
+    - The email address of the library where the item was checked out
 
-- Trigger: this notice is sent to a library when a borrower enters a "Report a problem" note through the OPAC on an item that's currently checked out to them.
+- Trigger:
+    - This notice is sent to a library when a borrower enters a "Report a problem" note through the OPAC on an item that's currently checked out to them.
 
-- Enable/disable: These notices cannot be disabled - they are sent to the library where the item was checked out, not to the borrower
+- Enable/disable:
+    - These notices cannot be disabled - they are sent to the library where the item was checked out, not to the borrower
 
-- CSS: The css for this notice is embedded in the notice
+- CSS:
+    - The css for this notice is embedded in the notice
 
 
 Notice template details
