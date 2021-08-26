@@ -63,3 +63,15 @@ Lost item statuses
 
     Claims returned
       An item is considered "Claims returned" when an item is checked out to a patron, but the patron claims that they have returned it, and library staff are unable to locate the item on the shelf.
+
+Notices and slips
+^^^^^^^^^^^^^^^^^
+
+.. glossary::
+
+    First valid email
+      - Next Search Catalog sends e-mails to the "First valid" email address on a borrowers account and it checks for valid email addresses in this order:
+          - Primary email
+          - Secondary email
+          - Alternate address > Email
+      - Please note that a *valid* email address does not necessarily mean the first *working* email address -- it just means the first email address that meets the IETF standards for a valid email address.
