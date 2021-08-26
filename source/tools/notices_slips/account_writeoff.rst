@@ -25,7 +25,7 @@ Notice information
 
 - Email
    - Type: HTML
-   - Message subject: Library fee written-off
+   - Message subject: Library fee write-off receipt
 
 
 Message template:
@@ -36,7 +36,7 @@ Message template:
     <html>
 
     <head>
-      <title>[% branch.branchname %] - Library fee write-off</title>
+      <title>[% branch.branchname %] - Library fee write-off receipt</title>
       <!-- Notice code: ACCOUNT_WRITEOFF; Library: All; -->
 
       <meta charset="UTF-8" />
