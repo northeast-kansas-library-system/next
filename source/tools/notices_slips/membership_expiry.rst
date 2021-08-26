@@ -6,7 +6,7 @@ MEMBERSHIP_EXPIRY / Account expiration / Your Library Card Expires Soon
 Notice information
 ------------------
 
-- Recipient: This notice is e-mailed to the primary e-mail address of any borrower with a primary e-mail address
+- Recipient: This notice is e-mailed a borrower's :term:`first valid email<First valid email>` address
 
 - Trigger: This e-mail is sent 30 days before a borrower's account is set to expire
     - The 30 day period is set by the global system preference MembershipExpiryDaysNotice

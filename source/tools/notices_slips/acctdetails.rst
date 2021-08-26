@@ -6,7 +6,7 @@ ACCTDETAILS / Account Details Template - DEFAULT / Welcome to the library
 Notice information
 ------------------
 
-- Recipient: This notice is e-mailed to the primary e-mail address of any *new* borrower with a primary e-mail address
+- Recipient: This notice is e-mailed to the This notice is e-mailed a borrower's :term:`first valid email<First valid email>` address of any *new* borrower with a primary e-mail address
 
 - Trigger: This e-mail is sent when a new account is created.
     - This e-mail is only sent once - it is not sent when accounts are renewed or modified

@@ -6,7 +6,7 @@ ACCOUNT_WRITEOFF / Account writeoff / Library fee write-off
 Notice information
 ------------------
 
-- Recipient: This notice is e-mailed a borrower's primary e-mail address
+- Recipient: This notice is e-mailed a borrower's :term:`first valid email<First valid email>` address
 
 - Trigger: This notice is sent automatically when a fee is written off on a borrower's account
 
@@ -18,10 +18,10 @@ Notice information
 ---------------
 
 - General
-   - Library: * All libraries (default)
-   - Module: circulation
-   - Code: ACCOUNT_WRITEOFF
-   - Name: Account writeoff
+    - Library: * All libraries (default)
+    - Module: circulation
+    - Code: ACCOUNT_WRITEOFF
+    - Name: Account writeoff
 
 - Email
    - Type: HTML
@@ -42,7 +42,6 @@ Message template:
       <meta charset="UTF-8" />
 
       <style>
-
         * {
           font-family: Verdana, Arial, sans-serif;
         }
@@ -89,7 +88,6 @@ Message template:
           font-size: 1.1em;
           color: #000000;
         }
-
       </style>
 
     </head>
@@ -101,14 +99,14 @@ Message template:
         <div id="notice_content">
 
           [%- USE Price -%]
-          <p>[% branch.branchname %] - Library fee write-off</p>
+          <p>[% branch.branchname %] - Library fee write-off receipt</p>
           <p>An account write-off of [% credit.amount * -1 | $Price %] has been applied to your library account ending with [% bcn = borrower.cardnumber %] [% bcn.substr(-6) %].</p>
 
           <p>This write-off was applied to the following fees:</p>
           <ul>
             [%- FOREACH o IN offsets %]
             <li>Description: [% o.debit.description %]<br />
-              Amount paid: [% o.amount * -1 | $Price %]<br />
+              Amount written-off: [% o.amount * -1 | $Price %]<br />
               Amount remaining on this fee: [% o.debit.amountoutstanding | $Price %]</li>
             [% END %]
           </ul>

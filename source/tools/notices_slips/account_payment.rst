@@ -6,7 +6,7 @@ ACCOUNT_PAYMENT / Account payment / Library payment receipt
 Notice information
 ------------------
 
-- Recipient: This notice is e-mailed a borrower's primary e-mail address
+- Recipient: This notice is e-mailed a borrower's :term:`first valid email<First valid email>` address
 
 - Trigger: This notice is sent automatically when a fee is paid on a borrower's account
 
