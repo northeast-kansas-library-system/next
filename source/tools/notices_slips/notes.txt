@@ -1,11 +1,11 @@
 - Recipient:
-    -
+    - This notice is e-mailed a borrower's :term:`first valid email<First valid email>` address
 
 - Trigger:
     -
 
 - Enable/disable:
-    -
+    - The only way to disable this notice is to remove all of the :term:`valid email<First valid email>` addresses from the borrower's account
 
 - CSS:
-    - 
+    - The css for this notice is embedded in the notice
