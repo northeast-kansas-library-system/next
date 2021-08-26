@@ -36,7 +36,8 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.coverage',
-    'sphinx.ext.autosectionlabel'
+    'sphinx.ext.autosectionlabel',
+    'hoverxref.extension'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
