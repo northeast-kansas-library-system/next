@@ -1,7 +1,7 @@
 .. include:: /images.rst
 
-MEMBERSHIP_EXPIRY / Account expiration
-======================================
+MEMBERSHIP_EXPIRY / Account expiration / Your Library Card Expires Soon
+=======================================================================
 
 Notice information
 ------------------
@@ -13,7 +13,7 @@ Notice information
 
 - Enable/disable: The only way to disable this notice is to remove the primary e-mail address from the borrower's account
 
-- CSS: This notice relies on noticesslips.css and the system preference NoticeCSS
+- CSS: The css for this notice is embedded in the notice
 
 
 Notice details:
@@ -42,6 +42,57 @@ Message template:
       <!-- Notice code:  MEMBERSHIP_EXPIRY; Library: master; -->
 
       <meta charset="UTF-8" />
+
+      <style>
+
+        * {
+          font-family: Verdana, Arial, sans-serif;
+        }
+
+        body .notice {
+          color: #000000;
+          background-color: #ffffff;
+          width: 90%;
+          margin: 0;
+          font-size: 12pt;
+        }
+
+        .notice p {
+          font-size: 12pt;
+          color: #000000;
+        }
+
+        .notice h1 {
+          font-size: 1.6em;
+          color: #000000;
+        }
+
+        .notice h2 {
+          font-size: 1.5em;
+          color: #000000;
+        }
+
+        .notice h3 {
+          font-size: 1.4em !important;
+          color: #000000;
+        }
+
+        .notice h4 {
+          font-size: 1.3em !important;
+          color: #000000;
+        }
+
+        .notice h5 {
+          font-size: 1.2em;
+          color: #000000;
+        }
+
+        .notice h6 {
+          font-size: 1.1em;
+          color: #000000;
+        }
+
+      </style>
 
     </head>
 
