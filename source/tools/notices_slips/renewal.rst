@@ -47,7 +47,7 @@ Message template:
     <html>
 
     <head>
-      <title>[% branch.branchname %] - Library Renewal Receipt</title>
+      <title>[% branch.branchname %] - Library renewal receipt</title>
       <!-- Notice code: RENEWAL; Library: All; -->
 
       <meta charset="UTF-8" />
@@ -110,7 +110,7 @@ Message template:
         <h2>[% branch.branchname %] - Library renewal receipt</h2>
         <p>The following items were renewed today on your library account (card number ending in [% borrower.cardnumber.substr(-6) FILTER upper %]).</p>
         <p>
-          This digital receipt only includes items renewed on [% today | $KohaDates %].<br />
+          This digital receipt only includes items renewed on [% today | $KohaDates %] at [% SET time = today | $KohaDates with_hours => 1 %][% time.substr(-5) %].<br />
           ==============================
         </p>
         ----

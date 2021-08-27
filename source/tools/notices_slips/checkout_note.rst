@@ -11,7 +11,7 @@ Notice information
     - The email address of the library where the item was checked out
 
 - Sender:
-    - The "from" address on this e-mail will match the system default email address as set in KohaAdminEmailAddress 
+    - The "from" address on this e-mail will match the system default email address as set in KohaAdminEmailAddress
 
 - Trigger:
     - This notice is sent to a library when a borrower enters a "Report a problem" note through the OPAC on an item that's currently checked out to them.
@@ -42,17 +42,17 @@ Message template:
 
 .. code-block:: html
 
-    [% USE Branches %]
+    [%- USE KohaDates -%]
+
     <html>
 
     <head>
-      <title>[% Branches.GetName(checkout.branchcode) %] - Patron reports problem with an item</title>
-      <!-- Notice code: CHECKOUT_NOTE; Library: All; -->
+      <title>[% branch.branchname %] - Library renewal receipt</title>
+      <!-- Notice code: RENEWAL; Library: All; -->
 
       <meta charset="UTF-8" />
 
       <style>
-
         * {
           font-family: Verdana, Arial, sans-serif;
         }
@@ -99,45 +99,44 @@ Message template:
           font-size: 1.1em;
           color: #000000;
         }
-
       </style>
 
     </head>
 
     <body>
 
-      <div class="notice">
+      <div id="message_content">
 
-        <div id="notice_content">
-
-          <p>[% Branches.GetName(checkout.branchcode) %] - Patron reports problem with an item</p>
-          <p>A borrower has created a problem note on an item they have checked out from your library. The details are as follow:</p>
-          <ul>
-            <li>Borrower's card number: [% borrower.cardnumber %]</li>
-            <li>Title of item: [% biblio.title %]</li>
-            <li>Author: [% biblio.author %]</li>
-            <li>Item due: [% checkout.date_due | $KohaDates as_due_date => 1 %]</li>
-            <li>Note: <<issues.note>></li>
-            <li>Date of note: <<issues.notedate>></li>
-          </ul>
-          <p>Click on the link below to run a report that will show you all of the notes created by this patron - including the note they just placed on this title:</p>
-          <p><a href='https://staff.nextkansas.org/cgi-bin/koha/reports/guided_reports.pl?reports=3116&phase=Run+this+report&sql_params=[% borrower.cardnumber %]' target='_blank'>Link to patron problem notes report</a></p>
-
-        </div>
-
-        <footer>
-
-          <p>Thank you,</p>
-          <p>[% FOREACH b IN Branches.all() %][% SET thischeckout_branchcode = checkout.branchcode %][% IF b.branchcode == thischeckout_branchcode %][% b.branchname %]<br />
-            [% b.branchaddress1 %]<br />
-            [% b.branchcity %], [% b.branchstate %] [% b.branchzip %][% END %][% END %]</p>
-          <p>You can access your account on-line at <a href="https://nextkansas.org">https://nextkansas.org</a> 24 hours a day.</p>
-          <p>Visit your library's website at: <a href="[% Branches.GetURL(checkout.branchcode) %]">[% Branches.GetURL(checkout.branchcode) %]</a></p>
-          <p>If you no longer wish to receive these e-mails or if you have any questions, please contact us by phone at <strong><ins>[% FOREACH b IN Branches.all() %][% SET thischeckout_branchcode = checkout.branchcode %][% IF b.branchcode == thischeckout_branchcode %][% b.branchphone %][% END %][% END %]</ins></strong>.</p>
-
-        </footer>
+        <h2>[% branch.branchname %] - Library renewal receipt</h2>
+        <p>The following items were renewed today on your library account (card number ending in [% borrower.cardnumber.substr(-6) FILTER upper %]).</p>
+        <p>
+          This digital receipt only includes items renewed on [% today | $KohaDates %] at [% SET time = today | $KohaDates with_hours => 1 %][% time.substr(-5) %].<br />
+          ==============================
+        </p>
+        ----
+        <p>
+          [% biblio.title FILTER upper %][% IF biblio.subtitle %] : [% biblio.subtitle FILTER upper %][% END %]<br />
+          Barcode: [% item.barcode %]<br />
+          Date due: [% item.onloan | $KohaDates %]<br />
+          ==============================
+        </p>
+        ----
 
       </div>
+
+      <footer>
+
+        <p>Thank you,</p>
+        <p>
+          [% branch.branchname %]<br />
+          [% branch.branchaddress1 %]<br />
+          [% branch.branchcity %], [% branch.branchstate %] [% branch.branchzip %]
+        </p>
+        <p>You can access your account on-line at <a href="https://nextkansas.org">https://nextkansas.org</a> 24 hours a day.</p>
+        <p>Visit our library's website at: <a href="[% branch.branchurl %]">[% branch.branchurl %]</a></p>
+        <p>If you no longer wish to receive these e-mails or if you have any questions, please contact us by phone at <strong><ins>[% branch.branchphone %]</ins></strong>.</p>
+
+      </footer>
 
     </body>
 
