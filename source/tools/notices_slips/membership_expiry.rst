@@ -9,6 +9,9 @@ Notice information
 - Recipient:
     - This notice is e-mailed a borrower's :term:`first valid email<First valid email>` address
 
+- Sender:
+    - The "from" address on this e-mail will match the borrower's home library
+
 - Trigger:
     - This e-mail is sent 30 days before a borrower's account is set to expire
     - The 30 day period is set by the global system preference MembershipExpiryDaysNotice

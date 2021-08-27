@@ -10,6 +10,9 @@ Notice information
 - Recipient:
     - The email address of the library where the item was checked out
 
+- Sender:
+    - The "from" address on this e-mail will match the system default email address as set in KohaAdminEmailAddress 
+
 - Trigger:
     - This notice is sent to a library when a borrower enters a "Report a problem" note through the OPAC on an item that's currently checked out to them.
 

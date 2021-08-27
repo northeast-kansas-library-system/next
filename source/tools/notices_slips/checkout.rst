@@ -9,6 +9,9 @@ Notice information
 - Recipient:
     - This notice is e-mailed a borrower's :term:`first valid email<First valid email>` address
 
+- Sender:
+    - The "from" address on this e-mail will match the borrower's home library
+
 - Trigger:
     - This notice is added to the message queue whenever an item  is checked out to a borrower
     - The message queue is currently set to send this message every :00, :15, :30, and :45 minutes past the hour, 24 hours per day
