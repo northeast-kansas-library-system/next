@@ -114,7 +114,7 @@ Message template:
           <p>This digital receipt only includes items checked out today to your library account (card number ending in [% borrower.cardnumber.substr(-6) FILTER upper %]):</p>
           ----
           <p>
-            [% biblio.title %]<br />
+            [% biblio.title %][% IF biblio.subtitle %] [% biblio.subtitle FILTER upper %][% END %]<br />
             Barcode: [% item.barcode %]<br />
             Date due: [% item.onloan | $KohaDates %]
           </p>

@@ -13,7 +13,7 @@ Notice information
     - The "from" address on this email will match the email address for the library where the item was checked out
 
 - Trigger:
-    -
+    - This notice is sent when the auto-renew process tries to renew an item - the content of the message varies depending on whether or not the item is renewed
 
 - Enable/disable:
     - The only way to disable this notice is to remove all of the :term:`valid email<First valid email>` addresses from the borrower's account
@@ -107,7 +107,7 @@ Message template:
 
           <p>[% branch.branchname %] - Automatic renewal notice (card number ending in [% borrower.cardnumber.substr(-6) FILTER upper %]):</p>
           [% IF checkout.auto_renew_error %]
-          <p>The following item <span style="text-transform: uppercase;">[% biblio.title %]</span> has not automatically renewed because
+          <p>The following item [% biblio.title FILTER upper %] has not automatically renewed because
           [% IF checkout.auto_renew_error == 'too_many' %]
           it has been renewed the maximum number of times possible.</p>
           [% ELSIF checkout.auto_renew_error == 'on_reserve' %]
@@ -122,7 +122,7 @@ Message template:
           your total unpaid fees are too high.</p>
           [% END %]
           [% ELSE %]
-          <p>The following item, <span style="text-transform: uppercase;">[% biblio.title %]</span>, has been automatically renewed and is now due on [% checkout.date_due | $KohaDates as_due_date => 1 %]</p>
+          <p>The following item, [% biblio.title FILTER upper %], has been automatically renewed and is now due on [% checkout.date_due | $KohaDates as_due_date => 1 %]</p>
           [% END %]
 
         </div>
