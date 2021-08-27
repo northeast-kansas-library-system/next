@@ -43,6 +43,8 @@ Message template:
 
 .. code-block:: html
 
+    [%- USE KohaDates -%]
+
     <html>
 
     <head>
@@ -110,13 +112,14 @@ Message template:
 
 
           <h2>[% branch.branchname %] - Library Check-out Receipt</h2>
-          <p>The following items were checked out today on your library account.</p>
-          <p>This digital receipt only includes items checked out today to your library account (card number ending in [% borrower.cardnumber.substr(-6) FILTER upper %]):</p>
+          <p>The following items were checked out today on your library account (card number ending in [% borrower.cardnumber.substr(-6) FILTER upper %]).</p>
+          <p>This digital receipt only includes items checked out on [% today | $KohaDates %]</p>
           ----
           <p>
-            [% biblio.title %][% IF biblio.subtitle %] [% biblio.subtitle FILTER upper %][% END %]<br />
+            [% biblio.title FILTER upper %][% IF biblio.subtitle %] : [% biblio.subtitle FILTER upper %][% END %]<br />
             Barcode: [% item.barcode %]<br />
-            Date due: [% item.onloan | $KohaDates %]
+            Date due: [% item.onloan | $KohaDates %]<br />
+            ==============================
           </p>
           ----
 
