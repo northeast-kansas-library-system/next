@@ -48,7 +48,7 @@ Message template:
     <html>
 
     <head>
-      <title>[% branch.branchname %] - Library Check-out Receipt</title>
+      <title>[% branch.branchname %] - Library check-out receipt</title>
       <!-- Notice code: CHECKOUT; Library: All; -->
 
       <meta charset="UTF-8" />
@@ -111,9 +111,12 @@ Message template:
         <div id="notice_content">
 
 
-          <h2>[% branch.branchname %] - Library Check-out Receipt</h2>
+          <h2>[% branch.branchname %] - Library check-out receipt</h2>
           <p>The following items were checked out today on your library account (card number ending in [% borrower.cardnumber.substr(-6) FILTER upper %]).</p>
-          <p>This digital receipt only includes items checked out on [% today | $KohaDates %]</p>
+          <p>
+            This digital receipt only includes items checked out on [% today | $KohaDates %]<br />
+            ==============================
+          </p>
           ----
           <p>
             [% biblio.title FILTER upper %][% IF biblio.subtitle %] : [% biblio.subtitle FILTER upper %][% END %]<br />
