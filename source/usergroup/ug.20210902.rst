@@ -12,8 +12,20 @@ No recording of this meeting will be made |br|
 
 
 #. Announcements, news, brief items, etc.
-   - Introductions
-   - Additions to the agenda
+    - Introductions
+    - Additions to the agenda
+
+#. Courier issues
+    - Some courier drivers can't pick up items because of too much volume
+    - Not enough tubs
+    - Long delays in courier deliveries from KC hub
+
+#. Shelf check procedure
+    - What is expected when someone asks you to check the shelf at your library for an item
+
+#. Next Search Catalog upgrade in November/December of 2021
+    - Link to upgrade notes 
+    - Every director needs to be able to log into their BRANCHDIRECTOR account and needs an e-mail address on that account
 
 #. 2022 participation agreement (draft)
 
@@ -21,10 +33,10 @@ No recording of this meeting will be made |br|
 
 #. Barcode scanners and drivers licenses
 
-#. Changes to all outgoing e-mail
-
 #. Timeline for Lost item process discussion (WELLSVILLE)
-   - Is the current timeline working for everyone?
+    - Is the current timeline working for everyone?
+
+#. Changes to all outgoing e-mail
 
 #. Volunteers for hosting 2022 meetings
 
