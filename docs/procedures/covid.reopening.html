@@ -17,37 +17,35 @@
   
 
   
-  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
-  
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/doctools.js"></script>
-        <script src="../_static/language_data.js"></script>
-    
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
+  
+  
     
 
   
+
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/override.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Bugs" href="../bugs/index.html" />
+    <link rel="next" title="Koha 20.05 training" href="../upgrades/2005/index.html" />
     <link rel="prev" title="COVID-19 closure" href="covid.closure.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
+
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+        <div class="wy-side-nav-search">
           
 
           
@@ -87,10 +85,7 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../history.html">History of Next Search Catalog</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">How to do things</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../usergroup/index.html">Usergroup meetings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../emergency.html">Emergency procedures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bugs/index.html">Bugs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../upgrades/2005/index.html">Koha 20.05 training</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../statistics/analysis.tools.html">Collection statistical analysis tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../license.html">License</a></li>
@@ -165,12 +160,12 @@
 <div class="section" id="circulation-rules">
 <h2>Circulation rules<a class="headerlink" href="#circulation-rules" title="Permalink to this headline">¶</a></h2>
 <p><em>Go to Home &gt; Administration &gt; Circulation and fine rules</em> and choose the library that needs to be reopened from the “Select a library” dropdown</p>
-<img alt="../_images/covid.close.0010.png" src="../_images/covid.close.0010.png" />
+<img alt="../_images/covid.close.00101.png" src="../_images/covid.close.00101.png" />
 <p>Go to the section of the page titled <em>“Default checkout, hold and return policy for LIBRARYNAME”</em> and follow these steps as needed:</p>
 <p>If “Total current checkouts allowed,” “Total current on-site checkouts allowed,” and “Maximum total holds allowed (count)” are empty, go to the “Actions” column and click on “Unset”</p>
-<img alt="../_images/covid.reopen.0020.png" src="../_images/covid.reopen.0020.png" />
+<img alt="../_images/covid.reopen.00201.png" src="../_images/covid.reopen.00201.png" />
 <p>If “Total current checkouts allowed,” “Total current on-site checkouts allowed,” and “Maximum total holds allowed (count)” contain any data, edit “Hold policy,” “Hold pickup library match,” and “Return policy” as follows and then click on “Save”</p>
-<table border="1" class="docutils align-default">
+<table border="1" class="docutils">
 <colgroup>
 <col width="50%" />
 <col width="50%" />
@@ -192,50 +187,50 @@
 </tr>
 </tbody>
 </table>
-<img alt="../_images/covid.reopen.0030.png" src="../_images/covid.reopen.0030.png" />
+<img alt="../_images/covid.reopen.00301.png" src="../_images/covid.reopen.00301.png" />
 </div>
 <div class="section" id="staff-client-js">
 <h2>Staff client JS<a class="headerlink" href="#staff-client-js" title="Permalink to this headline">¶</a></h2>
 <p>Go to <em>Home &gt; Administration &gt; System preferences</em> and click on the “Staff client” tab</p>
-<img alt="../_images/covid.close.0030.png" src="../_images/covid.close.0030.png" />
+<img alt="../_images/covid.close.00301.png" src="../_images/covid.close.00301.png" />
 <p>Scroll down to the “IntranetUserJS” preference and click on “Edit with Code Mirror”</p>
-<img alt="../_images/covid.close.0040.png" src="../_images/covid.close.0040.png" />
+<img alt="../_images/covid.close.00401.png" src="../_images/covid.close.00401.png" />
 <p>Do a browser search for “//COVID19 closures”</p>
-<img alt="../_images/covid.close.0050.png" src="../_images/covid.close.0050.png" />
+<img alt="../_images/covid.close.00501.png" src="../_images/covid.close.00501.png" />
 <p>Look for a section titled “//BEGIN XLIBRARYX COVID19 closure” where “XLIBRARYX” is the code for the library you are reopening</p>
-<img alt="../_images/covid.reopen.0040.png" src="../_images/covid.reopen.0040.png" />
+<img alt="../_images/covid.reopen.00401.png" src="../_images/covid.reopen.00401.png" />
 <p>Delete everything on the lines starting with “//BEGIN …” and ending with “//END” and click “Save all Staff Client preferences”</p>
-<img alt="../_images/covid.reopen.0050.png" src="../_images/covid.reopen.0050.png" />
+<img alt="../_images/covid.reopen.00501.png" src="../_images/covid.reopen.00501.png" />
 </div>
 <div class="section" id="opac-js">
 <h2>OPAC JS<a class="headerlink" href="#opac-js" title="Permalink to this headline">¶</a></h2>
 <p>Go to <em>Home &gt; Administration &gt; System preferences</em> and click on the “OPAC” tab</p>
-<img alt="../_images/covid.close.0070.png" src="../_images/covid.close.0070.png" />
+<img alt="../_images/covid.close.00701.png" src="../_images/covid.close.00701.png" />
 <p>Scroll down to the “OPACUserJS” preference and click on “Edit with Code Mirror”</p>
-<img alt="../_images/covid.close.0080.png" src="../_images/covid.close.0080.png" />
+<img alt="../_images/covid.close.00801.png" src="../_images/covid.close.00801.png" />
 <p>Do a browser search for “//COVID19 closures”</p>
-<img alt="../_images/covid.close.0090.png" src="../_images/covid.close.0090.png" />
+<img alt="../_images/covid.close.00901.png" src="../_images/covid.close.00901.png" />
 <p>Look for a section titled “//BEGIN XLIBRARYX COVID19 closure” where “XLIBRARYX” is the code for the library you are reopening</p>
-<img alt="../_images/covid.reopen.0060.png" src="../_images/covid.reopen.0060.png" />
+<img alt="../_images/covid.reopen.00601.png" src="../_images/covid.reopen.00601.png" />
 <p>Delete everything on the lines starting with “//BEGIN …” and ending with “//END” and click “Save all OPAC preferences”</p>
-<img alt="../_images/covid.reopen.0070.png" src="../_images/covid.reopen.0070.png" />
+<img alt="../_images/covid.reopen.00701.png" src="../_images/covid.reopen.00701.png" />
 </div>
 <div class="section" id="news-block">
 <h2>News block<a class="headerlink" href="#news-block" title="Permalink to this headline">¶</a></h2>
 <p>Go to <em>Home &gt; Tools</em> and open the “News” Tools</p>
-<img alt="../_images/covid.close.0110.png" src="../_images/covid.close.0110.png" />
+<img alt="../_images/covid.close.01101.png" src="../_images/covid.close.01101.png" />
 <p>Find the news item titled “COVID-19 Closures and information” and click on “Edit”</p>
-<img alt="../_images/covid.close.0120.png" src="../_images/covid.close.0120.png" />
+<img alt="../_images/covid.close.01201.png" src="../_images/covid.close.01201.png" />
 <p>Click on the <em>&lt;&gt;</em> icon to edit the raw html of the news Item</p>
-<img alt="../_images/covid.close.0130.png" src="../_images/covid.close.0130.png" />
+<img alt="../_images/covid.close.01301.png" src="../_images/covid.close.01301.png" />
 <p>Find the lines related to the library you are Reopening</p>
-<img alt="../_images/covid.reopen.0080.png" src="../_images/covid.reopen.0080.png" />
+<img alt="../_images/covid.reopen.00801.png" src="../_images/covid.reopen.00801.png" />
 <p>Delete the lines related to the library you are reopening and click on “Save”</p>
-<img alt="../_images/covid.reopen.0090.png" src="../_images/covid.reopen.0090.png" />
+<img alt="../_images/covid.reopen.00901.png" src="../_images/covid.reopen.00901.png" />
 <p>Review the changes and, if everything looks good, click on “Submit”</p>
-<img alt="../_images/covid.reopen.0100.png" src="../_images/covid.reopen.0100.png" />
+<img alt="../_images/covid.reopen.01001.png" src="../_images/covid.reopen.01001.png" />
 <p>When you return to the home page in the staff client, the updates should appear on the left hand side of the homepage</p>
-<img alt="../_images/covid.close.0160.png" src="../_images/covid.close.0160.png" />
+<img alt="../_images/covid.close.01601.png" src="../_images/covid.close.01601.png" />
 </div>
 <div class="section" id="suspend-unfilled-requests">
 <h2>Suspend unfilled requests<a class="headerlink" href="#suspend-unfilled-requests" title="Permalink to this headline">¶</a></h2>
@@ -263,10 +258,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../bugs/index.html" class="btn btn-neutral float-right" title="Bugs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../upgrades/2005/index.html" class="btn btn-neutral float-right" title="Koha 20.05 training" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="covid.closure.html" class="btn btn-neutral float-left" title="COVID-19 closure" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="covid.closure.html" class="btn btn-neutral" title="COVID-19 closure" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -295,16 +290,35 @@
   
 
 
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'1.0',
+              LANGUAGE:'None',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-
-  
-  
-    
-   
+  </script> 
 
 </body>
 </html>

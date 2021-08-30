@@ -1,0 +1,13 @@
+.. include:: /images.rst
+
+Koha 21.05 - Upgrade in November/December 2021
+==============================================
+
+
+List of enchancements
+---------------------
+
+Staff client:
+^^^^^^^^^^^^^
+
+- Stronger staff passwords

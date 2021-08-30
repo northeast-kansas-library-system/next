@@ -17,20 +17,13 @@
   
 
   
-  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
-  
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-        <script src="../../_static/jquery.js"></script>
-        <script src="../../_static/underscore.js"></script>
-        <script src="../../_static/doctools.js"></script>
-        <script src="../../_static/language_data.js"></script>
-    
-    <script type="text/javascript" src="../../_static/js/theme.js"></script>
 
+  
+  
     
 
   
+
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/override.css" type="text/css" />
@@ -38,16 +31,21 @@
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="3 OPAC Changes" href="threeopac.html" />
     <link rel="prev" title="Report a problem with an OPAC page" href="reportproblem.html" /> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
+
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+        <div class="wy-side-nav-search">
           
 
           
@@ -87,10 +85,7 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../history.html">History of Next Search Catalog</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">How to do things</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../usergroup/index.html">Usergroup meetings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../emergency.html">Emergency procedures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../bugs/index.html">Bugs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="index.html">Koha 20.05 training</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../statistics/analysis.tools.html">Collection statistical analysis tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../license.html">License</a></li>
@@ -166,40 +161,40 @@
 <h2>Apply credit function improved<a class="headerlink" href="#apply-credit-function-improved" title="Permalink to this headline">¶</a></h2>
 <p>Several credit related bugs have been fixed and the “Apply credit” feature has been improved.</p>
 <p>In previous versions, “Apply credit” appeared as a link instead of a button and it didn’t always work correctly.  These issues appear to have been resolved.</p>
-<img alt="../../_images/accounting.0010.png" src="../../_images/accounting.0010.png" />
+<img alt="../../_images/accounting.00101.png" src="../../_images/accounting.00101.png" />
 <p>Additionally, situations arose in the last version where borrowers were sometimes billed for late fees and lost items and the order in which credits were applied to their accounts when those items were returned were not done in the proper order.  Depending on the circumstances of a transaction, a credit may have been created before fees were applied which caused unresolvable fees and credits.  This problem seems to have bene resolved.</p>
 </div>
 <div class="section" id="manual-invoice">
 <h2>Manual invoice<a class="headerlink" href="#manual-invoice" title="Permalink to this headline">¶</a></h2>
 <p>Old “Save” button - before:</p>
-<img alt="../../_images/accounting.0020.png" src="../../_images/accounting.0020.png" />
+<img alt="../../_images/accounting.00201.png" src="../../_images/accounting.00201.png" />
 <p>New “Save and go to ‘Transactions’” and “Save and go to ‘Make a payment’” buttons - after:</p>
-<img alt="../../_images/accounting.0030.png" src="../../_images/accounting.0030.png" />
+<img alt="../../_images/accounting.00301.png" src="../../_images/accounting.00301.png" />
 <p>Clicking on “Save and go to ‘Transactions’” takes you here:</p>
-<img alt="../../_images/accounting.0040.png" src="../../_images/accounting.0040.png" />
+<img alt="../../_images/accounting.00401.png" src="../../_images/accounting.00401.png" />
 <p>Clicking on “Save and go to ‘Make a payment’” takes you here:</p>
-<img alt="../../_images/accounting.0050.png" src="../../_images/accounting.0050.png" />
+<img alt="../../_images/accounting.00501.png" src="../../_images/accounting.00501.png" />
 <p>There is work being done to make “Save and go to ‘Make a payment’” take you straight to the “Pay individual fee” page for the specific invoice you’ve just created.</p>
 </div>
 <div class="section" id="apply-discount-button-on-transactions-tab">
 <h2>“Apply discount” button on “Transactions” tab<a class="headerlink" href="#apply-discount-button-on-transactions-tab" title="Permalink to this headline">¶</a></h2>
 <p>This is a brand new button that allows you to remove part of an individual fee - much like doing a partial write-off from the “Make a payment” tab.</p>
-<img alt="../../_images/accounting.0060.png" src="../../_images/accounting.0060.png" />
+<img alt="../../_images/accounting.00601.png" src="../../_images/accounting.00601.png" />
 <p>Clicking on “Apply discount” opens a pop-up window that allows you to forgive/writeoff/remove all or part of the outstanding fee:</p>
-<img alt="../../_images/accounting.0070.png" src="../../_images/accounting.0070.png" />
+<img alt="../../_images/accounting.00701.png" src="../../_images/accounting.00701.png" />
 <p>After applying a discount, there will be a new line indicating “Writeoff/discount” as the payment type.</p>
-<img alt="../../_images/accounting.0080.png" src="../../_images/accounting.0080.png" />
+<img alt="../../_images/accounting.00801.png" src="../../_images/accounting.00801.png" />
 <p>Clicking on the “Details” button on a “Writeoff/discount” line will show you details about the discount.</p>
-<img alt="../../_images/accounting.0090.png" src="../../_images/accounting.0090.png" />
+<img alt="../../_images/accounting.00901.png" src="../../_images/accounting.00901.png" />
 <p>Once you apply a discount to an outstanding fee, no further discounts can be applied.</p>
-<img alt="../../_images/accounting.0100.png" src="../../_images/accounting.0100.png" />
+<img alt="../../_images/accounting.01001.png" src="../../_images/accounting.01001.png" />
 <p>Currently “Apply discount” does not allow for the creation of a “Note” but this may change in the future.</p>
-<img alt="../../_images/accounting.0110.png" src="../../_images/accounting.0110.png" />
+<img alt="../../_images/accounting.01101.png" src="../../_images/accounting.01101.png" />
 </div>
 <div class="section" id="automatic-notes-enhancement">
 <h2>Automatic notes enhancement<a class="headerlink" href="#automatic-notes-enhancement" title="Permalink to this headline">¶</a></h2>
 <p>Automatic notes made from the “Make a payment,” “Create manual invoice,” and “Create manual credit” tabs now include the date and time the transaction happened:</p>
-<img alt="../../_images/accounting.0120.png" src="../../_images/accounting.0120.png" />
+<img alt="../../_images/accounting.01201.png" src="../../_images/accounting.01201.png" />
 <hr class="docutils" />
 <div class="section" id="video-on-this-topic">
 <h3>Video on this topic:<a class="headerlink" href="#video-on-this-topic" title="Permalink to this headline">¶</a></h3>
@@ -220,7 +215,7 @@
         <a href="threeopac.html" class="btn btn-neutral float-right" title="3 OPAC Changes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="reportproblem.html" class="btn btn-neutral float-left" title="Report a problem with an OPAC page" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="reportproblem.html" class="btn btn-neutral" title="Report a problem with an OPAC page" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -249,16 +244,35 @@
   
 
 
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../../',
+              VERSION:'1.0',
+              LANGUAGE:'None',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-
-  
-  
-    
-   
+  </script> 
 
 </body>
 </html>
