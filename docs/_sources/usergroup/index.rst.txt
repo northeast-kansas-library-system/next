@@ -6,7 +6,7 @@ Usergroup meetings
    :maxdepth: 1
    :caption: 2021:
 
-   ug.20210902move
+   ug.20210902 
    ug.20210401
    ug.20210119
 
