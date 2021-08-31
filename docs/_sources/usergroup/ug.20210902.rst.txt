@@ -15,6 +15,8 @@ No recording of this meeting will be made |br|
     - Introductions
     - Additions to the agenda
 
+#. Hoopla - Special guest Nick from Hoopla
+
 #. Courier issues
     - Some courier drivers can't pick up items because of too much volume
     - Not enough tubs
