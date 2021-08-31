@@ -7,6 +7,8 @@ Koha 21.05 - Upgrade in November/December 2021
 List of enchancements
 ---------------------
 
+This document is currently just a list of enhancements and bug fixes.  It is not complete and it is not intended as a training guide at this time.
+
 Staff client:
 ^^^^^^^^^^^^^
 
