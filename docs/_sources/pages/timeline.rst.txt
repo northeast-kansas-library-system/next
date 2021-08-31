@@ -1,5 +1,6 @@
-Timeline
-========
+***********
+Next Search Catalog Timeline
+***********
 
 - 2003:
 
@@ -96,7 +97,7 @@ Timeline
 - 2020:
 
  - March - Governor Kelly orders schools and libraries to close in response to the COVID-19 pandemic
- - April - George Williams from NEKLS delivers the keynote address at the first `KohaThon <http://koha-us.org/kohathon-2020/>`_ online conference
+ - April - George Williams from NEKLS delivers the keynote address at the first `KohaThon <https://koha-us.org/learn/conferences/kohathon2020/>`_ online conference
  - May - Next adds Lynda.com content again after Lynda revises their privacy policies
  - June - Upgrade to Koha 19.11
  - August - George Williams from NEKLS and Christopher Brannon from Coeur d'Alene Public Library begin a video training series for koha-US `See https://koha-us.org/learn/ for more information <https://koha-us.org/learn/>`_

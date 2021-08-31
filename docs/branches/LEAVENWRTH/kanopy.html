@@ -158,6 +158,7 @@
             
   <hr class="docutils" />
 <hr class="docutils" />
+<hr class="docutils" />
 <div class="section" id="kanopy-allowed-attribute-at-leavenwrth">
 <h1>Kanopy Allowed attribute at LEAVENWRTH<a class="headerlink" href="#kanopy-allowed-attribute-at-leavenwrth" title="Permalink to this headline">¶</a></h1>
 <p>Whenever a patron logs into an outside service like Kanopy or Hoopla or Lynda.com, that web service talks to our catalog through a connection called SIP2 to verify that the patron has an account and that they are allowed to access their service.  The information that is transmitted across this connection includes some parts of the patron’s contact information including the patron’s home library.  The problem we have with Kanopy, however, is that, because of the way the receiving end of the Kanopy SIP2 connection is configured, Kanopy cannot determine what the patron’s home library is through the normal SIP2 process.  Because of this, we need to send the patron’s home library through an alternate route.  To make this happen, we’ve created a new field in the “Permissions” section on a patron’s account called “Kanopy (LEAVENWRTH).”</p>

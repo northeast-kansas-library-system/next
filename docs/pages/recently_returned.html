@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>&lt;no title&gt; &mdash; Next Search Catalog 1.0 documentation</title>
+  <title>Timeline for “Recently returned” shelving location &mdash; Next Search Catalog 1.0 documentation</title>
   
 
   
@@ -137,7 +137,7 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>&lt;no title&gt;</li>
+      <li>Timeline for “Recently returned” shelving location</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -156,7 +156,28 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  
+  <hr class="docutils" />
+<hr class="docutils" />
+<hr class="docutils" />
+<div class="section" id="timeline-for-recently-returned-shelving-location">
+<h1>Timeline for “Recently returned” shelving location<a class="headerlink" href="#timeline-for-recently-returned-shelving-location" title="Permalink to this headline">¶</a></h1>
+<p>“Recently returned” is a shelving location we turned on during the COVID-19 pandemic and it relies on the Koha system preference “UpdateItemLocationOnCheckin” (see <a class="reference external" href="https://koha-community.org/manual/latest/en/html/circulationpreferences.html#updateitemlocationoncheckin" target="_blank">https://koha-community.org/manual/latest/en/html/circulationpreferences.html#updateitemlocationoncheckin</a> ) and the In processing/book cart cron job (see <a class="reference external" href="https://koha-community.org/manual/latest/en/html/cron_jobs.html#cron-in-processing-book-cart-label" target="_blank">https://koha-community.org/manual/latest/en/html/cron_jobs.html#cron-in-processing-book-cart-label</a>)</p>
+<p>The advantage of using this feature is that is helps indicate in the catalog that an item was returned recently so it may not have been reshelved yet.  Currently we have the threshold for this feature set to 18 hours.</p>
+<p>The current timeline is as follows:</p>
+<ol class="arabic simple">
+<li>An item is checked in</li>
+<li>The shelving location of the item is immediately updated to “Recently returned”</li>
+<li>The permanent shelving locaiton of the item remains unchanged</li>
+<li>Every even numbered hour, on the hour, the “In processing/book cart” cron job runs and looks for items that have had a “Recently returned” shelving location for more than 18 hours - when it finds them, it sets the item’s shelving location to match the permanent shelving location</li>
+</ol>
+<p>Here are two screen shots as examples:</p>
+<blockquote>
+<div><p><img alt="Item checked in at 4:01" src="../_images/recently_returned.0010.png" /></p>
+<p><img alt="Item checked in at 4:01" src="../_images/recently_returned.0020.png" /></p>
+</div></blockquote>
+<p>During the early days of the pandemic, the “In processing/book cart” cron job was set for 96 hours instead of 18.</p>
+</div>
+
 
            </div>
            

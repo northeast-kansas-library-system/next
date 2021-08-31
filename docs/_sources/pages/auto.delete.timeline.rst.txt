@@ -3,7 +3,7 @@ Timeline for automatic deletion of items
 
 #. Patron checks out an item and a due date is assigned to the item (the due date may be updated if the patron renews the item)
 #. X days after an item's due date, the patron is sent a first overdue notice
-  - the number of days varies by library
+  - the number of days varies by library and is determined in the "Overdue notices/status triggers" tool on a library-by-library basis
 3. 35 days after an item's due date, the patron is sent a second overdue notice saying that the item will be declared "Lost" in 10 more days
 #. 45 days after an item's due date, the patron is sent a third overdue notice saying that they are being billed for the replacement cost of the item
 #. 46 days after an item's due date at between 12:01 a.m. and 2:00 a.m., the item's status is changed from "checked out" to "Lost (more than 45 days overdue)"

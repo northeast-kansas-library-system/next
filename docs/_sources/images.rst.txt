@@ -537,6 +537,16 @@
 .. |your_reading_history.png| image:: /images/opac/reading_history/your_reading_history.png
     :alt: Sample reading history
 
+.. pages folder
+
+.. |recently_returned.0010.png| image:: /images/pages/recently_returned.0010.png
+    :alt: Item checked in at 4:01
+
+.. |recently_returned.0020.png| image:: /images/pages/recently_returned.0020.png
+    :alt: Item checked in at 4:01
+
+----------------------------------
+
 
 .. unorganized - needs work
 
