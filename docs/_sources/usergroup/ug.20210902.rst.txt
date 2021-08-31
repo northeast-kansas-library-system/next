@@ -23,6 +23,8 @@ No recording of this meeting will be made |br|
 #. Shelf check procedure
     - What is expected when someone asks you to check the shelf at your library for an item
 
+#. Timeline for "Recently returned" items
+
 #. 2022 participation agreement (draft)
 
 #. 2022 Privacy and confidentiality statement (draft)
