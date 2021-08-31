@@ -26,6 +26,7 @@ No recording of this meeting will be made |br|
     - What is expected when someone asks you to check the shelf at your library for an item
 
 #. Timeline for "Recently returned" items
+    - `Link to timeline <../pages/recently_returned.html>`_
 
 #. 2022 participation agreement (draft)
 
@@ -34,6 +35,7 @@ No recording of this meeting will be made |br|
 #. Barcode scanners and drivers licenses
 
 #. Timeline for Lost item process discussion (WELLSVILLE)
+    - `Link to timeline <../pages/auto.delete.timeline.html>`_
     - Is the current timeline working for everyone?
 
 #. Changes to all outgoing e-mail
