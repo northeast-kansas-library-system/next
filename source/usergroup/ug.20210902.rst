@@ -39,6 +39,8 @@ No recording of this meeting will be made |br|
     - Is the current timeline working for everyone?
 
 #. Changes to all outgoing e-mail
+    - We will be updating the IP address of Koha's outgoing e-mail server soon
+    - This should lead to fewer bouncbacks
 
 #. Next Search Catalog upgrade in November/December of 2021
     - Link to upgrade notes :ref:`Koha 21.05 - Upgrade in November/December 2021`
