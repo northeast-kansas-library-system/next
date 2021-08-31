@@ -10,4 +10,32 @@ List of enchancements
 Staff client:
 ^^^^^^^^^^^^^
 
+These are not in a specific order:
+
 - Stronger staff passwords
+- Add time fee was collected/written off to transactions table
+- Late fee forgiven when item marked lost can be automatically restored when item is found
+- Switch between "Pay" and "Writeoff" during fee payment
+- Add checkout library to Transactions tab
+- Limit available pickup locations to valid pickup locations when placing requests
+- “Other” gender option
+- Allow reports to accept list of variables
+- Hold reminder notices
+- "Go badk to the results" after deleting a record
+- Group item type circulation rule checkout quantity limits by "parent" item type
+- Collection code gets its own column in checkin table
+- Transfer received message on checkin
+- "Checked in today" receipt
+- Automatic check-in for specific item types
+
+
+
+
+
+
+OPAC
+^^^^
+
+- Holds history in OPAC
+- Change "Your reading history" to "Your checkout history"
+- Text on purchase suggestion page can be customized on a library-by-library basis
