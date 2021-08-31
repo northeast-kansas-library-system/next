@@ -40,7 +40,7 @@ No recording of this meeting will be made |br|
 
 #. Volunteers for hosting 2022 meetings
 
-#. Next meeting Tuesday November 19, 2021 - Leavenworth Public Library and Zoom
+#. Next meeting Tuesday November 19, 2021 - Leavenworth Public Library and Zoom (COVID permitting - we'll make a decision by October 8)
     - `Agenda (in progress) <https://northeast-kansas-library-system.github.io/next/usergroup/ug.20211109.html>`_
 
 .. |ss| raw:: html
