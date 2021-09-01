@@ -1,3 +1,5 @@
+.. include:: /images.rst
+
 Account expiration flags
 ========================
 
@@ -71,7 +73,7 @@ There are several reasons:
 How can an un-expired account have an expiration flag on it?
 
 **A:**
-The most common way is from a staff member not following these directions. |br|
+The most common way is from a staff member not following the directions for removing expiration flags. |br|
 If a staff member doesn't know how to remove the expiration flag they may look for the renew button when they come across a flagged account.  When they don't find that, they edit the account, don't remove the expiration flag, and manually change the account expiration date.  This does renew the account, but it *does not* remove the expiration flag.
 
 -----

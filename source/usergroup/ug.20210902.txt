@@ -20,10 +20,10 @@ No recording of this meeting will be made |br|
 
 #. Hoopla - Special guest Nick from Hoopla
 
-#. Courier issues
-    - Some courier drivers can't pick up items because of too much volume
-    - Not enough tubs
-    - Long delays in courier deliveries from KC hub
+#. Courier issues - Caroline leads the discussion
+    - Some courier drivers can't pick up items because of too much volume - Jack
+    - Not enough tubs - Jack
+    - Long delays in courier deliveries from KC hub - Kate
 
 #. 2022 participation agreement (draft)
     - `Link to draft participation agreement <https://northeast-kansas-library-system.github.io/next/files/participation.agreement/2022.participation.agreement.next.draft.pdf>`_
@@ -39,7 +39,6 @@ No recording of this meeting will be made |br|
 
 #. Shelf check procedure
     - What is expected when someone asks you to check the shelf at your library for an item
-    - `Starter list of best practices <../pages/shelf_check.rst>`_
 
 #. Timeline for "Recently returned" items
     - `Link to timeline <../pages/recently_returned.html>`_
