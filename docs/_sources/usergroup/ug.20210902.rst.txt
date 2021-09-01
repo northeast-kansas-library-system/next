@@ -1,3 +1,5 @@
+.. include:: /images.rst
+
 2021.09.02 - Agenda and notes
 =============================
 
@@ -23,16 +25,21 @@ No recording of this meeting will be made |br|
     - Not enough tubs
     - Long delays in courier deliveries from KC hub
 
-#. Shelf check procedure
-    - What is expected when someone asks you to check the shelf at your library for an item
-
 #. 2022 participation agreement (draft)
+    - `Link to draft participation agreement <https://northeast-kansas-library-system.github.io/next/files/participation.agreement/2022.participation.agreement.next.draft.pdf>`_
+    - Minor changes - still in progress
 
 #. 2022 Privacy and confidentiality statement (draft)
+    - `Link to Privacy statement <https://northeast-kansas-library-system.github.io/next/files/privacy.statement/2021.next.privacy.statement.final.pdf>`_
+    - *No changes from 2021*
 
 #. Barcode scanners and drivers licenses
     - Each library will be getting at least 2 free 2d barcode scanners
     - These scanners will be able to scan a drivers license for borrower name/address/birthdate input
+
+#. Shelf check procedure
+    - What is expected when someone asks you to check the shelf at your library for an item
+    - `Starter list of best practices <../pages/shelf_check.rst>`_
 
 #. Timeline for "Recently returned" items
     - `Link to timeline <../pages/recently_returned.html>`_
@@ -43,7 +50,8 @@ No recording of this meeting will be made |br|
 
 #. Changes to all outgoing e-mail
     - We will be updating the IP address of Koha's outgoing e-mail server soon
-    - This should lead to fewer bouncbacks
+    - I am adding language to all outgoing e-mail to make it more CAN-SPAM compliant
+    - The IP change should lead to fewer bouncbacks
 
 #. Next Search Catalog upgrade in November/December of 2021
     - Link to upgrade notes :ref:`Koha 21.05 - Upgrade in November/December 2021`
