@@ -4,13 +4,13 @@
    contain the root `toctree` directive.
 
 Welcome to Next Search Catalog!
-===============================================
+===============================
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
-   history
+   about_us
    howto/index
    usergroup/index
    emergency
@@ -18,6 +18,9 @@ Welcome to Next Search Catalog!
    upgrades/2005/index
    statistics/analysis.tools
    license
+
+.. include:: \pages\about.rst
+
 
 Indices and tables
 ==================

@@ -14,6 +14,7 @@ No recording of this meeting will be made |br|
 #. Announcements, news, brief items, etc.
     - Introductions
     - Additions to the agenda
+    - Announcement - Dementia support resources (Diana)
 
 #. Hoopla - Special guest Nick from Hoopla
 
@@ -25,14 +26,16 @@ No recording of this meeting will be made |br|
 #. Shelf check procedure
     - What is expected when someone asks you to check the shelf at your library for an item
 
-#. Timeline for "Recently returned" items
-    - `Link to timeline <../pages/recently_returned.html>`_
-
 #. 2022 participation agreement (draft)
 
 #. 2022 Privacy and confidentiality statement (draft)
 
 #. Barcode scanners and drivers licenses
+    - Each library will be getting at least 2 free 2d barcode scanners
+    - These scanners will be able to scan a drivers license for borrower name/address/birthdate input
+
+#. Timeline for "Recently returned" items
+    - `Link to timeline <../pages/recently_returned.html>`_
 
 #. Timeline for Lost item process discussion (WELLSVILLE)
     - `Link to timeline <../pages/auto.delete.timeline.html>`_
