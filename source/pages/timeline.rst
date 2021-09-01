@@ -1,6 +1,6 @@
-***********
-Next Search Catalog Timeline
-***********
+******************************
+History of Next Search Catalog
+******************************
 
 - 2003:
 

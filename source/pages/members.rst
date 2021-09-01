@@ -47,8 +47,7 @@ That makes the grand total 53 locations.
 - Overbrook Public Library
 - Paola Free Library
 - Perry-Lecompton Community Library
-- Prairie Hills School District
-- Prairie Hills School District
+- Prairie Hills Unified School District 113
     - Prairie Hills Schools - Axtell Public School
     - Prairie Hills Schools - Sabetha Elementary School
     - Prairie Hills Schools - Sabetha High School

@@ -1,12 +1,15 @@
+******************
 Usergroup meetings
-==================
+******************
+
+.. include:: /usergroup/2021.meeting.schedule.rst
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :caption: 2021:
 
-   ug.20210902 
+   ug.20210902
    ug.20210401
    ug.20210119
 
