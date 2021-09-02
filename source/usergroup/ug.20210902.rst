@@ -39,7 +39,7 @@ No recording of this meeting will be made |br|
 
 #. Shelf check procedure
     - What is expected when someone asks you to check the shelf at your library for an item
-    - `Starter list of best practices <../pages/shelf_check.rst>`_
+    - `Starter list of best practices <../pages/shelf_check.html>`_
 
 #. Timeline for "Recently returned" items
     - `Link to timeline <../pages/recently_returned.html>`_
