@@ -43,21 +43,23 @@ No recording of this meeting will be made |br|
 
 7. Alert messages on home page
 
-8. "Recently returned" timeline
+8. Scan drivers license + new barcode scanners
+
+9. "Recently returned" timeline
     - Statistics reports have all been modified so that "Recently returned" items are counted by their permanent locations
     - Survey will take place after this meeting
 
-9. Delaying automated "Lost" item deletion for 2021
+10. Delaying automated "Lost" item deletion for 2021
 
-10. Paypal
+11. Paypal
 
-11. Next meetings in 2022
+12. Next meetings in 2022
     - January 27 at NEKLS
     - April Location TBA (Tentative - Tuesday April 5?)
     - September Location TBA (Tentative - Tuesday September 13?)
     - November Location TBA (Tentative - Thursday November 10?)
 
-12. Next meeting
+13. Next meeting
     - January 27, 10:00 a.m. at NEKLS (followed by statistics help session)
 
 .. |ss| raw:: html
