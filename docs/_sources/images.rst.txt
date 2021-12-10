@@ -545,6 +545,17 @@
 .. |recently_returned.0020.png| image:: /images/pages/recently_returned.0020.png
     :alt: Item checked in at 4:01
 
+.. policies folder
+
+.. |participation_0010.png| image:: /images/policies/participation_0010.png
+    :alt: Search for "Next participation agreement"
+
+.. |participation_0020.png| image:: /images/policies/participation_0020.png
+    :alt: Click "Next participation agreement" for the current year
+
+.. |participation_0030.png| image:: /images/policies/participation_0030.png
+    :alt: Download, view, or print with your favorite PDF viewer
+
 ----------------------------------
 
 
