@@ -232,6 +232,31 @@
 
 .. branches/bonnerspgs folder
 
+.. |kanopy.bonnerspgs.010.png| image:: /images/branches/bonnerspgs/kanopy.bonnerspgs.010.png
+    :alt: Koha home page - click on "patrons"
+
+.. |kanopy.bonnerspgs.020.png| image:: /images/branches/bonnerspgs/kanopy.bonnerspgs.020.png
+    :alt: Patrons page - click on "New patron"
+
+.. |kanopy.bonnerspgs.030.png| image:: /images/branches/bonnerspgs/kanopy.bonnerspgs.030.png
+    :alt: Add borrower page - add the new borrower as you normally would
+
+.. |kanopy.bonnerspgs.040.png| image:: /images/branches/bonnerspgs/kanopy.bonnerspgs.040.png
+    :alt: Permissions sub-group - set "Kanopy (bonnerspgs)" to "Allowed (bonnerspgs)"
+
+.. |kanopy.bonnerspgs.050.gif| image:: /images/branches/bonnerspgs/kanopy.bonnerspgs.050.gif
+    :class: gif-border
+    :alt: Animated screenshot - changing the home library changes the Kanopy permission
+
+.. |kanopy.bonnerspgs.060.png| image:: /images/branches/bonnerspgs/kanopy.bonnerspgs.060.png
+    :alt: Use the report to add "Allowed (bonnerspgs)" as needed
+
+.. |kanopy.bonnerspgs.070.png| image:: /images/branches/bonnerspgs/kanopy.bonnerspgs.070.png
+    :alt: The link in the report takes you directly to the edit borrower page
+
+.. |kanopy.bonnerspgs.080.png| image:: /images/branches/bonnerspgs/kanopy.bonnerspgs.080.png
+    :alt: Use the report to remove "Allowed (bonnerspgs)" as needed
+
 .. branches/burlingame folder
 
 .. branches/carbondale folder

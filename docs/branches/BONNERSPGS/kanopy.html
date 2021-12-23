@@ -1,0 +1,260 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Kanopy Allowed attribute at BONNERSPGS &mdash; Next Search Catalog 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/override.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Next Search Catalog
+          
+
+          
+            
+            <img src="../../_static/next.grey.small.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../about_us.html">About Next Search Catalog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../howto/index.html">How to do things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usergroup/index.html">Usergroup meetings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../emergency.html">Emergency procedures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../bugs/index.html">Bugs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../upgrades/2005/index.html">Koha 20.05 training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../statistics/analysis.tools.html">Collection statistical analysis tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../license.html">License</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Next Search Catalog</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+      <li>Kanopy Allowed attribute at BONNERSPGS</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/branches/BONNERSPGS/kanopy.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <hr class="docutils" />
+<hr class="docutils" />
+<hr class="docutils" />
+<div class="section" id="kanopy-allowed-attribute-at-bonnerspgs">
+<h1>Kanopy Allowed attribute at BONNERSPGS<a class="headerlink" href="#kanopy-allowed-attribute-at-bonnerspgs" title="Permalink to this headline">¶</a></h1>
+<p>Whenever a patron logs into an outside service like Kanopy or Hoopla or Lynda.com, that web service talks to our catalog through a connection called SIP2 to verify that the patron has an account and that they are allowed to access their service.  The information that is transmitted across this connection includes some parts of the patron’s contact information including the patron’s home library.  The problem we have with Kanopy, however, is that, because of the way the receiving end of the Kanopy SIP2 connection is configured, Kanopy cannot determine what the patron’s home library is through the normal SIP2 process.  Because of this, we need to send the patron’s home library through an alternate route.  To make this happen, we’ve created a new field in the “Permissions” section on a patron’s account called “Kanopy (BONNERSPGS).”</p>
+<p>The new “Kanopy (BONNERSPGS)” permission will have 3 options</p>
+<ul class="simple">
+<li>[blank]</li>
+<li>Not allowed</li>
+<li>Allowed (Bonner Springs City Library)</li>
+</ul>
+<p>These three options will only be available to staff logged in at BONNERSPGS in order to prevent staff at other libraries from granting permission to access the Bonner Springs City Library’s Kanopy service to their patrons.</p>
+<p>This will affect staff and patrons in two ways:</p>
+<ol class="arabic simple">
+<li>When staff at BONNERSPGS create a new account for a patron, the patron’s “Kanopy (BONNERSPGS)” permission needs to be set to “Allowed (Bonner Springs City Library)” if their home library is BONNERSPGS or “Not allowed” if their home library is not BONNERSPGS.  This should happen automatically when a new patron is created.</li>
+<li>If staff at another library change a patron’s home library, staff at BONNERSPGS will need to update the patron’s “Kanopy (BONNERSPGS)” settings to “Allowed (Bonner Springs City Library)” if the patron’s new home library is BONNERSPGS or”Not allowed” if the patron’s new home library is no longer BONNERSPGS.  This process cannot happen automatically because only BONNERSPGS staff have access to the “Kanopy (BONNERSPGS)” permission settings.  Reports will be set up to help BONNERSPGS staff manage this process.</li>
+</ol>
+<div class="section" id="creating-a-new-account">
+<h2>Creating a new account<a class="headerlink" href="#creating-a-new-account" title="Permalink to this headline">¶</a></h2>
+<p>When logged in at Bonner Springs City Library, click on “Patrons”</p>
+<blockquote>
+<div><img alt="Koha home page - click on &quot;patrons&quot;" src="../../_images/kanopy.bonnerspgs.010.png" /></div></blockquote>
+<p>Then click on the appropriate category on the “New patron” button</p>
+<blockquote>
+<div><img alt="Patrons page - click on &quot;New patron&quot;" src="../../_images/kanopy.bonnerspgs.020.png" /></div></blockquote>
+<p>Then go through your normal process for creating a new patron</p>
+<blockquote>
+<div><img alt="Add borrower page - add the new borrower as you normally would" src="../../_images/kanopy.bonnerspgs.030.png" /></div></blockquote>
+<p>By default, the patron’s home library should be set to BONNERSPGS and the patron’s “Kanopy (BONNERSPGS)” permission should, by default, be set to “Bonner Springs City Library”</p>
+<blockquote>
+<div><img alt="Permissions sub-group - set &quot;Kanopy (bonnerspgs)&quot; to &quot;Allowed (bonnerspgs)&quot;" src="../../_images/kanopy.bonnerspgs.040.png" /></div></blockquote>
+<p>If you change the patron’s home library from to anything besides BONNERSPGS, the “Kanopy (BONNERSPGS)” permission should automatically switch to “Not allowed”</p>
+<blockquote>
+<div><img alt="Animated screenshot - changing the home library changes the Kanopy permission" class="gif-border" src="../../_images/kanopy.bonnerspgs.050.gif" /></div></blockquote>
+<p>However, if you chage a patron’s “Kanopy (BONNERSPGS)” permission manually, the patron’s home library will not update automatically.</p>
+</div>
+<div class="section" id="running-reports-to-manually-update-kanopy-permission">
+<h2>Running reports to manually update Kanopy Permission<a class="headerlink" href="#running-reports-to-manually-update-kanopy-permission" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="bonnerspgs-patrons-without-kanopy-access">
+<h3>BONNERSPGS patrons without Kanopy access<a class="headerlink" href="#bonnerspgs-patrons-without-kanopy-access" title="Permalink to this headline">¶</a></h3>
+<p>If a new patron with a BONNERSPGS home library is added at a library not logged in as BONNERSPGS, the new patron’s “Kanopy (BONNERSPGS)” settings will be left blank and the patron will not be able to access Kanopy.  In order to identify these patrons, staff at BONNERSPGS will need to regularly run report 3629.</p>
+<blockquote>
+<div><p><img alt="Use the report to add &quot;Allowed (bonnerspgs)&quot; as needed" src="../../_images/kanopy.bonnerspgs.060.png" /></p>
+<p><img alt="The link in the report takes you directly to the edit borrower page" src="../../_images/kanopy.bonnerspgs.070.png" /></p>
+</div></blockquote>
+</div>
+<div class="section" id="non-bonnerspgs-patrons-with-kanopy-access">
+<h3>Non-BONNERSPGS patrons with Kanopy access<a class="headerlink" href="#non-bonnerspgs-patrons-with-kanopy-access" title="Permalink to this headline">¶</a></h3>
+<p>If an existing patron who has Kanopy access changes their home library, that patron’s Kanopy access needs to be removed from their account manually.  If the change to their account happens and staff is not logged in at BONNERSPGS, staff will not be able to remove the “Kanopy (BONNERSPGS)” status.  In order to identify these patrons, staff at BONNERSPGS will need to regularly run report 3630.</p>
+<blockquote>
+<div><p><img alt="Use the report to remove &quot;Allowed (bonnerspgs)&quot; as needed" src="../../_images/kanopy.bonnerspgs.080.png" /></p>
+<p><img alt="The link in the report takes you directly to the edit borrower page" src="../../_images/kanopy.bonnerspgs.070.png" /></p>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Northeast Kansas Library System
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+    <p><br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+     
+
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
