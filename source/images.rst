@@ -581,6 +581,11 @@
 .. |participation_0030.png| image:: /images/policies/participation_0030.png
     :alt: Download, view, or print with your favorite PDF viewer
 
+.. outside_services folder
+
+.. |kle_labels.henry.020.png| image:: /images/outside_services/kle_labels.henry.020.png
+    :alt: Screenshot of the Henry industries website
+
 ----------------------------------
 
 
