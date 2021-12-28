@@ -1125,3 +1125,15 @@
 
 .. |test.png| image:: /images/test/test.png
     :alt: test
+
+.. |ss| raw:: html
+
+    <strike>
+
+.. |se| raw:: html
+
+    </strike>
+
+.. |br| raw:: html
+
+    <br />
