@@ -11,6 +11,9 @@ Agencies:
       Institute of Museum and Library Services
       An independent federal agency that provides library grants, museum grants, policy development, and research.  You can learn more about the Institute of Museum and Library services at the `IMLS website <https://www.imls.gov/>`_
 
+    KLE
+      Kansas Library Express (AKA KLE) is the courier system between Kansas libraries as an alternative to sending your ILL items through the mail. Northeast Kansas Library System administers the courier system.
+
     NEKLS
       Northeast Kansas Library System (AKA NEKLS) is one of seven regional library systems in Kansas.  You can learn more about the Kansas regional library systems at the `NEKLS website <https://kslib.info/573/Regional-Library-Systems>`_
 
