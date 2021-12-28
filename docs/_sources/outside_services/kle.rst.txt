@@ -16,6 +16,6 @@ KLE courier labels can be found in two locations:
 
   -currently offline- |br| |br|
 
-- The Henry Industries website `Henry industries <https://www.henryindustriesinc.com/>`_
+- The Henry Industries website: `Henry industries <https://www.henryindustriesinc.com/>`_
 
   |kle_labels.henry.020.png|
