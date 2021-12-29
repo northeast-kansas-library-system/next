@@ -11,11 +11,14 @@ Agencies:
       Institute of Museum and Library Services
       An independent federal agency that provides library grants, museum grants, policy development, and research.  You can learn more about the Institute of Museum and Library services at the `IMLS website <https://www.imls.gov/>`_
 
-    NEKLS
-      Northeast Kansas Library System (AKA NEKLS) is one of seven regional library systems in Kansas.  You can learn more about the Kansas regional library systems at the `NEKLS website <https://kslib.info/573/Regional-Library-Systems>`_
+    Kansas Library Express
+      Kansas Library Express (AKA :term:`KLE`) is the courier system that ships materials between member libraries in Kansas.  KLE also allows libraries to ship materials to couriers on the Blue Sky courier system in Colorado and Trans Amigos in other states. Northeast Kansas Library System administers the courier system.  For more information see the KLE website at `https://kslibexpress.mykansaslibrary.org/ <https://kslibexpress.mykansaslibrary.org/>`_
+
+    Northeast Kansas Library System
+      Northeast Kansas Library System (AKA :term:`NEKLS`) is one of seven regional library systems in Kansas.  You can learn more about the Kansas regional library systems at the `State Library of Kansas page on regional library systems <https://kslib.info/573/Regional-Library-Systems>`_
 
     State Library of Kansas
-      The State Library of Kansas acts as the library for the governmental offices of Kansas and helps provide library services to all residents of the state of Kansas.  You can learn more about the State Library of Kansas at the `State Library of Kansas website <https://kslib.info/>`_
+      The State Library of Kansas (AKA :term:`SLK`) acts as the library for the governmental offices of Kansas and helps provide library services to all residents of the state of Kansas.  You can learn more about the State Library of Kansas at the `State Library of Kansas website <https://kslib.info/>`_
 
 Software, languages, and outside services:
 ------------------------------------------
@@ -29,7 +32,7 @@ Software, languages, and outside services:
       Standard Interchange Protocol - A protocol for sending messages between an ILS and third party software.  SIP was originally developed by 3M in the 1980s.
 
     SIP2
-      Standard Interchange Protocol, version 2 - A protocol for sending messages between an ILS and third party softwre.  An update to the original SIP protocol developed by 3M in the 1980s.
+      Standard Interchange Protocol, version 2 - A protocol for sending messages between an ILS and third party software.  An update to the original SIP protocol developed by 3M in the 1980s.
 
 System related terms:
 ---------------------
@@ -75,3 +78,17 @@ Notices and slips
           - Secondary email
           - Alternate address > Email
       - Please note that a *valid* email address does not necessarily mean the first *working* email address -- *valid* just means the email address meets the IETF standards for a properly formatted email address (see `Valid email address format <https://help.xmatters.com/ondemand/trial/valid_email_format.htm>`_ for more information)
+
+Abbreviations
+^^^^^^^^^^^^^
+
+.. glossary::
+
+    KLE
+      Abbreviation for :term:`Kansas Library Express`
+
+    NEKLS
+      Abbreviation for :term:`Northeast Kansas Library System`
+
+    SLK
+      Abbreviation for :term:`State Library of Kansas`
