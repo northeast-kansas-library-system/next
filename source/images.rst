@@ -583,6 +583,9 @@
 
 .. outside_services folder
 
+.. |kle_labels.kle.010.png| image:: /images/outside_services/kle_labels.kle.010.png
+    :alt: Screenshot of the Kansas Library Express website
+
 .. |kle_labels.henry.020.png| image:: /images/outside_services/kle_labels.henry.020.png
     :alt: Screenshot of the Henry industries website
 
