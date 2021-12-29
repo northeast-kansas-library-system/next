@@ -12,11 +12,9 @@ Courier labels
 
 KLE courier labels can be found in two locations:
 
-- |ss| The KLE website: `Kansas Library Express <https://kslibexpress.mykansaslibrary.org/>`_ |se|
-  |br| |br|
-  **currently offline** |br| |br|
+- The KLE website: `Kansas Library Express <https://kslibexpress.mykansaslibrary.org/>`_
 
-  .. |kle_labels.kle.010.png|
+  |kle_labels.kle.010.png|
 
   |br|
 
