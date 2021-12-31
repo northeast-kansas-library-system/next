@@ -1,10 +1,10 @@
 .. include:: /images.rst
 
-Annual statistical data
-=======================
-
 2020 Annual statistical data
-----------------------------
+============================
+
+2020 data
+---------
 
 The 2020 data can be found on the Next Search Catalog home page on the statistics tab.
 

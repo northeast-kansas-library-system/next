@@ -4,6 +4,9 @@
 
     <br />
 
+.. |default.png| image:: /images/default.png
+    :alt: Image coming soon
+
 .. /best_practices folder
 
 .. |deceased_borrower_0010.png| image:: /images/best_practices/deceased_borrower_0010.png
@@ -1040,7 +1043,7 @@
 
 .. statistics folder
 
-.. |statistics.annual.0010.png| image:: /images/statistics/statistics.annual.0010.png
+.. |statistics.2020_annual.0010.png| image:: /images/statistics/statistics.2020_annual.0010.png
     :alt: Where to find annual statistical data for 2020
 
 .. |statistics.moving.0010.png| image:: /images/statistics/statistics.moving.0010.png

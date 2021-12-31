@@ -7,9 +7,8 @@ Agencies:
 
 .. glossary::
 
-    IMLS
-      Institute of Museum and Library Services
-      An independent federal agency that provides library grants, museum grants, policy development, and research.  You can learn more about the Institute of Museum and Library services at the `IMLS website <https://www.imls.gov/>`_
+    Institute of Museum and Library Services
+      Institute of Museum and Library Services (AKA :term:`IMLS`) is an independent federal agency that provides library grants, museum grants, policy development, and research.  You can learn more about the Institute of Museum and Library services at the `IMLS website <https://www.imls.gov/>`_
 
     Kansas Library Express
       Kansas Library Express (AKA :term:`KLE`) is the courier system that ships materials between member libraries in Kansas.  KLE also allows libraries to ship materials to couriers on the Blue Sky courier system in Colorado and Trans Amigos in other states. Northeast Kansas Library System administers the courier system.  For more information see the KLE website at `https://kslibexpress.mykansaslibrary.org/ <https://kslibexpress.mykansaslibrary.org/>`_
@@ -83,6 +82,9 @@ Abbreviations
 ^^^^^^^^^^^^^
 
 .. glossary::
+
+    IMLS
+      Abbreviation for :term:`Institute of Museum and Library Services`
 
     KLE
       Abbreviation for :term:`Kansas Library Express`
