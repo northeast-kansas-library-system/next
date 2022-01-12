@@ -431,6 +431,59 @@
 .. |kanopy_attribute.png| image:: /images/howto/sip_setup/kanopy_attribute.png
     :alt: Add attribute example
 
+.. / howto / directors
+
+.. |010_director_password.png| image:: /images/howto/directors/010_director_password.png
+    :alt: Search for "director"
+
+.. |020_director_password.png| image:: /images/howto/directors/020_director_password.png
+    :alt: Choose the director account for your library
+
+.. |030_director_password.png| image:: /images/howto/directors/030_director_password.png
+    :alt: Note the card number and e-mail address
+
+.. |040_director_password.png| image:: /images/howto/directors/040_director_password.png
+    :alt: Click on "Login to your account" in the OPAC
+
+.. |050_director_password.png| image:: /images/howto/directors/050_director_password.png
+    :alt: Click on "Forgot your password" in the pop-up
+
+.. |060_director_password.png| image:: /images/howto/directors/060_director_password.png
+    :alt: Fill out the form and click on "Submit"
+
+.. |070_director_password.png| image:: /images/howto/directors/070_director_password.png
+    :alt: Success
+
+.. |080_director_password.png| image:: /images/howto/directors/080_director_password.png
+    :alt: Click on the link in your e-mail
+
+.. |090_director_password.png| image:: /images/howto/directors/090_director_password.png
+    :alt: Enter a new password
+
+.. |100_director_password.png| image:: /images/howto/directors/100_director_password.png
+    :alt: Log into the staff client with your cardnumber and new password
+
+.. |110_director_password.png| image:: /images/howto/directors/110_director_password.png
+    :alt: Success
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .. lists folder
 

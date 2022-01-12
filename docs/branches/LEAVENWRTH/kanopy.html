@@ -17,35 +17,33 @@
   
 
   
-  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
-  
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-        <script src="../../_static/jquery.js"></script>
-        <script src="../../_static/underscore.js"></script>
-        <script src="../../_static/doctools.js"></script>
-        <script src="../../_static/language_data.js"></script>
-    
-    <script type="text/javascript" src="../../_static/js/theme.js"></script>
 
+  
+  
     
 
   
+
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/override.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" /> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
+
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+        <div class="wy-side-nav-search">
           
 
           
@@ -178,19 +176,19 @@
 <h2>Creating a new account<a class="headerlink" href="#creating-a-new-account" title="Permalink to this headline">¶</a></h2>
 <p>When logged in at Leavenworth Public Library, click on “Patrons”</p>
 <blockquote>
-<div><img alt="Koha home page - click on &quot;patrons&quot;" src="../../_images/kanopy.leavenwrth.010.jpg" /></div></blockquote>
+<div><img alt="Koha home page - click on &quot;patrons&quot;" src="../../_images/kanopy.leavenwrth.0101.jpg" /></div></blockquote>
 <p>Then click on the appropriate category on the “New patron” button</p>
 <blockquote>
-<div><img alt="Patrons page - click on &quot;New patron&quot;" src="../../_images/kanopy.leavenwrth.020.jpg" /></div></blockquote>
+<div><img alt="Patrons page - click on &quot;New patron&quot;" src="../../_images/kanopy.leavenwrth.0201.jpg" /></div></blockquote>
 <p>Then go through your normal process for creating a new patron</p>
 <blockquote>
-<div><img alt="Add borrower page - add the new borrower as you normally would" src="../../_images/kanopy.leavenwrth.030.jpg" /></div></blockquote>
+<div><img alt="Add borrower page - add the new borrower as you normally would" src="../../_images/kanopy.leavenwrth.0301.jpg" /></div></blockquote>
 <p>By default, the patron’s home library should be set to LEAVENWRTH and the patron’s “Kanopy (LEAVENWRTH)” permission should, by default, be set to “Leavenworth Public Library”</p>
 <blockquote>
-<div><img alt="Permissions sub-group - set &quot;Kanopy (LANSING)&quot; to &quot;Allowed (LANSING)&quot;" src="../../_images/kanopy.leavenwrth.040.jpg" /></div></blockquote>
+<div><img alt="Permissions sub-group - set &quot;Kanopy (LANSING)&quot; to &quot;Allowed (LANSING)&quot;" src="../../_images/kanopy.leavenwrth.0401.jpg" /></div></blockquote>
 <p>If you change the patron’s home library from to anything besides LEAVENWRTH, the “Kanopy (LEAVENWRTH)” permission should automatically switch to “Not allowed”</p>
 <blockquote>
-<div><img alt="Animated screenshot - changing the home library changes the Kanopy permission" class="gif-border" src="../../_images/kanopy.leavenwrth.050.gif" /></div></blockquote>
+<div><img alt="Animated screenshot - changing the home library changes the Kanopy permission" class="gif-border" src="../../_images/kanopy.leavenwrth.0501.gif" /></div></blockquote>
 <p>However, if you chage a patron’s “Kanopy (LEAVENWRTH)” permission manually, the patron’s home library will not update automatically.</p>
 </div>
 <div class="section" id="running-reports-to-manually-update-kanopy-permission">
@@ -199,16 +197,16 @@
 <h3>LEAVENWRTH patrons without Kanopy access<a class="headerlink" href="#leavenwrth-patrons-without-kanopy-access" title="Permalink to this headline">¶</a></h3>
 <p>If a new patron with a LEAVENWRTH home library is added at a library not logged in as LEAVENWRTH, the new patron’s “Kanopy (LEAVENWRTH)” settings will be left blank and the patron will not be able to access Kanopy.  In order to identify these patrons, staff at LEAVENWRTH will need to regularly run report 3368.</p>
 <blockquote>
-<div><p><img alt="Use the report to add &quot;Allowed (LANSING)&quot; as needed" src="../../_images/kanopy.leavenwrth.060.jpg" /></p>
-<p><img alt="The link in the report takes you directly to the edit borrower page" src="../../_images/kanopy.leavenwrth.070.jpg" /></p>
+<div><p><img alt="Use the report to add &quot;Allowed (LANSING)&quot; as needed" src="../../_images/kanopy.leavenwrth.0601.jpg" /></p>
+<p><img alt="The link in the report takes you directly to the edit borrower page" src="../../_images/kanopy.leavenwrth.0701.jpg" /></p>
 </div></blockquote>
 </div>
 <div class="section" id="non-leavenwrth-patrons-with-kanopy-access">
 <h3>Non-LEAVENWRTH patrons with Kanopy access<a class="headerlink" href="#non-leavenwrth-patrons-with-kanopy-access" title="Permalink to this headline">¶</a></h3>
 <p>If an existing patron who has Kanopy access changes their home library, that patron’s Kanopy access needs to be removed from their account manually.  If the change to their account happens and staff is not logged in at LEAVENWRTH, staff will not be able to remove the “Kanopy (LEAVENWRTH)” status.  In order to identify these patrons, staff at LEAVENWRTH will need to regularly run report 3370.</p>
 <blockquote>
-<div><p><img alt="Use the report to remove &quot;Allowed (LANSING)&quot; as needed" src="../../_images/kanopy.leavenwrth.080.jpg" /></p>
-<p><img alt="The link in the report takes you directly to the edit borrower page" src="../../_images/kanopy.leavenwrth.070.jpg" /></p>
+<div><p><img alt="Use the report to remove &quot;Allowed (LANSING)&quot; as needed" src="../../_images/kanopy.leavenwrth.0801.jpg" /></p>
+<p><img alt="The link in the report takes you directly to the edit borrower page" src="../../_images/kanopy.leavenwrth.0701.jpg" /></p>
 </div></blockquote>
 </div>
 </div>
@@ -245,16 +243,35 @@
   
 
 
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../../',
+              VERSION:'1.0',
+              LANGUAGE:'None',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-
-  
-  
-    
-   
+  </script> 
 
 </body>
 </html>
