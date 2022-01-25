@@ -1,0 +1,25 @@
+2021 Next Search Catalog meeting schedule
+=========================================
+
+
+2022.01.27 - 10:00 a.m. - 12:00 p.m. |ss| NEKLS office |se| + **meeting changed to online only**
+  `Zoom link <https://kslib.zoom.us/j/93637660486?pwd=RTVQR20xVWIvTXpVQXBqTHBPUXpTZz09>`_
+
+
+2022.04.28 - 10:00 a.m. - 12:00 p.m. online only
+
+2022.August - NEKLS / online - Lawrence
+
+2022.November - Leavenworth Public Library / online - Leavenworth
+
+.. |ss| raw:: html
+
+    <strike>
+
+.. |se| raw:: html
+
+    </strike>
+
+.. |br| raw:: html
+
+    <br />
