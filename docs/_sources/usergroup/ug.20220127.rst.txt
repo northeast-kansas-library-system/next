@@ -1,4 +1,4 @@
-2021.11.09 - Agenda and notes
+2022.01.28 - Agenda and notes
 =============================
 
 2022.01.27 - 10:00 a.m. - 12:00 p.m. |ss| NEKLS office |se| + **meeting changed to online only** |br|
@@ -42,7 +42,7 @@ No recording of this meeting will be made |br|
 
 8. New feature to be turned on after configuration - Hold waiting reminder
   .. Koha can now send a "You still have a hold waiting" message X days after the item has been put on the hold shelf
-  .. Follows the same rules as
+  .. Follows the same sending rules as the "Hold arrived" notices
 
 
 9. Next meetings in 2022
