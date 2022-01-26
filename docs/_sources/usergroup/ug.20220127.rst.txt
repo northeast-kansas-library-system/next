@@ -49,7 +49,7 @@ No recording of this meeting will be made |br|
   - January 27 (Thursday 10:00 a.m.) - online only
   - April 28 (Thursday 10:00 a.m.) - online only
   - August 30 (Tuesday 10:00 a.m.) - NEKLS office / online
-  - November 8 (Tuesday 10:00 a.m.) - Leavenworth Public Library / online
+  - November 17 (Thursday 10:00 a.m.) - Leavenworth Public Library / online
 
 .. |ss| raw:: html
 
