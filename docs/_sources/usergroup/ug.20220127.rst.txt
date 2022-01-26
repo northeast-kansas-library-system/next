@@ -33,8 +33,8 @@ No recording of this meeting will be made |br|
   .. "Temporary" item types were removed
 
 7. Best practice - What to do when an item is returned with "No barcode found" message
-  .. History of the problem
-  .. What's being done
+  .. History of the problem - those darned Koha developers
+  .. What's being done - koha-US is funding an enhancement that will fix the problem
   .. What to do in the meantime
     .. Double check to make sure the item really is "No barcode found"
     .. Run report 3009 - this report has been substantially updated
