@@ -2,7 +2,7 @@
 Usergroup meetings
 ******************
 
-.. include:: /usergroup/2021.meeting.schedule.rst
+.. include:: /usergroup/2022.meeting.schedule.rst
 
 .. toctree::
    :glob:
