@@ -174,7 +174,33 @@
 <li>If you cannot determine which library owns the item, follow your library’s procedures for donated items</li>
 </ul>
 </div></blockquote>
+<div class="section" id="easy-access-to-resources">
+<h2>Easy access to resources<a class="headerlink" href="#easy-access-to-resources" title="Permalink to this headline">¶</a></h2>
 <p>To make steps 1, 2, and 3 easier to accomplish, links have been added to the “No item with barcode” message to link to this document, report 3282, and report 3009</p>
+<blockquote>
+<div><img alt="Image shows 3 new links under &quot;No item with barcode . . .&quot; message" src="../_images/no_barcode_found_010.png" /></div></blockquote>
+</div>
+<div class="section" id="report-3282-details">
+<h2>Report 3282 details<a class="headerlink" href="#report-3282-details" title="Permalink to this headline">¶</a></h2>
+<p>Report 3282 is the “Item dashboard report.”  This report can look up data on an item that’s in the catalog or that has been deleted within the previous 13 months.</p>
+<p>Additionally if the item is still in the catalog this report will link to other reports regarding:</p>
+<ul class="simple">
+<li>Current borrower (if checked out)</li>
+<li>Bibliographic record</li>
+<li>Item record</li>
+<li>Circulation history</li>
+<li>Action log history (previous 90 days)</li>
+<li>In transit history</li>
+<li>Title’s request history</li>
+<li>Item’s request history</li>
+<li>Notes and descriptions in payment/fee history (if the barcode number was recorded in the notes or description fields)</li>
+</ul>
+</div>
+<div class="section" id="report-3009-details">
+<h2>Report 3009 details<a class="headerlink" href="#report-3009-details" title="Permalink to this headline">¶</a></h2>
+<p>Report 3009 can search for barcode numbers in the notes and description fields of payment/fee records.  Koha used to automatically put an item’s title and barcode number into the description field in a borrower’s fee record when an item was deleted.  Koha developers, in order to make Koha easier to translate into other languages, moved barcode data into a linked field.  A practical side-effect of this is that, if an item is deleted while it still has unpaid fees, the link is broken and the item data (including the barcode number) is removed from the fee history.</p>
+<p>In order to solve this problem, kona-US and SEKLS have hired ByWater Solutions to write a patch for Koha that will allow libraries to configure what data is put in the fee description field whenever a fee is created automatically so that the data will persist even if the item is deleted (see <a href="#id1"><span class="problematic" id="id2">`https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=24865`_</span></a> for more details).</p>
+</div>
 </div>
 
 
