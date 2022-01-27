@@ -36,13 +36,15 @@ No recording of this meeting will be made |br|
   - History of the problem - those darned Koha developers
   - What's being done - koha-US is funding an enhancement that will fix the problem
   - What to do in the meantime
-    - Double check to make sure the item really is "No barcode found"
-    - Run report 3009 - this report has been substantially updated
-    - Does your library policy say anything on the subject?
+
+      - Double check to make sure the item really is "No barcode found"
+      - Run report 3009 - this report has been substantially updated
+      - Does your library policy say anything on the subject?
 
 8. New feature to be turned on after configuration - Hold waiting reminder
   - Koha can now send a "You still have a hold waiting" message X days after the item has been put on the hold shelf
   - Follows the same sending rules as the "Hold arrived" notices
+  - These notices need to be set up and configured before we turn this feature on
 
 9. Next meetings in 2022
   - January 27 (Thursday 10:00 a.m.) - online only
