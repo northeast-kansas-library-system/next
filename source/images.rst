@@ -626,6 +626,9 @@
 .. |recently_returned.0020.png| image:: /images/pages/recently_returned.0020.png
     :alt: Item checked in at 4:01
 
+.. |no_barcode_found_010.png| image:: /images/pages/no_barcode_found_010.png
+    :alt: Image shows 3 new links under "No item with barcode . . ." message
+
 .. policies folder
 
 .. |participation_0010.png| image:: /images/policies/participation_0010.png
