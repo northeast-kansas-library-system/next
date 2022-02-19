@@ -414,6 +414,45 @@
 
 --------------------------------------------------------------------------------
 
+.. / cko folder
+
+.. |cko_1010.png| image:: /images/cko/cko_1010.png
+    :alt: Normal check-in
+
+.. |cko_1020.png| image:: /images/cko/cko_1020.png
+    :alt: Not checked out check-in
+
+.. |cko_1030.png| image:: /images/cko/cko_1030.png
+    :alt: Hold for pickup here check-in
+
+.. |cko_1040.png| image:: /images/cko/cko_1040.png
+    :alt: Hold here receipt
+
+.. |cko_1050.png| image:: /images/cko/cko_1050.png
+    :alt: Hold transfer check-in
+
+.. |cko_1060.png| image:: /images/cko/cko_1060.png
+    :alt: Hold transfer receipt
+
+.. |cko_1070.png| image:: /images/cko/cko_1070.png
+    :alt: Return to home library check-in 1 (item was checked out)
+
+.. |cko_1080.png| image:: /images/cko/cko_1080.png
+    :alt: Return to home library check-in 2 (item was not checked out)
+
+.. |cko_1090.png| image:: /images/cko/cko_1090.png
+    :alt: Wrong transfer check-in
+
+.. |cko_1100.png| image:: /images/cko/cko_1100.png
+    :alt: Transfer receipt
+
+.. |cko_1110.png| image:: /images/cko/cko_1110.png
+    :alt: Transfer received check-in
+
+.. |cko_1120.png| image:: /images/cko/cko_1120.png
+    :alt: No item with barcode check-in
+
+
 .. / howto folder
 
 .. |quick_login.png| image:: /images/howto/opac/quick_login.png
